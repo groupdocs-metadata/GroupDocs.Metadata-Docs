@@ -1,14 +1,14 @@
 ---
-id: groupdocs-metadata-for-java-22-1-release-notes
-url: metadata/java/groupdocs-metadata-for-java-22-1-release-notes
-title: GroupDocs.Metadata for Java 22.1 Release Notes
+id: groupdocs-metadata-for-java-22-2-release-notes
+url: metadata/java/groupdocs-metadata-for-java-22-2-release-notes
+title: GroupDocs.Metadata for Java 22.2 Release Notes
 weight: 12
 description: ""
 keywords: 
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
-{{< alert style="info" >}}This page contains release notes for GroupDocs.Metadata for Java 22.1{{< /alert >}}
+{{< alert style="info" >}}This page contains release notes for GroupDocs.Metadata for Java 22.2{{< /alert >}}
 
 ## Major Features
 
