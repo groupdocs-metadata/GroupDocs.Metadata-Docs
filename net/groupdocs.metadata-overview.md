@@ -3,11 +3,14 @@ id: groupdocs-metadata-overview
 url: metadata/net/groupdocs-metadata-overview
 title: GroupDocs.Metadata Overview
 weight: 1
-description: ""
-keywords: 
+description: The metadata is a data which shows information about other data. It should not be considered as the content of the data. Various types of metadata are existed such as: descriptive, structural, administrative, reference, statistical and legal metadata. 
+keywords: What is Metadata, metadata is, metadata, groupdocs.metadata, .net, Types of metadata
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---
+## What is Metadata?
+The metadata is a data which shows information about other data. It should not be considered as the content of the data. Various types of metadata are existed such as: descriptive, structural, administrative, reference, statistical and legal metadata     
+
 ## What is GroupDocs.Metadata?
 
 GroupDocs.Metadata for .NET is a full featured class library which allows users to read and edit metadata associated with various document, image, audio, video and many other formats. It works with most notable metadata standards: XMP, EXIF, IPTC, Image Resource Blocks, ID3 and format-specific metadata properties. The Metadata API is very flexible and easy to operate with. It provides extended capabilities allowing working with metadata in a unified way regardless of the file format. 

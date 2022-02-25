@@ -3,8 +3,8 @@ id: how-to-run-examples
 url: metadata/net/how-to-run-examples
 title: How to Run Examples
 weight: 6
-description: ""
-keywords: 
+description: Learn how to run C# examples which contain removing metadata from photos, adding metadata to photos, removing metadata from pdf, adding metadata to various formats and many more examples.
+keywords: adding metadata, removing metadata from photos, adding metadata to photos, removing metadata from pdf, C# 
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

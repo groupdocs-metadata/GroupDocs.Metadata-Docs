@@ -3,8 +3,8 @@ id: evaluation-limitations-and-licensing
 url: metadata/net/evaluation-limitations-and-licensing
 title: Evaluation Limitations and Licensing
 weight: 5
-description: ""
-keywords: 
+description: free metadata api version is available to evaluate the API which will be similar as licensed but with few limitations.
+keywords: free, metadata, license,api 
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---
