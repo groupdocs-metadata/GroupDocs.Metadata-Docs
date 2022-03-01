@@ -3,7 +3,7 @@ id: groupdocs-metadata-overview
 url: metadata/net/groupdocs-metadata-overview
 title: GroupDocs.Metadata Overview
 weight: 1
-description: The metadata is a data which shows information about other data. It should not be considered as the content of the data. Various types of metadata are existed such as: descriptive, structural, administrative, reference, statistical and legal metadata. 
+description: The metadata is a data which shows information about other data. It should not be considered as the content of the data. Various types of metadata are existed such as, descriptive, structural, administrative, reference, statistical and legal metadata. 
 keywords: What is Metadata, metadata is, metadata, groupdocs.metadata, .net, Types of metadata
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
