@@ -3,14 +3,14 @@ id: remove-metadata-properties
 url: metadata/java/remove-metadata-properties
 title: Remove metadata properties
 weight: 3
-description: ""
-keywords: 
+description: The easiest way to remove metadata properties from a file is to use corresponding tags that allow you to locate the desired properties across all metadata packages.
+keywords: remove metadata, metadata
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
 ## Remove metadata properties using various criteria
 
-The easiest way to remove certain metadata properties from a file is to use corresponding tags that allow you to locate the desired properties across all metadata packages. But sometimes it's necessary to remove metadata entries having a particular value. Using the GroupDocs.Metadata search engine you can find and remove properties satisfying a specification that can be as complex as you need.
+The easiest way to remove metadata properties from a file is to use corresponding tags that allow you to locate the desired properties across all metadata packages. But sometimes it's necessary to remove metadata entries having a particular value. Using the GroupDocs.Metadata search engine you can find and remove properties satisfying a specification that can be as complex as you need.
 
 The following example demonstrates how to remove specific metadata properties using a combination of criteria.
 

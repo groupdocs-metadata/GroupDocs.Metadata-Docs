@@ -3,8 +3,8 @@ id: system-requirements
 url: metadata/java/system-requirements
 title: System Requirements
 weight: 4
-description: ""
-keywords: 
+description: GroupDocs.Metadata for Java supports any 32-bit or 64-bit operating system that run the Java runtime including
+keywords: GroupDocs.Metadata for Java, metadata
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

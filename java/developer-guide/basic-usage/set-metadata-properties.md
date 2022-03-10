@@ -3,12 +3,12 @@ id: set-metadata-properties
 url: metadata/java/set-metadata-properties
 title: Set metadata properties
 weight: 4
-description: ""
-keywords: 
+description:  The SetProperties method is used to update or add metadata. You can easily add metadata to photos, pdfs or you can update or add data to mp3 files.
+keywords: add metadata to pdf,add metadata to photos,add metadata to mp3, add metadata
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
-## Add or update metadata properties satisfying a predicate
+## Update or add metadata properties satisfying a predicate
 
 The [setProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#setProperties(com.groupdocs.metadata.search.Specification,%20com.groupdocs.metadata.core.PropertyValue)) method used in this code sample actually combines two operations: add and update. If an existing property satisfies the specified predicate its value is updated. If there is a known property missing in a metadata package that satisfies the predicate it is added to the appropriate package.
 

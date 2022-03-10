@@ -3,8 +3,8 @@ id: features-overview
 url: metadata/java/features-overview
 title: Features Overview
 weight: 1
-description: ""
-keywords: 
+description: A Java metadata API can be effectively used in removing, updating and reading metadata in a variety of formats. It is very effective in removing metadata from photos. Supporting iptc metadata, exif metadata and xmp metadata.
+keywords: search metadata,reading metadata,removing metadata from photos, iptc metadata, exif metadata, xmp metadata
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

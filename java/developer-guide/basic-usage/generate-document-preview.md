@@ -3,8 +3,8 @@ id: generate-document-preview
 url: metadata/java/generate-document-preview
 title: Generate document preview
 weight: 6
-description: ""
-keywords: 
+description:  You are welcome to view and edit metadata of PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, emails, images and more.
+keywords: edit metadata, metadata, PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

@@ -3,8 +3,8 @@ id: get-document-info
 url: metadata/java/get-document-info
 title: Get document info
 weight: 1
-description: ""
-keywords: 
+description: GroupDocs.Metadata allows users to get meta information of a document.
+keywords: meta information
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
