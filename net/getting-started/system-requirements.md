@@ -3,8 +3,8 @@ id: system-requirements
 url: metadata/net/system-requirements
 title: System Requirements
 weight: 3
-description: ""
-keywords: 
+description:  GroupDocs.Metadata for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed
+keywords: GroupDocs.Metadata for .NET, metadata
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

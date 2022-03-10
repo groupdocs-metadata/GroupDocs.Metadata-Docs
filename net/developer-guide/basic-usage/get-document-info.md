@@ -3,12 +3,12 @@ id: get-document-info
 url: metadata/net/get-document-info
 title: Get document info
 weight: 1
-description: ""
-keywords: 
+description: GroupDocs.Metadata allows users to get meta information of a document.
+keywords: meta information
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---
-GroupDocs.Metadata allows users to get document information which includes:
+GroupDocs.Metadata allows users to get meta information of a document which includes:
 
 *   [File format](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/filetypepackage/properties/fileformat) (detected by the internal structure)
 *   [File extension](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/filetypepackage/properties/extension)

@@ -3,14 +3,14 @@ id: remove-metadata-properties
 url: metadata/net/remove-metadata-properties
 title: Remove metadata properties
 weight: 3
-description: ""
-keywords: 
+description: The easiest way to remove metadata properties from a file is to use corresponding tags that allow you to locate the desired properties across all metadata packages.
+keywords: remove metadata, metadata
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---
 ## Remove metadata properties using various criteria
 
-The easiest way to remove certain metadata properties from a file is to use corresponding tags that allow you to locate the desired properties across all metadata packages. But sometimes it's necessary to remove metadata entries having a particular value. Using the GroupDocs.Metadata search engine you can find and remove properties satisfying a predicate that can be as complex as you need. Just work with metadata trees using lambda expressions as you usually do with regular .NET collections through LINQ.
+The easiest way to remove metadata properties from a file is to use corresponding tags that allow you to locate the desired properties across all metadata packages. But sometimes it's necessary to remove metadata entries having a particular value. Using the GroupDocs.Metadata search engine you can find and remove properties satisfying a predicate that can be as complex as you need. Just work with metadata trees using lambda expressions as you usually do with regular .NET collections through LINQ.
 
 The following example demonstrates how to remove specific metadata properties using a combination of criteria.
 

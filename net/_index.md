@@ -3,8 +3,8 @@ id: home
 url: metadata/net
 title: GroupDocs.Metadata for .NET
 weight: 1
-description: ""
-keywords: 
+description: A .NET API to manipulate metadata is being consumed as metadata viewer for CRUD operations. It helps developers to read, write, edit and remove meta information from all popular document file formats
+keywords: metadata is,metadata,meta information
 productName: GroupDocs.Metadata for .NET
 hideChildren: True
 ---

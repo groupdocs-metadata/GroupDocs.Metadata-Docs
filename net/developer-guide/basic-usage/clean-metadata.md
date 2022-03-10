@@ -3,14 +3,14 @@ id: clean-metadata
 url: metadata/net/clean-metadata
 title: Clean metadata
 weight: 5
-description: ""
-keywords: 
+description: Sometimes you may need to just remove all or clean metadata properties without applying any filters. The best way to do this is to use the Sanitize method.
+keywords: clean metadata, metadata
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---
 ## Remove all recognized metadata properties from a file
 
-Sometimes you may need to just remove all metadata properties without applying any filters. The best way to do this is to use the [Sanitize](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/sanitize) method.
+Sometimes you may need to just remove all or clean metadata properties without applying any filters. The best way to do this is to use the [Sanitize](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/sanitize) method.
 
 This example demonstrates how to remove all detected metadata packages/properties.
 
