@@ -3,8 +3,8 @@ id: removing-metadata
 url: metadata/net/removing-metadata
 title: Removing metadata
 weight: 3
-description: ""
-keywords: 
+description: "Example demonstrates some advanced usage scenarios of the GroupDocs.Metadata search engine allowing to remove metadata properties"
+keywords: remove metadata, remove metadata properties
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

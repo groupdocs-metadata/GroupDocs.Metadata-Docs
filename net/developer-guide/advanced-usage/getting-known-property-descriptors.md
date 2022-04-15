@@ -3,8 +3,8 @@ id: getting-known-property-descriptors
 url: metadata/net/getting-known-property-descriptors
 title: Getting known property descriptors
 weight: 7
-description: ""
-keywords: 
+description: "This code snippet demonstrates how to extract information about known properties that can be encountered in a particular package."
+keywords: extract information
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

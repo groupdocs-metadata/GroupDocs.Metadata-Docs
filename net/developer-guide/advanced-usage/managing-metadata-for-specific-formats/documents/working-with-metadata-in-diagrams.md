@@ -3,8 +3,8 @@ id: working-with-metadata-in-diagrams
 url: metadata/net/working-with-metadata-in-diagrams
 title: Working with metadata in Diagrams
 weight: 4
-description: ""
-keywords: 
+description: "GroupDocs.Metadata for .NET provides functionality that allows working with different kinds of diagrams such as VDX, VSDX, VSX, etc"
+keywords: VDX, VSDX, VSX
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

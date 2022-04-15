@@ -3,8 +3,8 @@ id: load-from-a-stream
 url: metadata/net/load-from-a-stream
 title: Load from a stream
 weight: 2
-description: ""
-keywords: 
+description: "This example demonstrates how to load a file from a stream."
+keywords: load a file from a stream
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

@@ -3,8 +3,8 @@ id: traverse-a-whole-metadata-tree
 url: metadata/net/traverse-a-whole-metadata-tree
 title: Traverse a whole metadata tree
 weight: 6
-description: ""
-keywords: 
+description: " GroupDocs.Metadata represents any loaded file as a tree consisting of metadata properties and nested metadata packages. You can easily iterate through the metadata tree"
+keywords: metadata properties, metadata tree, Traverse a whole metadata tree
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---
