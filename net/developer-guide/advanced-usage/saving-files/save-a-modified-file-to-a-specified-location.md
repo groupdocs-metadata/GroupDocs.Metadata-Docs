@@ -3,8 +3,8 @@ id: save-a-modified-file-to-a-specified-location
 url: metadata/net/save-a-modified-file-to-a-specified-location
 title: Save a modified file to a specified location
 weight: 2
-description: ""
-keywords: 
+description: "This article shows how to save a document to a specified location on a local disk"
+keywords: save a document to a specified location
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

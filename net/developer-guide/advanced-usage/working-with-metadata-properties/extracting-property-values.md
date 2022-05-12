@@ -3,7 +3,7 @@ id: extracting-property-values
 url: metadata/net/extracting-property-values
 title: Extracting property values
 weight: 2
-description: ""
+description: "Get knowledge about The most common way to get the metadata property value is to check its type and convert it to the appropriate platform-specific type."
 keywords: 
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

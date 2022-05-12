@@ -3,8 +3,8 @@ id: save-a-modified-file-to-the-original-source
 url: metadata/net/save-a-modified-file-to-the-original-source
 title: Save a modified file to the original source
 weight: 1
-description: ""
-keywords: 
+description: "This article shows how to save the modified content to the underlying source."
+keywords: how to save the modified content to the underlying source
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---
