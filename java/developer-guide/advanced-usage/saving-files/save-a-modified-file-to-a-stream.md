@@ -3,8 +3,8 @@ id: save-a-modified-file-to-a-stream
 url: metadata/java/save-a-modified-file-to-a-stream
 title: Save a modified file to a stream
 weight: 3
-description: ""
-keywords: 
+description: "This article shows how to save a file to the specified stream in Java"
+keywords: save a file to the specified stream
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

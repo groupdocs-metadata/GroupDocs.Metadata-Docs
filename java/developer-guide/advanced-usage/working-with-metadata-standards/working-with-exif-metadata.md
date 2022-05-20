@@ -3,8 +3,8 @@ id: working-with-exif-metadata
 url: metadata/java/working-with-exif-metadata
 title: Working with EXIF metadata
 weight: 1
-description: ""
-keywords: 
+description: "To access EXIF metadata in a file of any supported format, GroupDocs.Metadata for Java provides the IExif.getExifPackage method."
+keywords: EXIF metadata
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

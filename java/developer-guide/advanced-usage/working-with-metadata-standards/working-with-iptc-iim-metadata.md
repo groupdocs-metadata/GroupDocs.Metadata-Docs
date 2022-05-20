@@ -3,8 +3,7 @@ id: working-with-iptc-iim-metadata
 url: metadata/java/working-with-iptc-iim-metadata
 title: Working with IPTC IIM metadata
 weight: 2
-description: ""
-keywords: 
+description: "To access IPTC metadata in a file of any supported format, GroupDocs.Metadata provides the IIptc.getIptcPackage method."
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
