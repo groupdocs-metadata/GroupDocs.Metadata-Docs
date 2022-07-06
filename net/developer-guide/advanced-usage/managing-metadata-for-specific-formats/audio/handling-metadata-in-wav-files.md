@@ -3,7 +3,7 @@ id: handling-metadata-in-wav-files
 url: metadata/net/handling-metadata-in-wav-files
 title: Handling metadata in WAV files
 weight: 2
-description: "API supports extracting metadata from WAV files"
+description: "This article explains about the API supports extracting metadata from WAV files"
 keywords: extracting metadata, extracting metadata from WAV files
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

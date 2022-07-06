@@ -3,7 +3,7 @@ id: working-with-iptc-iim-metadata
 url: metadata/net/working-with-iptc-iim-metadata
 title: Working with IPTC IIM metadata
 weight: 2
-description: "To access IPTC metadata in a file of any supported format, GroupDocs.Metadata provides the IIptc.IptcPackage property"
+description: "This article shows how to access IPTC metadata in a file of any supported format."
 keywords: 
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

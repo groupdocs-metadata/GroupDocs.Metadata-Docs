@@ -3,7 +3,7 @@ id: working-with-interpreted-values
 url: metadata/net/working-with-interpreted-values
 title: Working with interpreted values
 weight: 8
-description: "Sometimes it's not really obvious what a particular metadata property is supposed to mean. A good example of such vague property is a numeric flag or enumeration."
+description: "This article contains a good example of numeric flag or enumeration."
 keywords: particular metadata property
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

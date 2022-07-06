@@ -3,8 +3,8 @@ id: handling-the-apev2-tag
 url: metadata/net/handling-the-apev2-tag
 title: Handling the APEv2 tag
 weight: 4
-description: ""
-keywords: 
+description: "This article explains how to handle APEv2 tag."
+keywords: APEv2 tag, mp3
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

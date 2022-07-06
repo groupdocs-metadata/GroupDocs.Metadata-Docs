@@ -3,7 +3,7 @@ id: working-with-xmp-metadata
 url: metadata/net/working-with-xmp-metadata
 title: Working with XMP metadata
 weight: 3
-description: "The XMP defines a data structure, serialization model and basic metadata properties intended to form a unified metadata package. To access XMP metadata in a file of any supported format, GroupDocs.Metadata provides the IXmp.XmpPackage property."
+description: "This article shows how to access XMP metadata in a file of any supported format."
 keywords: XMP, XMP metadata
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

@@ -3,7 +3,7 @@ id: exporting-metadata-properties
 url: metadata/net/exporting-metadata-properties
 title: Exporting metadata properties
 weight: 1
-description: "This article provides the knowledge that how to export metadata properties to an Excel workbook"
+description: "This article provides the knowledge that how to export metadata properties to an Excel workbook."
 keywords: export metadata properties, export metadata properties to an Excel workbook  
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

@@ -3,7 +3,7 @@ id: adding-metadata
 url: metadata/net/adding-metadata
 title: Adding metadata
 weight: 5
-description: "Adding metadata properties is the most sophisticated feature of the GroupDocs.Metadata search engine"
+description: "This article shows how to add metadata properties which is the most sophisticated feature of the GroupDocs.Metadata search engine"
 keywords: Adding metadata, Adding metadata properties
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
