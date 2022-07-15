@@ -3,8 +3,8 @@ id: handling-the-id3v2-tag
 url: metadata/java/handling-the-id3v2-tag
 title: Handling the ID3v2 tag
 weight: 2
-description: ""
-keywords: 
+description: "This article explains how to handle ID3v2 tag."
+keywords: ID3v2 tag
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

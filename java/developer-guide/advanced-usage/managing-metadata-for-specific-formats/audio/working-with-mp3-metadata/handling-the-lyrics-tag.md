@@ -3,8 +3,8 @@ id: handling-the-lyrics-tag
 url: metadata/java/handling-the-lyrics-tag
 title: Handling the Lyrics tag
 weight: 3
-description: ""
-keywords: 
+description: "This article explains how to handle Lyrics tag."
+keywords: Lyrics tag
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

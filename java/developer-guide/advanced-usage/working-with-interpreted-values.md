@@ -3,8 +3,8 @@ id: working-with-interpreted-values
 url: metadata/java/working-with-interpreted-values
 title: Working with interpreted values
 weight: 8
-description: ""
-keywords: 
+description: "This article contains a good example of numeric flag or enumeration in Java."
+keywords: particular metadata property
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

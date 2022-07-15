@@ -3,8 +3,8 @@ id: handling-mpeg-audio-metadata
 url: metadata/java/handling-mpeg-audio-metadata
 title: Handling MPEG audio metadata
 weight: 5
-description: ""
-keywords: 
+description: "This article explains how the The GroupDocs.Metadata API allows reading some common MPEG audio properties from MP3 files."
+keywords: MPEG audio, MP3
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

@@ -3,8 +3,8 @@ id: adding-metadata
 url: metadata/java/adding-metadata
 title: Adding metadata
 weight: 5
-description: ""
-keywords: 
+description: "This article shows how to add metadata properties which is the most sophisticated feature of the GroupDocs.Metadata Java search engine"
+keywords: Adding metadata, Adding metadata properties
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

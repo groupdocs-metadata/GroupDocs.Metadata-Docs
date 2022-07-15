@@ -3,8 +3,8 @@ id: traverse-a-whole-metadata-tree
 url: metadata/java/traverse-a-whole-metadata-tree
 title: Traverse a whole metadata tree
 weight: 6
-description: ""
-keywords: 
+description: "This article explains that the GroupDocs.Metadata for Java represents any loaded file as a tree consisting of metadata properties and nested metadata packages. You can easily iterate through the metadata tree"
+keywords: metadata properties, metadata tree, Traverse a whole metadata tree
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---

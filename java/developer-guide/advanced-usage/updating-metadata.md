@@ -3,8 +3,8 @@ id: updating-metadata
 url: metadata/java/updating-metadata
 title: Updating metadata
 weight: 4
-description: ""
-keywords: 
+description: "The Example in this article demonstrates that how to update metadata properties using a combination of criteria"
+keywords: metadata properties, update existing metadata, update metadata properties
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
