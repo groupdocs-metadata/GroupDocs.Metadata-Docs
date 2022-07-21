@@ -61,7 +61,7 @@ The following table contains a full list of file formats that are currently supp
 | [AVI](https://docs.fileformat.com/video/avi/) | Audio Video Interleave File | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
 | [MOV](https://docs.fileformat.com/video/mov/) / [QT](https://docs.fileformat.com/video/qt/) | Apple QuickTime Movie | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
 | [ZIP](https://docs.fileformat.com/compression/zip/) | Archive File Format | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) | Supported since version 6.3.4 |
-| TORRENT | BitTorrent File | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
+| [TORRENT](https://docs.fileformat.com/misc/torrent/) | BitTorrent File | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
 | [FLV](https://docs.fileformat.com/video/flv/) | Flash Video File | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
 | [OTF](https://docs.fileformat.com/font/otf/) | OpenType Font | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
 | OTC | OpenDocument Chart Template | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
