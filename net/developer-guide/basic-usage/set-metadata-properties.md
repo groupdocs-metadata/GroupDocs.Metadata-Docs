@@ -3,7 +3,7 @@ id: set-metadata-properties
 url: metadata/net/set-metadata-properties
 title: Set metadata properties
 weight: 4
-description: The SetProperties method is used to update or add metadata. You can easily add metadata to photos, pdfs or you can update or add data to mp3 files.
+description: This article explains the usage of SetProperties method is used to update or add metadata. You can easily add metadata to photos, pdfs or you can update or add data to mp3 files.
 keywords: add metadata to pdf,add metadata to photos,add metadata to mp3, add metadata
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

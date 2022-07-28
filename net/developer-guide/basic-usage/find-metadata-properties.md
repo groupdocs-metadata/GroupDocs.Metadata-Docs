@@ -3,7 +3,7 @@ id: find-metadata-properties
 url: metadata/net/find-metadata-properties
 title: Find metadata properties
 weight: 2
-description: Using the GroupDocs.Metadata for .NET you can easily search metadata and extract desired metadata properties from PDF, DOCX, PPTX, XLSX, images, audio, video and many other files of different types in your .NET solution.
+description: This article explains that how you can easily search metadata and extract desired metadata properties from PDF, DOCX, PPTX, XLSX, images, audio, video and many other files of different types in your .NET solution.
 keywords: search metadata, metadata, PDF, DOCX, XLSX, pptx
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

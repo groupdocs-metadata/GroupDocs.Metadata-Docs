@@ -3,8 +3,8 @@ id: working-with-mp3-metadata
 url: metadata/net/working-with-mp3-metadata
 title: Working with MP3 metadata
 weight: 1
-description: ""
-keywords: 
+description: "Learn about managing metadata for MP3 formats."
+keywords: managing metadata for Audio
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

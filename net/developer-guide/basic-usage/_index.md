@@ -3,8 +3,8 @@ id: basic-usage
 url: metadata/net/basic-usage
 title: Basic Usage
 weight: 1
-description: ""
-keywords: 
+description: "Artcles listed in this page explain the common usage scenarios when documents are stored in a local drive and you want to manage them using GroupDocs.Metadata API"
+keywords: common usage
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
 ---

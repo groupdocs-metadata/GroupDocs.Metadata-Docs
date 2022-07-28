@@ -3,7 +3,7 @@ id: clean-metadata
 url: metadata/net/clean-metadata
 title: Clean metadata
 weight: 5
-description: Sometimes you may need to just remove all or clean metadata properties without applying any filters. The best way to do this is to use the Sanitize method.
+description: This artcle explains how to remove all or clean metadata properties without applying any filters. The best way to do this is to use the Sanitize method.
 keywords: clean metadata, metadata
 productName: GroupDocs.Metadata for .NET
 hideChildren: False

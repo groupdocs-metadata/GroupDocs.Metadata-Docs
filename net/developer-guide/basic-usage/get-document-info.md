@@ -3,7 +3,7 @@ id: get-document-info
 url: metadata/net/get-document-info
 title: Get document info
 weight: 1
-description: GroupDocs.Metadata allows users to get meta information of a document.
+description: This article shows that how to get meta information of a document.
 keywords: meta information
 productName: GroupDocs.Metadata for .NET
 hideChildren: False
