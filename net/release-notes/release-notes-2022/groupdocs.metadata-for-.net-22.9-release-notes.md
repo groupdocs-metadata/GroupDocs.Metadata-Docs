@@ -2,7 +2,7 @@
 id: groupdocs-metadata-for-net-22-9-release-notes
 url: metadata/net/groupdocs-metadata-for-net-22-9-release-notes
 title: GroupDocs.Metadata for .NET 22.9 Release Notes
-weight: 6
+weight: 5
 description: ""
 keywords: 
 productName: GroupDocs.Metadata for .NET
