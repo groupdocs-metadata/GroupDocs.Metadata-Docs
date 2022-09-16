@@ -25,5 +25,4 @@ There are the following features, enhancements, and fixes in this release:
 | --- | --- | --- |
 | METADATANET-3966 | Exception with message `Invalid bytes count` met while reading properties of *.webp-file. | Bug         |
 | METADATANET-3944 | Files are recognized as ZIP                              	                                     	 | Bug         |
-| METADATANET-3967 | Reading EXIF from JPEG stopped working in .Net 6                              	                                     	 | Bug         |
-| GRPDOCSTOTAL-2 | Extracting metadata from msg files. The properties “Body” and “AttachedFileNames” behave differently.                              	                                     	 | Bug         |
+| METADATANET-3967 | Reading EXIF from JPEG stopped working in .Net 6                              	                                     	 | Bug         |                          	                                     	 | Bug         |
