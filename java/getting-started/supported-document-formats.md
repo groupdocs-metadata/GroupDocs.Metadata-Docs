@@ -58,16 +58,16 @@ The following table contains a full list of file formats that are currently supp
 | [MP3](https://docs.fileformat.com/audio/mp3/) | MPEG Audio Layer III | ![(tick)](/metadata/java/images/check.png) | ![(tick)](/metadata/java/images/check.png) |   |
 | [WAV](https://docs.fileformat.com/audio/wav/) | Waveform Audio File Format | ![(tick)](/metadata/java/images/check.png) | ![(tick)](/metadata/java/images/check.png) |   |
 | [DICOM](https://docs.fileformat.com/image/dcm/) | Digital Imaging and Communications in Medicine (DICOM) | ![(tick)](/metadata/java/images/check.png) | ![(tick)](/metadata/java/images/check.png) |   |
-| [AVI](https://docs.fileformat.com/video/avi/) | Audio Video Interleave File | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [MOV](https://docs.fileformat.com/video/mov/) / [QT](https://docs.fileformat.com/video/qt/) | Apple QuickTime Movie | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [ZIP](https://docs.fileformat.com/compression/zip/) | Archive File Format | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) | Supported since version 6.3.4 |
-| [TORRENT](https://docs.fileformat.com/misc/torrent/) | BitTorrent File | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [FLV](https://docs.fileformat.com/video/flv/) | Flash Video File | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [OTF](https://docs.fileformat.com/font/otf/) | OpenType Font | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| OTC | OpenDocument Chart Template | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [TTF](https://docs.fileformat.com/font/ttf/) | TrueType Font | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [TTC](https://docs.fileformat.com/font/ttc/) | TrueType Font Collection | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [ASF](https://docs.fileformat.com/video/asf/) | Advanced Systems FormatVideo | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [VCF](https://docs.fileformat.com/email/vcf/) | Electronic Business Card (vCard) | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [VCR](https://docs.fileformat.com/email/vcf/) | Electronic Business Card (vCard) | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
-| [HEIF](https://docs.fileformat.com/image/heif/)/[HEIC](https://docs.fileformat.com/image/heic/) | High Efficiency Image File Format | ![(tick)](metadata/net/images/check.png) | ![(tick)](metadata/net/images/check.png) |   |
+| [AVI](https://docs.fileformat.com/video/avi/) | Audio Video Interleave File | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [MOV](https://docs.fileformat.com/video/mov/) / [QT](https://docs.fileformat.com/video/qt/) | Apple QuickTime Movie | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [ZIP](https://docs.fileformat.com/compression/zip/) | Archive File Format | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) | Supported since version 6.3.4 |
+| [TORRENT](https://docs.fileformat.com/misc/torrent/) | BitTorrent File | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [FLV](https://docs.fileformat.com/video/flv/) | Flash Video File | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [OTF](https://docs.fileformat.com/font/otf/) | OpenType Font | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| OTC | OpenDocument Chart Template | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [TTF](https://docs.fileformat.com/font/ttf/) | TrueType Font | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [TTC](https://docs.fileformat.com/font/ttc/) | TrueType Font Collection | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [ASF](https://docs.fileformat.com/video/asf/) | Advanced Systems FormatVideo | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [VCF](https://docs.fileformat.com/email/vcf/) | Electronic Business Card (vCard) | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [VCR](https://docs.fileformat.com/email/vcf/) | Electronic Business Card (vCard) | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
+| [HEIF](https://docs.fileformat.com/image/heif/)/[HEIC](https://docs.fileformat.com/image/heic/) | High Efficiency Image File Format | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
