@@ -9,7 +9,7 @@ productName: GroupDocs.Metadata for .NET
 hideChildren: True
 ---
 {{< alert style="info" >}}
-![](metadata/net/images/home.png) **Welcome to the GroupDocs.Metadata for .NET**  
+![](/metadata/net/images/home.png) **Welcome to the GroupDocs.Metadata for .NET**  
 GroupDocs.Metadata for .NET API can be consumed as Metadata viewer for CRUD operations. It helps developers to read, write, edit and remove meta information from all popular document file formats. It gets the file as input, access the file property information and allows the users to perform metadata operations for locating this specific document file easily for future reference. 
 {{< /alert >}}
 

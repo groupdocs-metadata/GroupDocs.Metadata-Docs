@@ -14,7 +14,7 @@ The complete examples package of **GroupDocs.Metadata** is hosted on [Github]
 
 In case you download the ZIP file, extract the folders on your local disk. The extracted files and folders will look like following image:
 
-![](metadata/net/images/how-to-run-examples.png)
+![](/metadata/net/images/how-to-run-examples.png)
 
 In extracted files and folders, you can find solution file:
 
@@ -24,7 +24,7 @@ This project is created in **Microsoft Visual Studio 2017**. The **SampleFiles
 
 To run the examples, open solution file in Visual Studio and build the project. All the functions are called from **RunExamples.cs** . Uncomment the function you want to run and comment out the rest.
 
-![](metadata/net/images/how-to-run-examples_1.png)
+![](/metadata/net/images/how-to-run-examples_1.png)
 
 ## Contribute
 
