@@ -21,7 +21,7 @@ Follow these steps to reference GroupDocs.Metadata using Package Manager GUI:
 *   Select **Browse** tab and type "GroupDocs.Metadata" in the search text box.
 *   Click the **Install** button to install the latest version of the API into your project as shown in the following screenshot.
 
-![](metadata/net/images/installation.png)
+![](/metadata/net/images/installation.png)
 
 ### Using Package Manager Console
 
@@ -32,4 +32,4 @@ You can follow the steps below to reference GroupDocs.Metadata using the Packag
 *   Type the command "Install-Package GroupDocs.Metadata" and press enter to install the latest release into your application.
 *   After successful installation, GroupDocs.Metadata will be referenced in your application.
 
-![](metadata/net/images/installation_1.png)
+![](/metadata/net/images/installation_1.png)
