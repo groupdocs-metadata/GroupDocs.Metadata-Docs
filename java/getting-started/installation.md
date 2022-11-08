@@ -4,7 +4,7 @@ url: metadata/java/installation
 title: Installation
 weight: 3
 description: ""
-keywords: 
+keywords:
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
@@ -30,7 +30,7 @@ hideChildren: False
 
 ## Installation from GroupDocs artifactory using Maven
 
-GroupDocs hosts all Java APIs on [GroupDocs Artifactory](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo). You can easily use [GroupDocs.Metadata for Java](https://artifact.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata) API directly in your Maven projects with simple configurations.
+GroupDocs hosts all Java APIs on [GroupDocs Artifactory](https://releases.groupdocs.com/java/repo/). You can easily use [GroupDocs.Metadata for Java](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-metadata/) API directly in your Maven projects with simple configurations.
 
 ### Specify GroupDocs repository configuration
 
@@ -41,7 +41,7 @@ First, you need to specify GroupDocs repository configuration/location in your M
 	<repository>
 		<id>GroupDocsJavaAPI</id>
 		<name>GroupDocs Java API</name>
-		<url>http://repository.groupdocs.com/repo/</url>
+		<url>https://releases.groupdocs.com/java/repo/</url>
 	</repository>
 </repositories>
 ```
@@ -55,7 +55,7 @@ Then define GroupDocs.Metadata for Java API dependency in your pom.xml as follow
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-metadata</artifactId>
-        <version>20.2</version> 
+        <version>20.2</version>
     </dependency>
 </dependencies>
 ```
