@@ -16,7 +16,7 @@ The code sample below demonstrates how to extract image resource blocks (buildin
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a PSD file
 2.  Get the root metadata package
-3.  Extract the [ImageResourcePackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ImageResourcePackage) instance and obtain a list of [ImageResourceBlock](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ImageResourceBlock) objects
+3.  Extract the [ImageResourcePackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ImageResourcePackage) instance and obtain a list of [ImageResourceBlock](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ImageResourceBlock) objects
 4.  Iterate trough the collection of resource blocks
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>image.psd.PsdReadImageResourceBlocks**
@@ -43,7 +43,7 @@ The following are the steps to read the header of a PSD file and extract informa
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a PSD image
 2.  Get the root metadata package
-3.  Extract  the native metadata package using the [PsdRootPackage.getPsdPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PsdRootPackage#getPsdPackage()) method
+3.  Extract  the native metadata package using the [PsdRootPackage.getPsdPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PsdRootPackage#getPsdPackage()) method
 4.  Read the PSD header and layer information
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>image.psd.PsdReadNativeMetadataProperties**

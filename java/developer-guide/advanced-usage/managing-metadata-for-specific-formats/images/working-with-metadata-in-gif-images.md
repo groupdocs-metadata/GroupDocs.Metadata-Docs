@@ -14,7 +14,7 @@ The following sample of code will help you to detect the version of a loaded GI
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a GIF image
 2.  Extract the root metadata package
-3.  Use the [getGifImageType](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/GifRootPackage#getGifImageType()) method to obtain file format information
+3.  Use the [getGifImageType](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/GifRootPackage#getGifImageType()) method to obtain file format information
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>image.gif.GifReadFileFormatProperties**
 

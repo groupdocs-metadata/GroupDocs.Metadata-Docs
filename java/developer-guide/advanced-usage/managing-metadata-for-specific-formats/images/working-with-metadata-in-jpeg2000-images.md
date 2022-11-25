@@ -16,7 +16,7 @@ The following are the steps to read the JPEG2000 comments (pieces of metadata re
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a JPEG2000 image
 2.  Get the root metadata package
-3.  Extract  the native metadata package using the [Jpeg2000RootPackage.getJpeg2000Package](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage#getJpeg2000Package()) method
+3.  Extract  the native metadata package using the [Jpeg2000RootPackage.getJpeg2000Package](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage#getJpeg2000Package()) method
 4.  Read the JPEG2000 comments
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>image.jpeg2000.Jpeg2000ReadComments**

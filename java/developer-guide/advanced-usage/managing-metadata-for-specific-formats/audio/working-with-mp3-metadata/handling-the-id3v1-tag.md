@@ -18,7 +18,7 @@ The following steps show how to read the ID3v1 tag in an MP3 file.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MP3 file
 2.  Extract the root metadata package
-3.  Get the ID3v1 tag by using the [Mp3RootPackage.getID3V1](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getID3V1()) method
+3.  Get the ID3v1 tag by using the [Mp3RootPackage.getID3V1](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getID3V1()) method
 4.  If the ID3v1 tag is not null then check for all of its metadata properties
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>audio.mp3.MP3ReadID3V1Tag**
@@ -46,7 +46,7 @@ The following are the steps to update the ID3v1 tag in an MP3 file.
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MP3 file
 2.  Extract the root metadata package
 3.  Create the ID3v1 tag if it's missing
-4.  Update ID3v1 fields using the [Mp3RootPackage.getID3V1](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getID3V1()) method
+4.  Update ID3v1 fields using the [Mp3RootPackage.getID3V1](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getID3V1()) method
 5.  [Save]({{< ref "metadata/java/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
 
 The following code snippet shows how to update the ID3v1 tag in an MP3 file.
@@ -74,7 +74,7 @@ try (Metadata metadata = new Metadata(Constants.MP3WithID3V1)) {
 
 ## Removing an ID3v1 tag
 
-To remove the ID3v1 tag from an MP3 audio just pass null to the [Mp3RootPackage.setID3V1](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#setID3V1(com.groupdocs.metadata.core.ID3V1Tag)) method as a parameter. The code sample below shows how to remove the ID3v1 tag from an MP3 file.
+To remove the ID3v1 tag from an MP3 audio just pass null to the [Mp3RootPackage.setID3V1](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#setID3V1(com.groupdocs.metadata.core.ID3V1Tag)) method as a parameter. The code sample below shows how to remove the ID3v1 tag from an MP3 file.
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>audio.mp3.MP3RemoveID3V1Tag**
 

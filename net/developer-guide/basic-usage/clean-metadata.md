@@ -10,12 +10,12 @@ hideChildren: False
 ---
 ## Remove all recognized metadata properties from a file
 
-Sometimes you may need to just remove all or clean metadata properties without applying any filters. The best way to do this is to use the [Sanitize](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/sanitize) method.
+Sometimes you may need to just remove all or clean metadata properties without applying any filters. The best way to do this is to use the [Sanitize](https://reference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/sanitize) method.
 
 This example demonstrates how to remove all detected metadata packages/properties.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/basic-usage/clean-metadata.md" >}}) a file to clean
-2.  Call the [Sanitize](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/sanitize) method
+2.  Call the [Sanitize](https://reference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/sanitize) method
 3.  Check the actual number of removed packages/properties
 4.  [Save]({{< ref "metadata/net/developer-guide/basic-usage/clean-metadata.md" >}}) the changes
 

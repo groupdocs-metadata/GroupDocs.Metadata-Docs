@@ -16,7 +16,7 @@ The following are the steps to read native ASF metadata.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an ASF video
 2.  Get the root metadata package
-3.  Extract  the native metadata package using the [AsfRootPackage.getAsfPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/AsfRootPackage#getAsfPackage()) method
+3.  Extract  the native metadata package using the [AsfRootPackage.getAsfPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/AsfRootPackage#getAsfPackage()) method
 4.  Read the ASF metadata properties
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>video.asf.AsfReadNativeMetadataProperties**

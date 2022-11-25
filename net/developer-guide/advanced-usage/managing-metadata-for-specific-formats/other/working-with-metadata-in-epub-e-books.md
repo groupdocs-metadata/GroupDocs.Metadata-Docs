@@ -22,7 +22,7 @@ The following are the steps to read native EPUB metadata.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) an EPUB file
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [EpubRootPackage.EpubPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.ebook/epubrootpackage/properties/epubpackage)
+3.  Extract  the native metadata package using [EpubRootPackage.EpubPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.ebook/epubrootpackage/properties/epubpackage)
 4.  Read the EPUB metadata properties
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Ebook.EpubReadNativeMetadataProperties**
@@ -102,7 +102,7 @@ using (Metadata metadata = new Metadata(Constants.InputEpub))
 }
 ```
 
-Please see the the [DublinCorePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.dublincore/dublincorepackage) class to get more information on supported Dublin Core metadata properties.
+Please see the the [DublinCorePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.dublincore/dublincorepackage) class to get more information on supported Dublin Core metadata properties.
 
 ## More resources
 ### GitHub examples

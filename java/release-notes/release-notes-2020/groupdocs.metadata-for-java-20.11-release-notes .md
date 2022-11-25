@@ -44,17 +44,17 @@ This new feature allows the user to extract chunks of textual data from PNG imag
 
 ##### Public API changes 
 
-The [PngTextChunk](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngTextChunk) class has been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
+The [PngTextChunk](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngTextChunk) class has been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
 
-The [PngCompressedTextChunk](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngCompressedTextChunk) class has been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
+The [PngCompressedTextChunk](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngCompressedTextChunk) class has been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
 
-The [PngInternationalTextChunk](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngInternationalTextChunk) class has been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
+The [PngInternationalTextChunk](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngInternationalTextChunk) class has been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
 
-The [PngPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngPackage) class has been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
+The [PngPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngPackage) class has been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
 
-The [PngCompressionMethod](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngCompressionMethod) class has been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
+The [PngCompressionMethod](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngCompressionMethod) class has been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
 
-The [getPngPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngRootPackage#getPngPackage()) method has been added to the [PngRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngRootPackage) class
+The [getPngPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngRootPackage#getPngPackage()) method has been added to the [PngRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PngRootPackage) class
 
 
 

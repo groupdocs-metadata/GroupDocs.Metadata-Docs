@@ -34,9 +34,9 @@ This new feature allows the user to update (or remove) EXIF metadata in a PSD fi
 
 ##### Public API changes
 
-A setter has been added to the [PsdRootPackage.ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/psdrootpackage/properties/exifpackage) property
+A setter has been added to the [PsdRootPackage.ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/psdrootpackage/properties/exifpackage) property
 
-The [PsdRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/psdrootpackage) class now implements the [IExif](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif) interface
+The [PsdRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/psdrootpackage) class now implements the [IExif](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif) interface
 
 ##### Use cases
 
@@ -77,9 +77,9 @@ This new feature allows the user to work with XMP metadata in WEBP images.
 
 ##### Public API changes
 
-The [XmpPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage/properties/xmppackage) property has been added to the [WebPRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage) class
+The [XmpPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage/properties/xmppackage) property has been added to the [WebPRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage) class
 
-The [WebPRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage) class now implements the [IXmp](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp) interface
+The [WebPRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage) class now implements the [IXmp](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp) interface
 
 ##### Use cases
 

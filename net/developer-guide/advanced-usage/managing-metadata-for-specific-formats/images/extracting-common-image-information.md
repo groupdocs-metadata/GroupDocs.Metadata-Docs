@@ -12,7 +12,7 @@ For all supported image formats the GroupDocs.Metadata API allows extracting com
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) an image
 2.  Extract the root metadata package
-3.  Use the [FileType](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/imagerootpackage/properties/filetype) property to obtain file format information
+3.  Use the [FileType](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/imagerootpackage/properties/filetype) property to obtain file format information
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Image.ImageReadFileFormatProperties**
 

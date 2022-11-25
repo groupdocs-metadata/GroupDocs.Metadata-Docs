@@ -16,11 +16,11 @@ vCard, also known as VCF (Virtual Contact File), is a file format standard for e
 
 ## Getting Simple vCard metadata
 
-To access Metadata in a vCard, GroupDocs.Metadata API provides the [VCardRootPackage.VCardPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.businesscard/vcardrootpackage/properties/vcardpackage)property which contains the information extracted from a file. The following are the steps to access metadata in a vCard:
+To access Metadata in a vCard, GroupDocs.Metadata API provides the [VCardRootPackage.VCardPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.businesscard/vcardrootpackage/properties/vcardpackage)property which contains the information extracted from a file. The following are the steps to access metadata in a vCard:
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a vCard file
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [VCardRootPackage.VCardPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.businesscard/vcardrootpackage/properties/vcardpackage)
+3.  Extract  the native metadata package using [VCardRootPackage.VCardPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.businesscard/vcardrootpackage/properties/vcardpackage)
 4.  Read the extracted vCard properties
 
 The following code snippet gets metadata of a vCard file.
@@ -65,7 +65,7 @@ The GroupDocs.Metadata API also provides a way to get Metadata from vCards with 
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a vCard file
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [VCardRootPackage.VCardPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.businesscard/vcardrootpackage/properties/vcardpackage)
+3.  Extract  the native metadata package using [VCardRootPackage.VCardPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.businesscard/vcardrootpackage/properties/vcardpackage)
 4.  Use properties with the Record(s) postfix to get vCard fields along with descriptive parameters
 
 The following code snippet shows how to extract vCard fields along with descriptive parameters.

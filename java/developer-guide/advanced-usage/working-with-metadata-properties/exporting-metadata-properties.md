@@ -8,7 +8,7 @@ keywords: export metadata properties, export metadata properties to an Excel wor
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
-This example demonstrates how to export metadata properties to an Excel workbook. For more information please refer to the [ExportManager](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/ExportManager) class.
+This example demonstrates how to export metadata properties to an Excel workbook. For more information please refer to the [ExportManager](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/ExportManager) class.
 
 **advanced\_usage.ExportingMetadataProperties**
 

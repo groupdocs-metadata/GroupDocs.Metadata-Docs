@@ -42,25 +42,25 @@ This improvement allows the user to add multiple datasets with the same number t
 
 ##### Public API changes 
 
-The [ByLines](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/bylines) property has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
+The [ByLines](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/bylines) property has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
 
-The [ByLineTitles](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/bylinetitles) property has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
+The [ByLineTitles](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/bylinetitles) property has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
 
-The [ContentLocationCodes](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/contentlocationcodes) property has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
+The [ContentLocationCodes](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/contentlocationcodes) property has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
 
-The [ContentLocationNames](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/contentlocationnames) property has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
+The [ContentLocationNames](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/contentlocationnames) property has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
 
-The [ReferenceDates](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/referencedates) property has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
+The [ReferenceDates](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/referencedates) property has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
 
-The [Contacts](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/contacts) property has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
+The [Contacts](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/contacts) property has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
 
-The [AllKeywords](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/allkeywords) property has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
+The [AllKeywords](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord/properties/allkeywords) property has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcapplicationrecord) class
 
-The [Destinations](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcenveloperecord/properties/destinations) property has been added to the [IptcEnvelopeRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcenveloperecord) class
+The [Destinations](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcenveloperecord/properties/destinations) property has been added to the [IptcEnvelopeRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcenveloperecord) class
 
-The [ProductIds](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcenveloperecord/properties/productids) property has been added to the [IptcEnvelopeRecord](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcenveloperecord) class
+The [ProductIds](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcenveloperecord/properties/productids) property has been added to the [IptcEnvelopeRecord](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcenveloperecord) class
 
-The [Add](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcrecordset/methods/add) method has been added to the [IptcRecordSet](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcrecordset) class
+The [Add](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcrecordset/methods/add) method has been added to the [IptcRecordSet](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iptcrecordset) class
 
 ##### Use cases 
 

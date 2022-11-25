@@ -16,7 +16,7 @@ The following sample of code will help you to detect the exact type of a loaded 
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a PDF document
 2.  Extract the root metadata package
-3.  Use the [getDiagramType](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DiagramRootPackage#getDiagramType()) method to obtain file format information
+3.  Use the [getDiagramType](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DiagramRootPackage#getDiagramType()) method to obtain file format information
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>document.diagram.<WBR>DiagramReadFileFormatProperties**
 
@@ -33,7 +33,7 @@ try (Metadata metadata = new Metadata(Constants.InputVdx)) {
 
 ## Reading built-In metadata properties
 
-To access built-in metadata of a diagram, please use the [getDocumentProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
+To access built-in metadata of a diagram, please use the [getDocumentProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
 
 The following code snippet extracts built-in metadata properties and displays them on the screen.
 
@@ -72,7 +72,7 @@ try (Metadata metadata = new Metadata(Constants.InputVsdx)) {
 }
 ```
 
-As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [findProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#findProperties(com.groupdocs.metadata.search.Specification)) method for a certain metadata package (instance of the [DiagramPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DiagramPackage) class), the search result will contain only metadata properties that are specific for diagram documents. 
+As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [findProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#findProperties(com.groupdocs.metadata.search.Specification)) method for a certain metadata package (instance of the [DiagramPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DiagramPackage) class), the search result will contain only metadata properties that are specific for diagram documents. 
 
 ## Reading document statistics
 

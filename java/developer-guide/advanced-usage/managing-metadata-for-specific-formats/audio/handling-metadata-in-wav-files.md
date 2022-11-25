@@ -16,7 +16,7 @@ The following are the steps to read audio details.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a WAV audio
 2.  Get the root metadata package
-3.  Extract  the native metadata package using the [WavRootPackage.getWavPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WavRootPackage#getWavPackage()) method
+3.  Extract  the native metadata package using the [WavRootPackage.getWavPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WavRootPackage#getWavPackage()) method
 4.  Read the WAV audio properties
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>audio.wav.WavReadNativeMetadataProperties**

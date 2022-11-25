@@ -14,9 +14,9 @@ The API allows detecting ZIP archives and reading format metadata. The following
 
 *   [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a ZIP archive
 *   Get the root metadata package
-*   Extract  the native metadata package using the [ZipRootPackage.getZipPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ZipRootPackage#getZipPackage()) method
+*   Extract  the native metadata package using the [ZipRootPackage.getZipPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ZipRootPackage#getZipPackage()) method
 *   Read the ZIP archive properties
-*   Loop through [ZipPackage.getFiles](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ZipPackage#getFiles()) to extract information about the archived files 
+*   Loop through [ZipPackage.getFiles](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ZipPackage#getFiles()) to extract information about the archived files 
 
 The following code snippet shows how to get metadata from a ZIP archive.
 
@@ -51,7 +51,7 @@ GroupDocs.Metadata for Java allows you to update the user comment in a ZIP archi
 
 *   [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a ZIP archive
 *   Get the root metadata package
-*   Update the comment using the [ZipPackage.setComment](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ZipPackage#setComment(java.lang.String)) method
+*   Update the comment using the [ZipPackage.setComment](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ZipPackage#setComment(java.lang.String)) method
 *   Save the changes
 
 The following code snippet demonstrates the usage of this feature.

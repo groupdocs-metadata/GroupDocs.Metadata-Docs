@@ -21,6 +21,6 @@ Following are the links to some useful resources you may need to accomplish your
 *   [GroupDocs.Metadata for .NET Release Notes]({{< ref "metadata/net/release-notes/_index.md" >}})
 *   [GroupDocs.Metadata for .NET Product Page](https://products.groupdocs.com/metadata/net)
 *   [Install GroupDocs.Metadata for .NET NuGet Package](https://www.nuget.org/packages/GroupDocs.Metadata/)
-*   [GroupDocs.Metadata for .NET API Reference Guide](https://apireference.groupdocs.com/net/metadata)
+*   [GroupDocs.Metadata for .NET API Reference Guide](https://reference.groupdocs.com/net/metadata)
 *   [GroupDocs.Metadata for .NET Free Support Forum](https://forum.groupdocs.com/c/metadata)
 *   [GroupDocs.Metadata for .NET Paid Support Helpdesk](https://helpdesk.groupdocs.com/)

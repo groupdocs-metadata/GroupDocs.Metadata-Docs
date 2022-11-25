@@ -32,8 +32,8 @@ There are the following features, enhancements and fixes in this release:
 
 ### Other API changes
 
-The LengthValue property has been removed from the [DicomPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/dicompackage) class (obsolete member)
+The LengthValue property has been removed from the [DicomPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/dicompackage) class (obsolete member)
 
-The DicomFound property has been removed from the [DicomPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/dicompackage) class (obsolete member)
+The DicomFound property has been removed from the [DicomPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/dicompackage) class (obsolete member)
 
-The Track property has been removed from the [ExifGpsPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.exif/exifgpspackage) class (obsolete member)
+The Track property has been removed from the [ExifGpsPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.exif/exifgpspackage) class (obsolete member)

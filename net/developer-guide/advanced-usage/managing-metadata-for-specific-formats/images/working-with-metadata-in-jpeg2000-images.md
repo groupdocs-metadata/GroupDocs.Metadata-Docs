@@ -16,7 +16,7 @@ The following are the steps to read the JPEG2000 comments (pieces of metadata re
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a JPEG2000 image
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [Jpeg2000RootPackage.Jpeg2000Package](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpeg2000rootpackage/properties/jpeg2000package)
+3.  Extract  the native metadata package using [Jpeg2000RootPackage.Jpeg2000Package](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpeg2000rootpackage/properties/jpeg2000package)
 4.  Read the JPEG2000 comments
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Image.Jpeg2000.Jpeg2000ReadComments**

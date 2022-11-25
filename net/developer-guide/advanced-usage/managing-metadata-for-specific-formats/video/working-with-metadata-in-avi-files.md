@@ -16,7 +16,7 @@ The following are the steps to read the header of an AVI file.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) an AVI video
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [AviRootPackage.Header](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/avirootpackage/properties/header)
+3.  Extract  the native metadata package using [AviRootPackage.Header](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/avirootpackage/properties/header)
 4.  Read the AVI header properties
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Video.Avi.AviReadHeaderProperties**

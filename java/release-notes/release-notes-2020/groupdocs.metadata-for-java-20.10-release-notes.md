@@ -42,41 +42,41 @@ This improvement allows the user to add multiple datasets with the same number t
 
 ##### Public API changes 
 
-The [getByLines](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getByLines()) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [getByLines](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getByLines()) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [setByLines](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setByLines(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [setByLines](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setByLines(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [getByLineTitles](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getByLineTitles()) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [getByLineTitles](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getByLineTitles()) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [setByLineTitles](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setByLineTitles(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [setByLineTitles](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setByLineTitles(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [getContentLocationCodes](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getContentLocationCodes()) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [getContentLocationCodes](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getContentLocationCodes()) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [setContentLocationCodes](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setContentLocationCodes(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [setContentLocationCodes](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setContentLocationCodes(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [getContentLocationNames](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getContentLocationNames()) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [getContentLocationNames](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getContentLocationNames()) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [setContentLocationNames](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setContentLocationNames(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [setContentLocationNames](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setContentLocationNames(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [getReferenceDates](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getReferenceDates()) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [getReferenceDates](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getReferenceDates()) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [getContacts](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getContacts()) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [getContacts](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getContacts()) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [setContacts](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setContacts(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [setContacts](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setContacts(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [getAllKeywords](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getAllKeywords()) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [getAllKeywords](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#getAllKeywords()) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [setAllKeywords](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setAllKeywords(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
+The [setAllKeywords](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord#setAllKeywords(java.lang.String[])) method has been added to the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcApplicationRecord) class
 
-The [getDestinations](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord#getDestinations()) method has been added to the [IptcEnvelopeRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class
+The [getDestinations](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord#getDestinations()) method has been added to the [IptcEnvelopeRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class
 
-The [setDestinations](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord#setDestinations(java.lang.String[])) method has been added to the [IptcEnvelopeRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class
+The [setDestinations](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord#setDestinations(java.lang.String[])) method has been added to the [IptcEnvelopeRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class
 
-The [getProductIds](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord#getProductIds()) method has been added to the [IptcEnvelopeRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class
+The [getProductIds](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord#getProductIds()) method has been added to the [IptcEnvelopeRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class
 
-The [setProductIds](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord#setProductIds(java.lang.String[])) method has been added to the [IptcEnvelopeRecord](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class
+The [setProductIds](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord#setProductIds(java.lang.String[])) method has been added to the [IptcEnvelopeRecord](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class
 
-The [add](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcRecordSet#add(com.groupdocs.metadata.core.IptcDataSet)) method has been added to the [IptcRecordSet](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcRecordSet) class
+The [add](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcRecordSet#add(com.groupdocs.metadata.core.IptcDataSet)) method has been added to the [IptcRecordSet](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IptcRecordSet) class
 
 ##### Use cases 
 

@@ -16,7 +16,7 @@ The following are the steps to read the header of an FLV file.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an FLV video
 2.  Get the root metadata package
-3.  Extract  the native metadata package using the [FlvRootPackage.getHeader](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FlvRootPackage#getHeader()) method
+3.  Extract  the native metadata package using the [FlvRootPackage.getHeader](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FlvRootPackage#getHeader()) method
 4.  Read the FLV header properties
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>video.flv.FlvReadHeaderProperties**

@@ -10,12 +10,12 @@ hideChildren: False
 ---
 GroupDocs.Metadata allows users to get document information which includes:
 
-*   [File format](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileTypePackage#getFileFormat()) (detected by the internal structure)
-*   [File extension](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileTypePackage#getExtension())
-*   [MIME type](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileTypePackage#getMimeType())
-*   [Number of pages](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IDocumentInfo#getPageCount())
-*   [File size](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IDocumentInfo#getSize())
-*   A [value](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IDocumentInfo#isEncrypted()) indicating whether a file is encrypted
+*   [File format](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileTypePackage#getFileFormat()) (detected by the internal structure)
+*   [File extension](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileTypePackage#getExtension())
+*   [MIME type](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileTypePackage#getMimeType())
+*   [Number of pages](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IDocumentInfo#getPageCount())
+*   [File size](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IDocumentInfo#getSize())
+*   A [value](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IDocumentInfo#isEncrypted()) indicating whether a file is encrypted
 
 The following code sample demonstrates how to extract basic format information from a file.
 

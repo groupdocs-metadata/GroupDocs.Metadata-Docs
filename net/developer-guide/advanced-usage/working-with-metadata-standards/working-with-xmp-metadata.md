@@ -16,10 +16,10 @@ The Extensible Metadata Platform (XMP) is an XML-based ISO metadata standard, or
 
 ## Reading XMP properties
 
-To access XMP metadata in a file of any supported format, GroupDocs.Metadata provides the [IXmp.XmpPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp/properties/xmppackage) property. The following are the steps to read XMP metadata:
+To access XMP metadata in a file of any supported format, GroupDocs.Metadata provides the [IXmp.XmpPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp/properties/xmppackage) property. The following are the steps to read XMP metadata:
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains XMP metadata
-2.  Extract the XMP metadata package using the [IXmp.XmpPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp/properties/xmppackage) property
+2.  Extract the XMP metadata package using the [IXmp.XmpPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp/properties/xmppackage) property
 
 The following code snippet gets XMP properties of a PNG image and displays them on the screen. 
 
@@ -70,28 +70,28 @@ using (Metadata metadata = new Metadata(Constants.PngWithXmp))
 
 Here is a full list of supported XMP schemes:
 
-*   [XmpBasicJobTicketPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpbasicjobticketpackage)
-*   [XmpBasicPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpbasicpackage)
-*   [XmpCameraRawPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpcamerarawpackage)
-*   [XmpDublinCorePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpdublincorepackage)
-*   [XmpDynamicMediaPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpdynamicmediapackage)
-*   [XmpIptcCorePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpiptccorepackage)
-*   [XmpIptcExtensionPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpiptcextensionpackage)
-*   [XmpIptcIimPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpiptciimpackage)
-*   [XmpMediaManagementPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpmediamanagementpackage)
-*   [XmpPagedTextPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmppagedtextpackage)
-*   [XmpPdfPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmppdfpackage)
-*   [XmpPhotoshopPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpphotoshoppackage)
-*   [XmpRightsManagementPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmprightsmanagementpackage)
+*   [XmpBasicJobTicketPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpbasicjobticketpackage)
+*   [XmpBasicPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpbasicpackage)
+*   [XmpCameraRawPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpcamerarawpackage)
+*   [XmpDublinCorePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpdublincorepackage)
+*   [XmpDynamicMediaPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpdynamicmediapackage)
+*   [XmpIptcCorePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpiptccorepackage)
+*   [XmpIptcExtensionPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpiptcextensionpackage)
+*   [XmpIptcIimPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpiptciimpackage)
+*   [XmpMediaManagementPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpmediamanagementpackage)
+*   [XmpPagedTextPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmppagedtextpackage)
+*   [XmpPdfPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmppdfpackage)
+*   [XmpPhotoshopPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmpphotoshoppackage)
+*   [XmpRightsManagementPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp.schemes/xmprightsmanagementpackage)
 
 {{< alert style="info" >}}GroupDocs.Metadata also provides an API allowing users to work with fully custom XMP schemes/packages. Please refer to this code snippet to learn more.{{< /alert >}}
 
 ## Updating XMP properties
 
-The GroupDocs.Metadata API facilitates the user to update XMP metadata in a convenient way - using the [XmpPacketWrapper](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/xmppacketwrapper) class properties. Follow the below steps to update XMP metadata in a file of any supported format.
+The GroupDocs.Metadata API facilitates the user to update XMP metadata in a convenient way - using the [XmpPacketWrapper](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/xmppacketwrapper) class properties. Follow the below steps to update XMP metadata in a file of any supported format.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains XMP metadata
-2.  Extract the XMP metadata package using the [IXmp.XmpPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp/properties/xmppackage) property
+2.  Extract the XMP metadata package using the [IXmp.XmpPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp/properties/xmppackage) property
 3.  Assign values to desired XMP properties
 4.  [Save]({{< ref "metadata/net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
 
@@ -176,7 +176,7 @@ using (Metadata metadata = new Metadata(Constants.InputJpeg))
 
 ## Removing XMP metadata
 
-To remove the XMP package from a file just assign null to the [IXmp.XmpPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp/properties/xmppackage) property. The code sample below shows how to remove XMP metadata from a file.
+To remove the XMP package from a file just assign null to the [IXmp.XmpPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp/properties/xmppackage) property. The code sample below shows how to remove XMP metadata from a file.
 
 **AdvancedUsage.WorkingWithMetadataStandards.<WBR>Xmp.AddCustomXmpPackage**
 

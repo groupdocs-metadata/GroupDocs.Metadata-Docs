@@ -14,9 +14,9 @@ The API allows detecting ZIP archives and reading format metadata. The following
 
 *   [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a ZIP archive
 *   Get the root metadata package
-*   Extract  the native metadata package using [ZipRootPackage.ZipPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.archive/ziprootpackage/properties/zippackage)
+*   Extract  the native metadata package using [ZipRootPackage.ZipPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.archive/ziprootpackage/properties/zippackage)
 *   Read the ZIP archive properties
-*   Loop through [ZipPackage.Files](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.archive/zippackage/properties/files) to extract information about archived files 
+*   Loop through [ZipPackage.Files](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.archive/zippackage/properties/files) to extract information about archived files 
 
 The following code snippet shows how to get metadata from a ZIP archive.
 
@@ -52,7 +52,7 @@ GroupDocs.Metadata for .NET allows you to update the user comment in a ZIP archi
 
 *   [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a ZIP archive
 *   Get the root metadata package
-*   Update the comment using the [ZipPackage.Comment](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.archive/zippackage/properties/comment) setter
+*   Update the comment using the [ZipPackage.Comment](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.archive/zippackage/properties/comment) setter
 *   Save the changes
 
 The following code snippet demonstrates the usage of this feature.

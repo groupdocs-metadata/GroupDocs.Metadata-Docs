@@ -13,9 +13,9 @@ If you need to implement a UI for your application it can be useful to generate 
 Here are the steps to generate a document preview for a particular page:
 
 1.  [Load]({{< ref "metadata/java/developer-guide/basic-usage/generate-document-preview.md" >}}) a document to preview
-2.  Specify a delegate that will be used to create the page streams (please see the [ICreatePageStream](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.options/ICreatePageStream) interface for more information)
+2.  Specify a delegate that will be used to create the page streams (please see the [ICreatePageStream](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.options/ICreatePageStream) interface for more information)
 3.  Specify the page numbers
-4.  Generate previews for desired pages using the [generatePreview](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#generatePreview(com.groupdocs.metadata.options.PreviewOptions)) method of the [Metadata](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata) class
+4.  Generate previews for desired pages using the [generatePreview](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#generatePreview(com.groupdocs.metadata.options.PreviewOptions)) method of the [Metadata](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata) class
 
 **basic\_usage.GenerateFilePreview**
 

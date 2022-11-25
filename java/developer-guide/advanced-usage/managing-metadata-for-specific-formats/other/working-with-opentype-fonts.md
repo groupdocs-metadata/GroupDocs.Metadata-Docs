@@ -20,7 +20,7 @@ The following are the steps to read the header of an OpenType file.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an OpenType font file
 2.  Get the root metadata package
-3.  Extract  the native metadata package using the [OpenTypeRootPackage.getOpenTypePackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/OpenTypeRootPackage#getOpenTypePackage()) method
+3.  Extract  the native metadata package using the [OpenTypeRootPackage.getOpenTypePackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/OpenTypeRootPackage#getOpenTypePackage()) method
 4.  Read the OpenType font properties
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>font.OpenTypeReadNativeMetadataProperties**
@@ -82,7 +82,7 @@ The code snippet bellow demonstrates how to extract information about digital si
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an OpenType font file
 2.  Get the root metadata package
-3.  Use the [getDigitalSignaturePackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/OpenTypeRootPackage#getDigitalSignaturePackage()) method to get access to all digital signatures associated with the file
+3.  Use the [getDigitalSignaturePackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/OpenTypeRootPackage#getDigitalSignaturePackage()) method to get access to all digital signatures associated with the file
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>font.OpenTypeReadDigitalSignatureProperties**
 

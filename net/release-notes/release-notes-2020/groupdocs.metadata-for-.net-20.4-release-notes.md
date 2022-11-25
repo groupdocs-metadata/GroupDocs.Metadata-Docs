@@ -36,9 +36,9 @@ This new feature allows the user to read, update and remove EXIF metadata in PNG
 
 ##### Public API changes
 
-The [ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/pngrootpackage/properties/exifpackage) property has been added to the [PngRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/pngrootpackage) class
+The [ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/pngrootpackage/properties/exifpackage) property has been added to the [PngRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/pngrootpackage) class
 
-The [PngRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/pngrootpackage) class now implements the [IExif](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif) interface
+The [PngRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/pngrootpackage) class now implements the [IExif](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif) interface
 
 ##### Use cases
 
@@ -79,9 +79,9 @@ This new feature allows the user to read, update and remove XMP metadata in MP3 
 
 ##### Public API changes
 
-The [XmpPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.audio/mp3rootpackage/properties/xmppackage) property has been added to the [MP3RootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.audio/mp3rootpackage) class
+The [XmpPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.audio/mp3rootpackage/properties/xmppackage) property has been added to the [MP3RootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.audio/mp3rootpackage) class
 
-The [MP3RootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.audio/mp3rootpackage) class now implements the [IXmp](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp) interface
+The [MP3RootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.audio/mp3rootpackage) class now implements the [IXmp](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp) interface
 
 ##### Use cases
 
@@ -136,18 +136,18 @@ This enhancement allows the user to read MakerNote metadata packages stored by v
 
 ##### Public API changes
 
-The [MakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpegrootpackage/properties/makernotepackage) property has been added to the [JpegRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpegrootpackage) class
+The [MakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpegrootpackage/properties/makernotepackage) property has been added to the [JpegRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpegrootpackage) class
 
-The [GroupDocs.Metadata.Standards.Exif.MakerNote](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote) namespace has been introduced
+The [GroupDocs.Metadata.Standards.Exif.MakerNote](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote) namespace has been introduced
 
-The following classes have been added to the [GroupDocs.Metadata.Standards.Exif.MakerNote](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/) namespace
+The following classes have been added to the [GroupDocs.Metadata.Standards.Exif.MakerNote](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/) namespace
 
-*   [CanonCameraSettingsPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/canoncamerasettingspackage)
-*   [CanonMakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/canonmakernotepackage)
-*   [MakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/makernotepackage)
-*   [NikonMakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/nikonmakernotepackage)
-*   [PanasonicMakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/panasonicmakernotepackage)
-*   [SonyMakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/sonymakernotepackage)
+*   [CanonCameraSettingsPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/canoncamerasettingspackage)
+*   [CanonMakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/canonmakernotepackage)
+*   [MakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/makernotepackage)
+*   [NikonMakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/nikonmakernotepackage)
+*   [PanasonicMakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/panasonicmakernotepackage)
+*   [SonyMakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/sonymakernotepackage)
 
 ##### Use cases
 
