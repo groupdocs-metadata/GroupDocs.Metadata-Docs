@@ -22,7 +22,7 @@ The following steps show how to read the APEv2 tag in an MP3 file.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MP3 file
 2.  Extract the root metadata package
-3.  Get the APEv2 tag by using the [MP3RootPackage.getApeV2](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getApeV2())method
+3.  Get the APEv2 tag by using the [MP3RootPackage.getApeV2](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getApeV2())method
 4.  If the APEv2 tag is not null then check for all of its metadata properties
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>audio.mp3.MP3ReadApeTag**
@@ -53,7 +53,7 @@ The following are the steps to remove the APEv2 tag from an MP3 file.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MP3 file
 2.  Get the root metadata package
-3.  Remove the tag by calling the [removeApeV2](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#removeApeV2()) method
+3.  Remove the tag by calling the [removeApeV2](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#removeApeV2()) method
 4.  [Save]({{< ref "metadata/java/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>audio.mp3.MP3RemoveApeTag**

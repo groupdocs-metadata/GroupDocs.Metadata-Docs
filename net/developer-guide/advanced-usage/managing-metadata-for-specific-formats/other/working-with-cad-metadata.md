@@ -15,7 +15,7 @@ The GroupDocs Metadata API provides the feature to read basic metadata in CAD fi
 
 ## Reading CAD metadata
 
-To access metadata in a CAD drawing, the GroupDocs.Metadata API provides the [CadRootPackage.CadPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.cad/cadrootpackage/properties/cadpackage) property.
+To access metadata in a CAD drawing, the GroupDocs.Metadata API provides the [CadRootPackage.CadPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.cad/cadrootpackage/properties/cadpackage) property.
 
 The following code snippet reads metadata associated with a CAD file.
 

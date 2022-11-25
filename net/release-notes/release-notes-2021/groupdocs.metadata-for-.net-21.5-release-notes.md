@@ -39,115 +39,115 @@ This improvement allows the user to update and remove EPUB metadata properties.
 
 ##### Public API changes 
 
-The [Abstract](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/abstract) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Abstract](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/abstract) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [AccessRights](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/accessRights) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [AccessRights](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/accessRights) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [AccrualMethod](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/accrualMethod) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [AccrualMethod](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/accrualMethod) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [AccrualPeriodicity](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/accrualPeriodicity) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [AccrualPeriodicity](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/accrualPeriodicity) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [AccrualPolicy](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/accrualPolicy) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [AccrualPolicy](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/accrualPolicy) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Alternative](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/alternative) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Alternative](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/alternative) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Audience](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/audience) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Audience](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/audience) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Available](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/available) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Available](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/available) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [BibliographicCitation](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/bibliographicCitation) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [BibliographicCitation](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/bibliographicCitation) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [ConformsTo](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/conformsTo) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [ConformsTo](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/conformsTo) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Contributor](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/contributor) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Contributor](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/contributor) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Coverage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/coverage) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Coverage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/coverage) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Created](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/created) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Created](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/created) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Creator](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/creator) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Creator](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/creator) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Date](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/date) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Date](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/date) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [DateAccepted](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/dateAccepted) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [DateAccepted](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/dateAccepted) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [DateCopyrighted](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/dateCopyrighted) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [DateCopyrighted](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/dateCopyrighted) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [DateSubmitted](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/dateSubmitted) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [DateSubmitted](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/dateSubmitted) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Description](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/description) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Description](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/description) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [EducationLevel](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/educationLevel) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [EducationLevel](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/educationLevel) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Extent](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/extent) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Extent](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/extent) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Format](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/format) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Format](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/format) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [HasFormat](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/hasFormat) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [HasFormat](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/hasFormat) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [HasPart](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/hasPart) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [HasPart](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/hasPart) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [HasVersion](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/hasVersion) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [HasVersion](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/hasVersion) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Identifier](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/identifier) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Identifier](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/identifier) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [InstructionalMethod](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/instructionalMethod) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [InstructionalMethod](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/instructionalMethod) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [IsFormatOf](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isFormatOf) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [IsFormatOf](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isFormatOf) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [IsPartOf](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isPartOf) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [IsPartOf](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isPartOf) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [IsReferencedBy](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isReferencedBy) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [IsReferencedBy](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isReferencedBy) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [IsReplacedBy](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isReplacedBy) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [IsReplacedBy](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isReplacedBy) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [IsRequiredBy](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isRequiredBy) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [IsRequiredBy](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isRequiredBy) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Issued](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/issued) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Issued](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/issued) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [IsVersionOf](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isVersionOf) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [IsVersionOf](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/isVersionOf) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Language](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/language) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Language](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/language) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [License](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/license) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [License](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/license) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Mediator](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/mediator) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Mediator](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/mediator) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Medium](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/medium) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Medium](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/medium) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Modified](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/modified) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Modified](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/modified) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Provenance](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/provenance) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Provenance](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/provenance) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Publisher](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/publisher) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Publisher](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/publisher) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [References](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/references) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [References](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/references) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Relation](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/relation) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Relation](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/relation) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Replaces](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/replaces) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Replaces](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/replaces) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Requires](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/requires) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Requires](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/requires) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Rights](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/rights) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Rights](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/rights) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [RightsHolder](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/rightsHolder) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [RightsHolder](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/rightsHolder) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Source](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/source) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Source](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/source) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Spatial](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/spatial) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Spatial](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/spatial) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Subject](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/subject) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Subject](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/subject) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [TableOfContents](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/tableOfContents) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [TableOfContents](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/tableOfContents) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Temporal](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/temporal) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Temporal](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/temporal) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Title](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/title) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Title](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/title) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Type](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/type) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Type](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/type) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
-The [Valid](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/valid) property has been added to the [EpubPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
+The [Valid](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage/properties/valid) property has been added to the [EpubPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.ebook/epubpackage) class
 
 
 ##### Use cases 

@@ -12,7 +12,7 @@ Using the GroupDocs.Metadata search engine you can extract desired metadata prop
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file to be searched for metadata properties
 2.  Make up a predicate to examine all extracted metadata properties
-3.  Pass the predicate to the [findProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#findProperties(com.groupdocs.metadata.search.Specification)) method
+3.  Pass the predicate to the [findProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#findProperties(com.groupdocs.metadata.search.Specification)) method
 4.  Iterate through the found properties
 
 **advanced\_usage.ExtractingMetadata**

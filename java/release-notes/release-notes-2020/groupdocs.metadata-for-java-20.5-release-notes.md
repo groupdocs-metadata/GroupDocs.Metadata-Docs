@@ -53,12 +53,12 @@ This new feature allows the user to read, update and remove EXIF metadata in WEB
 
 ##### Public API changes
 
-The following methods have been added to the [WebPRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class
+The following methods have been added to the [WebPRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class
 
-*   [getExifPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage#getExifPackage())
-*   [setExifPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage#setExifPackage(com.groupdocs.metadata.core.ExifPackage))
+*   [getExifPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage#getExifPackage())
+*   [setExifPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage#setExifPackage(com.groupdocs.metadata.core.ExifPackage))
 
-The [WebPRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class now implements the [IExif](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IExif) interface
+The [WebPRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class now implements the [IExif](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IExif) interface
 
 ##### Use cases
 
@@ -101,12 +101,12 @@ This new feature allows the user to read, update and remove XMP metadata in MOV 
 
 ##### Public API changes
 
-The following methods have been added to the [MovRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MovRootPackage) class
+The following methods have been added to the [MovRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MovRootPackage) class
 
-*   [getXmpPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MovRootPackage#getXmpPackage())
-*   [setXmpPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MovRootPackage#setXmpPackage(com.groupdocs.metadata.core.XmpPacketWrapper))
+*   [getXmpPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MovRootPackage#getXmpPackage())
+*   [setXmpPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MovRootPackage#setXmpPackage(com.groupdocs.metadata.core.XmpPacketWrapper))
 
-The [MovRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MovRootPackage) class now implements the [IXmp](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IXmp) interface
+The [MovRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MovRootPackage) class now implements the [IXmp](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IXmp) interface
 
 ##### Use cases
 

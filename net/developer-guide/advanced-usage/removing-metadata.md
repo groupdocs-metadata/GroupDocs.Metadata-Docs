@@ -11,7 +11,7 @@ hideChildren: False
 Not all metadata properties extracted from a file are marked with tags. Some file formats and metadata standards allow adding fully custom properties that can't be properly tagged by the library since their purpose is not clearly defined in the appropriate format/standard specification. In such cases, you can use the name of the property to locate and remove it. The following example demonstrates some advanced usage scenarios of the GroupDocs.Metadata search engine allowing to remove metadata properties.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file to be modified
-2.  Pass a search predicate to the [RemoveProperties](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/removeproperties) method.
+2.  Pass a search predicate to the [RemoveProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/removeproperties) method.
 3.  Check the number of properties that were actually removed
 4.  [Save]({{< ref "metadata/net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
 

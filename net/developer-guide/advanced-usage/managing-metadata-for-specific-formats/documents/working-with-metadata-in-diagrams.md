@@ -16,7 +16,7 @@ The following sample of code will help you to detect the exact type of a loaded 
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a PDF document
 2.  Extract the root metadata package
-3.  Use the [FileType](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document/diagramrootpackage/properties/filetype) property to obtain file format information
+3.  Use the [FileType](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document/diagramrootpackage/properties/filetype) property to obtain file format information
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Document.Diagram.<WBR>DiagramReadFileFormatProperties**
 
@@ -34,7 +34,7 @@ using (Metadata metadata = new Metadata(Constants.InputVdx))
 
 ## Reading built-In metadata properties
 
-To access built-in metadata of a diagram, please use the [DocumentProperties](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document.documentrootpackage/1/properties/documentproperties) property defined in the [DocumentRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document.documentrootpackage/1) class.
+To access built-in metadata of a diagram, please use the [DocumentProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document.documentrootpackage/1/properties/documentproperties) property defined in the [DocumentRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document.documentrootpackage/1) class.
 
 The following code snippet extracts built-in metadata properties and displays them on the screen.
 
@@ -75,7 +75,7 @@ using (Metadata metadata = new Metadata(Constants.InputVsdx))
 }
 ```
 
-As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [FindProperties](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/metadatapackage/methods/findproperties) method for a certain metadata package (instance of the [DiagramPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document/diagrampackage) class), the search result will contain only metadata properties that are specific for diagram documents. 
+As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [FindProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.common/metadatapackage/methods/findproperties) method for a certain metadata package (instance of the [DiagramPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document/diagrampackage) class), the search result will contain only metadata properties that are specific for diagram documents. 
 
 ## Reading document statistics
 

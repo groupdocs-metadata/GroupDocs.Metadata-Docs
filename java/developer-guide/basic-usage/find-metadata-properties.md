@@ -16,7 +16,7 @@ The code sample below demonstrates how to search for specific metadata propertie
 
 1.  [Load]({{< ref "metadata/java/developer-guide/basic-usage/find-metadata-properties.md" >}}) a file to examine
 2.  Make up a predicate checking that a specific tag is assigned to a property (alternatively you can use a combination of tags)
-3.  Pass the predicate to the [f](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#findProperties(com.groupdocs.metadata.search.Specification))[indProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#findProperties(com.groupdocs.metadata.search.Specification)) method
+3.  Pass the predicate to the [f](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#findProperties(com.groupdocs.metadata.search.Specification))[indProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#findProperties(com.groupdocs.metadata.search.Specification)) method
 4.  Iterate through the found properties
 
 **basic\_usage.FindMetadataProperties**

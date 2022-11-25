@@ -16,7 +16,7 @@ The following example demonstrates how to remove specific metadata properties us
 
 1.  [Load]({{< ref "metadata/net/developer-guide/basic-usage/remove-metadata-properties.md" >}}) a file to update
 2.  Use a predicate to find and remove any desired metadata properties
-3.  Check the number of properties that were actually removed (please see the return value of the [RemoveProperties](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/removeproperties) method)
+3.  Check the number of properties that were actually removed (please see the return value of the [RemoveProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/removeproperties) method)
 4.  [Save]({{< ref "metadata/net/developer-guide/basic-usage/remove-metadata-properties.md" >}}) the changes
 
 **BasicUsage.RemoveMetadataProperties**

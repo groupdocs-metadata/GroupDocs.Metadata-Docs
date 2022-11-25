@@ -44,9 +44,9 @@ Starting from version 20.8 the GroupDocs.Metadata search engine supports adding 
 
 ##### Public API changes
 
-The [ExifGpsPackage.getTrack](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage#getTrack()) method has been marked as obsolete. Please use the [getGpsTrack](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage#getGpsTrack()) method instead.
+The [ExifGpsPackage.getTrack](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage#getTrack()) method has been marked as obsolete. Please use the [getGpsTrack](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage#getGpsTrack()) method instead.
 
-The [ExifGpsPackage.setTrack](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage#setTrack(java.lang.String)) method has been marked as obsolete. Please use the [setGpsTrack](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage#setGpsTrack(com.groupdocs.metadata.core.TiffRational)) method instead.
+The [ExifGpsPackage.setTrack](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage#setTrack(java.lang.String)) method has been marked as obsolete. Please use the [setGpsTrack](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage#setGpsTrack(com.groupdocs.metadata.core.TiffRational)) method instead.
 
 ##### Use cases
 

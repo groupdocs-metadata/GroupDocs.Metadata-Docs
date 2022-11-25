@@ -21,6 +21,6 @@ Following are the links to some useful resources you may need to accomplish your
 *   [GroupDocs.Metadata for Java Release Notes]({{< ref "metadata/java/release-notes/_index.md" >}})
 *   [GroupDocs.Metadata for Java Product Page](https://products.groupdocs.com/metadata/java)
 *   [Download GroupDocs](https://artifact.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)[.](https://artifact.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)[Metadata for Java](https://artifact.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
-*   [GroupDocs.Metadata for Java API Reference Guide](https://apireference.groupdocs.com/java/metadata)
+*   [GroupDocs.Metadata for Java API Reference Guide](https://reference.groupdocs.com/java/metadata)
 *   [GroupDocs.Metadata for Java Free Support Forum](https://forum.groupdocs.com/c/metadata)
 *   [GroupDocs.Metadata for Java Paid Support Helpdesk](https://helpdesk.groupdocs.com/)

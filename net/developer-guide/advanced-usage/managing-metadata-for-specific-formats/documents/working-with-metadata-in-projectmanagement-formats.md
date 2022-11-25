@@ -12,7 +12,7 @@ GroupDocs.Metadata for .NET provides functionality that allows working with MPP 
 
 ## Reading built-In metadata properties
 
-To access built-in metadata of a ProjectManagement document, please use the [DocumentProperties](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document.documentrootpackage/1/properties/documentproperties) property defined in the [DocumentRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document.documentrootpackage/1) class.
+To access built-in metadata of a ProjectManagement document, please use the [DocumentProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document.documentrootpackage/1/properties/documentproperties) property defined in the [DocumentRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document.documentrootpackage/1) class.
 
 The following code snippet extracts built-in metadata properties and displays them on the screen.
 

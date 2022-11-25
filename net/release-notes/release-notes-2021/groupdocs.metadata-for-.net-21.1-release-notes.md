@@ -40,7 +40,7 @@ This new feature allows the user to extract content statistics from OneNote docu
 
 ##### Public API changes 
 
-The [DocumentStatistics](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/noterootpackage/properties/documentstatistics) property has been added to the [NoteRootPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/noterootpackage) class
+The [DocumentStatistics](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/noterootpackage/properties/documentstatistics) property has been added to the [NoteRootPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/noterootpackage) class
 
 ##### Use cases 
 
@@ -62,11 +62,11 @@ This new feature allows the user to extract INFO chunk metadata properties from 
 
 ##### Public API changes 
 
-The [RiffInfoPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.riff/riffinfopackage) class has been added to the [GroupDocs.Metadata.Formats.Riff](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.riff) namespace
+The [RiffInfoPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.riff/riffinfopackage) class has been added to the [GroupDocs.Metadata.Formats.Riff](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.riff) namespace
 
-The [RiffInfoPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.audio/wavrootpackage/properties/riffinfopackage) property has been added to the [WavRootPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.audio/wavrootpackage) class
+The [RiffInfoPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.audio/wavrootpackage/properties/riffinfopackage) property has been added to the [WavRootPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.audio/wavrootpackage) class
 
-The [RiffInfoPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.video/avirootpackage/properties/riffinfopackage) property has been added to the [AviRootPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.video/avirootpackage) class
+The [RiffInfoPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.video/avirootpackage/properties/riffinfopackage) property has been added to the [AviRootPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.video/avirootpackage) class
 
 ##### Use cases 
 

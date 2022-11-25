@@ -16,7 +16,7 @@ The following are the steps to read native MKV metadata.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MKV video
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [MatroskaRootPackage.MatroskaPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/matroskarootpackage/properties/matroskapackage)
+3.  Extract  the native metadata package using [MatroskaRootPackage.MatroskaPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/matroskarootpackage/properties/matroskapackage)
 4.  Read the Matroska metadata properties on different levels of the format structure
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Video.Matroska.MatroskaReadNativeMetadataProperties**
@@ -109,7 +109,7 @@ The GroupDocs.Metadata API also provides a convenient way of extracting subtitle
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MKV video
 2.  Get the root metadata package
-3.  Use the [MatroskaPackage.SubtitleTracks](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/matroskapackage/properties/subtitletracks) property to extract sets of subtitles in different languages
+3.  Use the [MatroskaPackage.SubtitleTracks](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/matroskapackage/properties/subtitletracks) property to extract sets of subtitles in different languages
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Video.Matroska.MatroskaReadSubtitles**
 

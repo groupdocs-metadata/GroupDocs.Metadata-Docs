@@ -44,7 +44,7 @@ Starting from version 20.8 the GroupDocs.Metadata search engine supports adding 
 
 ##### Public API changes 
 
-The [ExifGpsPackage.Track](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.exif/exifgpspackage/properties/track) property has been marked as obsolete. Please use the [GpsTrack](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.exif/exifgpspackage/properties/gpstrack) property instead.
+The [ExifGpsPackage.Track](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.exif/exifgpspackage/properties/track) property has been marked as obsolete. Please use the [GpsTrack](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.exif/exifgpspackage/properties/gpstrack) property instead.
 
 ##### Use cases 
 
@@ -181,9 +181,9 @@ using (Metadata metadata = new Metadata(@"D:\output.gif"))
 
 ### Other API changes
 
-The [DicomPackage.LengthValue](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/dicompackage/properties/lengthvalue) property has been marked as obsolete
+The [DicomPackage.LengthValue](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/dicompackage/properties/lengthvalue) property has been marked as obsolete
 
-The [DicomPackage.DicomFound](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/dicompackage/properties/dicomfound) property has been marked as obsolete
+The [DicomPackage.DicomFound](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/dicompackage/properties/dicomfound) property has been marked as obsolete
 
  
 

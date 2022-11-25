@@ -36,9 +36,9 @@ This new feature allows the user to add, update and remove IPTC metadata package
 
 ##### Public API changes
 
-The [TiffRootPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/tiffrootpackage) class now implements the [IIptc](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iiptc) interface
+The [TiffRootPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/tiffrootpackage) class now implements the [IIptc](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.iptc/iiptc) interface
 
-The setter has bee added to the [TiffRootPackage.IptcPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/tiffrootpackage/properties/iptcpackage) property
+The setter has bee added to the [TiffRootPackage.IptcPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/tiffrootpackage/properties/iptcpackage) property
 
 ##### Use cases
 
@@ -88,11 +88,11 @@ This improvement allows the user to export an arbitrary set of metadata propert
 
 ##### Public API changes
 
-The [GroupDocs.Metadata.Export](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.export) namespace has been introduced
+The [GroupDocs.Metadata.Export](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.export) namespace has been introduced
 
-The [ExportFormat](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.export/exportformat) enum has been added to the [GroupDocs.Metadata.Export](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.export) namespace
+The [ExportFormat](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.export/exportformat) enum has been added to the [GroupDocs.Metadata.Export](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.export) namespace
 
-The [ExportManager](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.export/exportmanager) class has been added to the [GroupDocs.Metadata.Export](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.export) namespace
+The [ExportManager](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.export/exportmanager) class has been added to the [GroupDocs.Metadata.Export](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.export) namespace
 
 ##### Use cases
 

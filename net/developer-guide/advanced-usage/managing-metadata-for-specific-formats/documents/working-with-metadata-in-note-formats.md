@@ -16,7 +16,7 @@ The inspection feature that is introduced in this section doesn't work with meta
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a Note document
 2.  Extract the root metadata package
-3.  Use the [InspectionPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document/noterootpackage/properties/inspectionpackage) property to inspect the document
+3.  Use the [InspectionPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.document/noterootpackage/properties/inspectionpackage) property to inspect the document
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Document.Note.<WBR>NoteReadInspectionProperties**
 

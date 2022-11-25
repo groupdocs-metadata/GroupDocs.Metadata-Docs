@@ -16,7 +16,7 @@ The following sample of code will help you to detect the exact type of a loaded 
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a WordProcessing document
 2.  Extract the root metadata package
-3.  Use the [getWordProcessingType](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WordProcessingRootPackage#getWordProcessingType()) method to obtain file format information
+3.  Use the [getWordProcessingType](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WordProcessingRootPackage#getWordProcessingType()) method to obtain file format information
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>document.word\_processing.<WBR>WordProcessingReadFileFormatProperties**
 
@@ -32,7 +32,7 @@ try (Metadata metadata = new Metadata(Constants.InputDoc)) {
 
 ## Reading built-in metadata properties
 
-To access built-in metadata of a WordProcessing document, please use the [getDocumentProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
+To access built-in metadata of a WordProcessing document, please use the [getDocumentProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
 
 The following code snippet extracts built-in metadata properties and displays them on the screen.
 
@@ -69,7 +69,7 @@ try (Metadata metadata = new Metadata(Constants.InputDoc)) {
 }
 ```
 
-As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [findProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#findProperties(com.groupdocs.metadata.search.Specification)) method for a certain metadata package (instance of the [WordProcessingPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WordProcessingPackage) class), the search result will contain only metadata properties that are specific for WordProcessing documents. 
+As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [findProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#findProperties(com.groupdocs.metadata.search.Specification)) method for a certain metadata package (instance of the [WordProcessingPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WordProcessingPackage) class), the search result will contain only metadata properties that are specific for WordProcessing documents. 
 
 ## Inspecting WordProcessing documents
 
@@ -77,7 +77,7 @@ The inspection feature that is introduced in this section doesn't work with meta
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a WordProcessing document
 2.  Extract the root metadata package
-3.  Use the [getInspectionPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WordProcessingRootPackage#getInspectionPackage()) method to inspect the document
+3.  Use the [getInspectionPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WordProcessingRootPackage#getInspectionPackage()) method to inspect the document
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>document.word\_processing.<WBR>WordProcessingReadInspectionProperties**
 
@@ -166,7 +166,7 @@ try (Metadata metadata = new Metadata(Constants.InputDocx)) {
 }
 ```
 
-Please see the [DublinCorePackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DublinCorePackage) class to get more information on supported Dublin Core metadata properties.
+Please see the [DublinCorePackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DublinCorePackage) class to get more information on supported Dublin Core metadata properties.
 
 ## Updating built-In metadata properties
 

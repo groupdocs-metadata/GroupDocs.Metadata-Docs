@@ -18,7 +18,7 @@ To get TORRENT file metadata, the following steps are needed to be followed:
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a TORRENT file
 2.  Get the root metadata package
-3.  Extract  the native metadata package using the [TorrentRootPackage.getTorrentPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/TorrentRootPackage#getTorrentPackage()) method
+3.  Extract  the native metadata package using the [TorrentRootPackage.getTorrentPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/TorrentRootPackage#getTorrentPackage()) method
 4.  Read the TORRENT file properties
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>peer2peer.TorrentReadNativeMetadataProperties**

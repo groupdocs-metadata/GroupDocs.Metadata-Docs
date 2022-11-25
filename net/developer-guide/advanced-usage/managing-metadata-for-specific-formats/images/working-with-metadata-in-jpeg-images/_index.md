@@ -16,7 +16,7 @@ The code sample below demonstrates how to extract image resource blocks (buildin
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a JPEG image
 2.  Get the root metadata package
-3.  Extract the [ImageResourcePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/imageresourcepackage) instance and obtain a list of [ImageResourceBlock](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/imageresourceblock) objects
+3.  Extract the [ImageResourcePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/imageresourcepackage) instance and obtain a list of [ImageResourceBlock](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/imageresourceblock) objects
 4.  Iterate trough the collection of resource blocks
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Image.Jpeg.JpegReadImageResourceBlocks**

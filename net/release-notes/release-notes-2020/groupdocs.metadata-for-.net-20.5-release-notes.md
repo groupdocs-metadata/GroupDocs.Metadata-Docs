@@ -62,9 +62,9 @@ This new feature allows the user to read, update and remove EXIF metadata in WEB
 
 ##### Public API changes
 
-The [ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage/properties/exifpackage) property has been added to the [WebPRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage) class
+The [ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage/properties/exifpackage) property has been added to the [WebPRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage) class
 
-The [WebPRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage) class now implements the [IExif](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif) interface
+The [WebPRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/webprootpackage) class now implements the [IExif](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif) interface
 
 ##### Use cases
 
@@ -105,9 +105,9 @@ This new feature allows the user to read, update and remove XMP metadata in MOV 
 
 ##### Public API changes
 
-The [XmpPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.video/movrootpackage/properties/xmppackage) property has been added to the [MovRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/movrootpackage) class
+The [XmpPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.video/movrootpackage/properties/xmppackage) property has been added to the [MovRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/movrootpackage) class
 
-The [MovRootPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/movrootpackage) class now implements the [IXmp](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp) interface
+The [MovRootPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/movrootpackage) class now implements the [IXmp](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.xmp/ixmp) interface
 
 ##### Use cases
 

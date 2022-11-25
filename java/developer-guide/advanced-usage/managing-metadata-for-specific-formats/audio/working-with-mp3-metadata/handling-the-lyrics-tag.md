@@ -20,7 +20,7 @@ The GroupDocs.Metadata API allows reading the Lyrics3 tag in an MP3 file.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MP3 file
 2.  Extract the root metadata package
-3.  Get the Lyrics tag by using the [MP3RootPackage.getLyrics3V2](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getLyrics3V2())method
+3.  Get the Lyrics tag by using the [MP3RootPackage.getLyrics3V2](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getLyrics3V2())method
 4.  If the Lyrics tag is not null then check for all of its properties
 
 The following code snippet reads the Lyrics tag from an MP3 file.
@@ -54,7 +54,7 @@ The following are the steps to update the Lyrics tag in an MP3 file.
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MP3 file
 2.  Extract the root metadata package
 3.  Create the Lyrics tag if it's missing
-4.  Update Lyrics fields using the [MP3RootPackage.getLyrics3V2](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getLyrics3V2())method
+4.  Update Lyrics fields using the [MP3RootPackage.getLyrics3V2](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getLyrics3V2())method
 5.  [Save]({{< ref "metadata/java/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
 
 The following code snippet shows how to update the Lyrics tag in an MP3 file.
@@ -83,7 +83,7 @@ try (Metadata metadata = new Metadata(Constants.MP3WithLyrics)) {
 
 ## Removing a Lyrics tag
 
-To remove the Lyrics tag from an MP3 audio just pass null to the [MP3RootPackage.setLyrics3V2](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#setLyrics3V2(com.groupdocs.metadata.core.LyricsTag)) method. The code sample below shows how to remove the Lyrics tag from an MP3 file.
+To remove the Lyrics tag from an MP3 audio just pass null to the [MP3RootPackage.setLyrics3V2](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#setLyrics3V2(com.groupdocs.metadata.core.LyricsTag)) method. The code sample below shows how to remove the Lyrics tag from an MP3 file.
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>audio.mp3.MP3RemoveLyricsTag**
 

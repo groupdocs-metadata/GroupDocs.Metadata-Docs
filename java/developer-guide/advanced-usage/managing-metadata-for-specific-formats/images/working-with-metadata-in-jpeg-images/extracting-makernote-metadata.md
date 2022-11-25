@@ -22,7 +22,7 @@ MakerNote metadata refers to image information that is written by digital camera
 Utilizing the GroupDocs.Metadata API the user is able to read all metadata properties regardless of the exact MakerNote format.
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a raw image file that contains MakerNote metadata
-2.  Extract the MakerNote package using the [getMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/JpegRootPackage#getMakerNotePackage()) method
+2.  Extract the MakerNote package using the [getMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/JpegRootPackage#getMakerNotePackage()) method
 3.  Iterate through the EXIF tags 
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>image.jpeg.maker\_note.MakerNoteReadAllTags**
@@ -40,12 +40,12 @@ try (Metadata metadata = new Metadata(Constants.CanonJpeg)) {
 }
 ```
 
-To help you with interpreting extracted tags we implemented classes representing specific MakerNote metadata packages. Please cast the return value of the [getMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/JpegRootPackage#getMakerNotePackage()) method to one of the classes listed below to get more format-specific capabilities:
+To help you with interpreting extracted tags we implemented classes representing specific MakerNote metadata packages. Please cast the return value of the [getMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/JpegRootPackage#getMakerNotePackage()) method to one of the classes listed below to get more format-specific capabilities:
 
-*   [CanonMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/CanonMakerNotePackage)
-*   [NikonMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/NikonMakerNotePackage)
-*   [PanasonicMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PanasonicMakerNotePackage)
-*   [SonyMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/SonyMakerNotePackage)
+*   [CanonMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/CanonMakerNotePackage)
+*   [NikonMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/NikonMakerNotePackage)
+*   [PanasonicMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PanasonicMakerNotePackage)
+*   [SonyMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/SonyMakerNotePackage)
 
 ## Read Canon MakerNote properties
 

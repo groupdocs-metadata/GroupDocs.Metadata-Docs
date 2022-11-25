@@ -16,7 +16,7 @@ The following sample of code will help you to detect the exact type of a loaded 
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a Spreadsheet document
 2.  Extract the root metadata package
-3.  Use the [getSpreadsheetType](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/SpreadsheetRootPackage#getSpreadsheetType()) method to obtain file format information
+3.  Use the [getSpreadsheetType](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/SpreadsheetRootPackage#getSpreadsheetType()) method to obtain file format information
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>document.spreadsheet.<WBR>SpreadsheetReadFileFormatProperties**
 
@@ -33,7 +33,7 @@ try (Metadata metadata = new Metadata(Constants.InputXlsx)) {
 
 ## Reading built-in metadata properties
 
-To access built-in metadata of a spreadsheet, please use the [getDocumentProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
+To access built-in metadata of a spreadsheet, please use the [getDocumentProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
 
 The following code snippet extracts built-in metadata properties and displays them on the screen.
 
@@ -78,7 +78,7 @@ try (Metadata metadata = new Metadata(Constants.InputXls)) {
 }
 ```
 
-As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [findProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#findProperties(com.groupdocs.metadata.search.Specification)) method for a certain metadata package (instance of the [SpreadsheetPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/SpreadsheetRootPackage) class), the search result will contain only metadata properties that are specific for spreadsheets. 
+As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [findProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#findProperties(com.groupdocs.metadata.search.Specification)) method for a certain metadata package (instance of the [SpreadsheetPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/SpreadsheetRootPackage) class), the search result will contain only metadata properties that are specific for spreadsheets. 
 
 ## Inspecting spreadsheets
 
@@ -86,7 +86,7 @@ The inspection feature that is introduced in this section doesn't work with meta
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a Spreadsheet document
 2.  Extract the root metadata package
-3.  Use the [getInspectionPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/SpreadsheetRootPackage#getInspectionPackage()) method to inspect the document
+3.  Use the [getInspectionPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/SpreadsheetRootPackage#getInspectionPackage()) method to inspect the document
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>document.spreadsheet.<WBR>SpreadsheetReadInspectionProperties**
 
