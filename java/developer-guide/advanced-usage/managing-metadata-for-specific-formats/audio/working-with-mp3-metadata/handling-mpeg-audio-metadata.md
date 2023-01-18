@@ -25,7 +25,7 @@ The following steps demonstrate how to read MPEG audio metadata from an MP3 fil
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MP3 file
 2.  Get the root metadata package
-3.  Use the [MP3RootPackage.getMpegAudioPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getMpegAudioPackage())method to read the metadata values
+3.  Use the [MP3RootPackage.getMpegAudioPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MP3RootPackage#getMpegAudioPackage())method to read the metadata values
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>audio.mp3.MP3ReadMpegAudioMetadata**
 

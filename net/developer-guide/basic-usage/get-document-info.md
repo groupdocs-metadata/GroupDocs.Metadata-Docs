@@ -10,12 +10,12 @@ hideChildren: False
 ---
 GroupDocs.Metadata allows users to get meta information of a document which includes:
 
-*   [File format](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/filetypepackage/properties/fileformat) (detected by the internal structure)
-*   [File extension](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/filetypepackage/properties/extension)
-*   [MIME type](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/filetypepackage/properties/mimetype)
-*   [Number of pages](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/idocumentinfo/properties/pagecount)
-*   [File size](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/idocumentinfo/properties/size)
-*   A [value](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.common/idocumentinfo/properties/isencrypted) indicating whether a file is encrypted
+*   [File format](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.common/filetypepackage/properties/fileformat) (detected by the internal structure)
+*   [File extension](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.common/filetypepackage/properties/extension)
+*   [MIME type](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.common/filetypepackage/properties/mimetype)
+*   [Number of pages](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.common/idocumentinfo/properties/pagecount)
+*   [File size](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.common/idocumentinfo/properties/size)
+*   A [value](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.common/idocumentinfo/properties/isencrypted) indicating whether a file is encrypted
 
 The following code sample demonstrates how to extract basic format information from a file.
 

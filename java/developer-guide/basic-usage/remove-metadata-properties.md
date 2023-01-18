@@ -16,7 +16,7 @@ The following example demonstrates how to remove specific metadata properties us
 
 1.  [Load]({{< ref "metadata/java/developer-guide/basic-usage/remove-metadata-properties.md" >}}) a file to update
 2.  Use a specification to find and remove any desired metadata properties
-3.  Check the number of properties that were actually removed (please see the return value of the [removeProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#removeProperties(com.groupdocs.metadata.search.Specification)) method)
+3.  Check the number of properties that were actually removed (please see the return value of the [removeProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#removeProperties(com.groupdocs.metadata.search.Specification)) method)
 4.  [Save]({{< ref "metadata/java/developer-guide/basic-usage/remove-metadata-properties.md" >}}) the changes
 
 **basic\_usage.RemoveMetadataProperties**

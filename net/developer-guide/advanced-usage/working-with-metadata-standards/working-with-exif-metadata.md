@@ -18,10 +18,10 @@ Please refer to the [following article](https://en.wikipedia.org/wiki/Exif) to
 
 ## Reading basic EXIF properties
 
-To access EXIF metadata in a file of any supported format, GroupDocs.Metadata provides the [IExif.ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property. The following are the steps to read EXIF metadata:
+To access EXIF metadata in a file of any supported format, GroupDocs.Metadata provides the [IExif.ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property. The following are the steps to read EXIF metadata:
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
+2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
 
 The following code snippet gets EXIF properties of a TIFF image and displays them on the screen. 
 
@@ -64,7 +64,7 @@ using (Metadata metadata = new Metadata(Constants.TiffWithExif))
 In some cases, it's necessary to read all EXIF properties from a file, including custom ones. To achieve this the GroupDocs.Metadata API provides direct access to the EXIF tags extracted from a file.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
+2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
 3.  Iterate through all EXIF tags on different levels
 
 **AdvancedUsage.WorkingWithMetadataStandards.<WBR>Exif.ReadExifTags**
@@ -100,8 +100,8 @@ using (Metadata metadata = new Metadata(Constants.JpegWithExif))
 The GroupDocs.Metadata API also supports reading specific EXIF tags using an indexer. Follow below-mentioned steps to read a specific EXIF tag.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
-3.  Get a specific tag using the [ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/exifpackage) class [indexer](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/exifdictionarybasepackage/properties/item)
+2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
+3.  Get a specific tag using the [ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/exifpackage) class [indexer](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/exifdictionarybasepackage/properties/item)
 
 **AdvancedUsage.WorkingWithMetadataStandards.<WBR>Exif.ReadSpecificExifTag**
 
@@ -128,10 +128,10 @@ using (Metadata metadata = new Metadata(Constants.TiffWithExif))
 
 ## Updating EXIF properties
 
-The GroupDocs.Metadata API facilitates the user to update EXIF metadata in a convenient way - using the [ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/exifpackage) class properties. Follow the below steps to update EXIF metadata in a file of any supported format.
+The GroupDocs.Metadata API facilitates the user to update EXIF metadata in a convenient way - using the [ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/exifpackage) class properties. Follow the below steps to update EXIF metadata in a file of any supported format.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
+2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
 3.  Assign values to desired EXIF properties
 4.  [Save]({{< ref "metadata/net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
 
@@ -171,7 +171,7 @@ using (Metadata metadata = new Metadata(Constants.InputJpeg))
 The GroupDocs.Metadata API allows adding or updating custom tags in an EXIF package.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
+2.  Extract the EXIF metadata package using the [IExif.ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property
 3.  Set the EXIF package if it's missing
 4.  Add any number of custom tags to the package
 5.  [Save]({{< ref "metadata/net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
@@ -204,22 +204,22 @@ using (Metadata metadata = new Metadata(Constants.TiffWithExif))
 
 Here is a full list of tags that can be added to an EXIF package:
 
-*   [TiffAsciiTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffasciitag)
-*   [TiffByteTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffbytetag)
-*   [TiffDoubleTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffdoubletag)
-*   [TiffFloatTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tifffloattag)
-*   [TiffLongTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tifflongtag)
-*   [TiffRationalTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffrationaltag)
-*   [TiffSByteTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffsbytetag)
-*   [TiffShortTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffshorttag)
-*   [TiffSLongTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffslongtag)
-*   [TiffSRationalTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffsrationaltag)
-*   [TiffSShortTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffsshorttag)
-*   [TiffUndefinedTag](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffundefinedtag)
+*   [TiffAsciiTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffasciitag)
+*   [TiffByteTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffbytetag)
+*   [TiffDoubleTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffdoubletag)
+*   [TiffFloatTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tifffloattag)
+*   [TiffLongTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tifflongtag)
+*   [TiffRationalTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffrationaltag)
+*   [TiffSByteTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffsbytetag)
+*   [TiffShortTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffshorttag)
+*   [TiffSLongTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffslongtag)
+*   [TiffSRationalTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffsrationaltag)
+*   [TiffSShortTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffsshorttag)
+*   [TiffUndefinedTag](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/tiffundefinedtag)
 
 ## Removing EXIF metadata
 
-To remove the EXIF package from a file just assign null to the [IExif.ExifPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property. The code sample below shows how to remove EXIF metadata from a file.
+To remove the EXIF package from a file just assign null to the [IExif.ExifPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif/iexif/properties/exifpackage) property. The code sample below shows how to remove EXIF metadata from a file.
 
 **AdvancedUsage.WorkingWithMetadataStandards.<WBR>Exif.RemoveExifMetadata**
 

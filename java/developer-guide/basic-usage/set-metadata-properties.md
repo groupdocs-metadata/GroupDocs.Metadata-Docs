@@ -10,9 +10,9 @@ hideChildren: False
 ---
 ## Update or add metadata properties satisfying a predicate
 
-The [setProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#setProperties(com.groupdocs.metadata.search.Specification,%20com.groupdocs.metadata.core.PropertyValue)) method used in this code sample actually combines two operations: add and update. If an existing property satisfies the specified predicate its value is updated. If there is a known property missing in a metadata package that satisfies the predicate it is added to the appropriate package.
+The [setProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#setProperties(com.groupdocs.metadata.search.Specification,%20com.groupdocs.metadata.core.PropertyValue)) method used in this code sample actually combines two operations: add and update. If an existing property satisfies the specified predicate its value is updated. If there is a known property missing in a metadata package that satisfies the predicate it is added to the appropriate package.
 
-The code snippet below demonstrates a basic usage scenario of the [setProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#setProperties(com.groupdocs.metadata.search.Specification,%20com.groupdocs.metadata.core.PropertyValue)) method.
+The code snippet below demonstrates a basic usage scenario of the [setProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#setProperties(com.groupdocs.metadata.search.Specification,%20com.groupdocs.metadata.core.PropertyValue)) method.
 
 1.  [Open]({{< ref "metadata/java/developer-guide/basic-usage/set-metadata-properties.md" >}}) a file to update
 2.  Specify a predicate that will be used to add/update metadata properties

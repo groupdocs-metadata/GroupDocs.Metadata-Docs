@@ -16,7 +16,7 @@ The following are the steps to read the native DICOM metadata.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a DICOM image
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [DicomRootPackage.DicomPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/dicomrootpackage/properties/dicompackage)
+3.  Extract  the native metadata package using [DicomRootPackage.DicomPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/dicomrootpackage/properties/dicompackage)
 4.  Read the DICOM metadata properties
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Image.Dicom.DicomReadNativeMetadataProperties**

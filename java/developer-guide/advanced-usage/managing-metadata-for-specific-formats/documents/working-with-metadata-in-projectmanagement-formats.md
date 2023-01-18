@@ -12,7 +12,7 @@ GroupDocs.Metadata for Java provides functionality that allows working with MPP 
 
 ## Reading built-In metadata properties
 
-To access built-in metadata of a ProjectManagement document, please use the [getDocumentProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
+To access built-in metadata of a ProjectManagement document, please use the [getDocumentProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
 
 The following code snippet extracts built-in metadata properties and displays them on the screen.
 

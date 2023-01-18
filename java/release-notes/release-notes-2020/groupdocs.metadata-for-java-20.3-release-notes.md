@@ -34,9 +34,9 @@ This new feature allows the user to update (or remove) EXIF metadata in a PSD fi
 
 ##### Public API changes
 
-The [setExifPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PsdRootPackage#setExifPackage(com.groupdocs.metadata.core.ExifPackage)) method has been added to the [PsdRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PsdRootPackage) class
+The [setExifPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PsdRootPackage#setExifPackage(com.groupdocs.metadata.core.ExifPackage)) method has been added to the [PsdRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PsdRootPackage) class
 
-The [PsdRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PsdRootPackage) class now implements the [IExif](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IExif) interface
+The [PsdRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PsdRootPackage) class now implements the [IExif](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IExif) interface
 
 ##### Use cases
 
@@ -75,11 +75,11 @@ This new feature allows the user to work with XMP metadata in WEBP images.
 
 ##### Public API changes
 
-The [getXmpPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage#getXmpPackage()) method has been added to the [WebPRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class
+The [getXmpPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage#getXmpPackage()) method has been added to the [WebPRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class
 
-The [setXmpPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage#setXmpPackage(com.groupdocs.metadata.core.XmpPacketWrapper)) method has been added to the [WebPRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class
+The [setXmpPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage#setXmpPackage(com.groupdocs.metadata.core.XmpPacketWrapper)) method has been added to the [WebPRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class
 
-The [WebPRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class now implements the [IXmp](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IXmp) interface
+The [WebPRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/WebPRootPackage) class now implements the [IXmp](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IXmp) interface
 
 ##### Use cases
 

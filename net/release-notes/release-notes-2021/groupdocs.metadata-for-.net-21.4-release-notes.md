@@ -37,15 +37,15 @@ This new feature allows the user to get a user-friendly interpretation of a meta
 
 ##### Public API changes 
 
-The [ValueInterpreter](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/valueinterpreter) class has been added to the [GroupDocs.Metadata.Common](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common) namespace
+The [ValueInterpreter](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/valueinterpreter) class has been added to the [GroupDocs.Metadata.Common](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common) namespace
 
-The [IEnumValueInterpreter](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/ienumvalueinterpreter) interface has been added to the [GroupDocs.Metadata.Common](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common) namespace
+The [IEnumValueInterpreter](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/ienumvalueinterpreter) interface has been added to the [GroupDocs.Metadata.Common](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common) namespace
 
-The [InterpretedValue](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadataproperty/properties/interpretedvalue) property has been added to the [MetadataProperty](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadataproperty) class
+The [InterpretedValue](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadataproperty/properties/interpretedvalue) property has been added to the [MetadataProperty](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadataproperty) class
 
-The [Descriptor](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadataproperty/properties/descriptor) property has been added to the [MetadataProperty](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadataproperty) class
+The [Descriptor](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadataproperty/properties/descriptor) property has been added to the [MetadataProperty](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadataproperty) class
 
-The [Interpreter](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/propertydescriptor/properties/interpreter) property has been added to the [PropertyDescriptor](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/propertydescriptor) class
+The [Interpreter](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/propertydescriptor/properties/interpreter) property has been added to the [PropertyDescriptor](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/propertydescriptor) class
 
 ##### Use cases 
 
@@ -78,13 +78,13 @@ This improvement allows the user to update some common email fields.
 
 ##### Public API changes 
 
-A setter has been added to the [EmailPackage.Subject](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.email/emailpackage/properties/subject) property
+A setter has been added to the [EmailPackage.Subject](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.email/emailpackage/properties/subject) property
 
-A setter has been added to the [EmailPackage.Recipients](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.email/emailpackage/properties/recipients) property
+A setter has been added to the [EmailPackage.Recipients](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.email/emailpackage/properties/recipients) property
 
-A setter has been added to the [EmailPackage.CarbonCopyRecipients](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.email/emailpackage/properties/carboncopyrecipients) property
+A setter has been added to the [EmailPackage.CarbonCopyRecipients](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.email/emailpackage/properties/carboncopyrecipients) property
 
-A setter has been added to the [EmailPackage.BlindCarbonCopyRecipients](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.email/emailpackage/properties/blindcarboncopyrecipients) property
+A setter has been added to the [EmailPackage.BlindCarbonCopyRecipients](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.email/emailpackage/properties/blindcarboncopyrecipients) property
 
 ##### Use cases 
 
@@ -103,4 +103,4 @@ using (Metadata metadata = new Metadata(Constants.InputEml))
 
 ### Other API changes
 
-The [KnowPropertyDescriptors](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadatapackage/properties/knowpropertydescriptors) property has been marked as obsolete. Please use the [PropertyDescriptors](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadatapackage/properties/propertydescriptors) property instead.
+The [KnowPropertyDescriptors](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadatapackage/properties/knowpropertydescriptors) property has been marked as obsolete. Please use the [PropertyDescriptors](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/metadatapackage/properties/propertydescriptors) property instead.

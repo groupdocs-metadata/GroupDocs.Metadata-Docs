@@ -37,9 +37,9 @@ This new feature allows the user to add, update and remove IPTC metadata package
 
 ##### Public API changes
 
-The [TiffRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/TiffRootPackage) class now implements the [IIptc](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IIptc) interface
+The [TiffRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/TiffRootPackage) class now implements the [IIptc](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IIptc) interface
 
-The [setIptcPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/TiffRootPackage#setIptcPackage(com.groupdocs.metadata.core.IptcRecordSet)) method has been added to the [TiffRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/TiffRootPackage) class
+The [setIptcPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/TiffRootPackage#setIptcPackage(com.groupdocs.metadata.core.IptcRecordSet)) method has been added to the [TiffRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/TiffRootPackage) class
 
 ##### Use cases
 
@@ -84,11 +84,11 @@ This improvement allows the user to export an arbitrary set of metadata propert
 
 ##### Public API changes
 
-The [com.groupdocs.metadata.export](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/package-frame) package has been introduced
+The [com.groupdocs.metadata.export](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/package-frame) package has been introduced
 
-The [ExportFormat](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/ExportFormat) class has been added to the [com.groupdocs.metadata.export](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/package-frame) package
+The [ExportFormat](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/ExportFormat) class has been added to the [com.groupdocs.metadata.export](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/package-frame) package
 
-The [ExportManager](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/ExportManager) class has been added to the [com.groupdocs.metadata.export](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/package-frame) package
+The [ExportManager](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/ExportManager) class has been added to the [com.groupdocs.metadata.export](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.export/package-frame) package
 
 ##### Use cases
 

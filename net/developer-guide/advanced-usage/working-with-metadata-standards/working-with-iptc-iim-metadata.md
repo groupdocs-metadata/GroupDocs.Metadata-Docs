@@ -16,11 +16,11 @@ The IPTC Information Interchange Model (IIM) is a set of metadata properties tha
 
 ## Reading basic IPTC IIM properties
 
-To access IPTC metadata in a file of any supported format, GroupDocs.Metadata provides the [IIptc.IptcPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property. The following are the steps to read IPTC metadata:
+To access IPTC metadata in a file of any supported format, GroupDocs.Metadata provides the [IIptc.IptcPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property. The following are the steps to read IPTC metadata:
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains IPTC metadata
-2.  Extract the IPTC metadata package using the [IIptc.IptcPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property
-3.  Read properties of the [IptcApplicationRecord](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iptcapplicationrecord) and [IptcEnvelopeRecord](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iptcenveloperecord) class instances
+2.  Extract the IPTC metadata package using the [IIptc.IptcPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property
+3.  Read properties of the [IptcApplicationRecord](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iptcapplicationrecord) and [IptcEnvelopeRecord](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iptcenveloperecord) class instances
 
 The following code snippet gets IPTC properties of a JPEG image and displays them on the screen. 
 
@@ -63,7 +63,7 @@ using (Metadata metadata = new Metadata(Constants.JpegWithIptc))
 In some cases, it's necessary to read all IPTC datasets (metadata properties) from a file, including custom ones. To achieve this the GroupDocs.Metadata API provides direct access to the IPTC datasets extracted from a file.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains IPTC metadata
-2.  Extract the IPTC metadata package using the [IIptc.IptcPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property
+2.  Extract the IPTC metadata package using the [IIptc.IptcPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property
 3.  Iterate through all IPTC datasets
 
 **AdvancedUsage.WorkingWithMetadataStandards.<WBR>Iptc.ReadIptcDataSets**
@@ -98,10 +98,10 @@ using (Metadata metadata = new Metadata(Constants.PsdWithIptc))
 
 ## Updating IPTC IIM properties
 
-The GroupDocs.Metadata API facilitates the user to update IPTC metadata in a convenient way - using the [IptcRecordSet](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iptcrecordset) class properties. Follow the below steps to update IPTC metadata in a file of any supported format.
+The GroupDocs.Metadata API facilitates the user to update IPTC metadata in a convenient way - using the [IptcRecordSet](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iptcrecordset) class properties. Follow the below steps to update IPTC metadata in a file of any supported format.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains IPTC metadata
-2.  Extract the IPTC metadata package using the [IIptc.IptcPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property
+2.  Extract the IPTC metadata package using the [IIptc.IptcPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property
 3.  Assign values to desired IPTC properties
 4.  [Save]({{< ref "metadata/net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
 
@@ -149,9 +149,9 @@ using (Metadata metadata = new Metadata(Constants.InputJpeg))
 The GroupDocs.Metadata API allows adding or updating custom datasets in an IPTC package.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains IPTC metadata
-2.  Extract the IPTC metadata package using the [IIptc.IptcPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property
+2.  Extract the IPTC metadata package using the [IIptc.IptcPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property
 3.  Set the IPTC package if it's missing
-4.  Add any number of custom datasets to the package (Please see the [IptcDataSet](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iptcdataset) class for more information)
+4.  Add any number of custom datasets to the package (Please see the [IptcDataSet](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iptcdataset) class for more information)
 5.  [Save]({{< ref "metadata/net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
 
 **AdvancedUsage.WorkingWithMetadataStandards.<WBR>Iptc.SetCustomIptcDataSet**
@@ -214,7 +214,7 @@ using (Metadata metadata = new Metadata(Constants.OutputPsd))
 
 ## Removing IPTC IIM metadata
 
-To remove the IPTC package from a file just assign null to the [IIptc.IptcPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property. The code sample below shows how to remove IPTC metadata from a file.
+To remove the IPTC package from a file just assign null to the [IIptc.IptcPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.iptc/iiptc/properties/iptcpackage) property. The code sample below shows how to remove IPTC metadata from a file.
 
 **AdvancedUsage.WorkingWithMetadataStandards.<WBR>Iptc.RemoveIptcMetadata**
 

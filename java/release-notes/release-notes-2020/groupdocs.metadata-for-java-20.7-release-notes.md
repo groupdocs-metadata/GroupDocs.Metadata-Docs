@@ -39,17 +39,17 @@ packages in JPEG2000 images.
 
 ##### Public API changes
 
-The [Jpeg2000RootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage) class
+The [Jpeg2000RootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage) class
 now implements
-the [IExif](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IExif) interface
+the [IExif](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IExif) interface
 
-The [getExifPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage#getExifPackage()) method
+The [getExifPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage#getExifPackage()) method
 has been added to
-the [Jpeg2000RootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage) class
+the [Jpeg2000RootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage) class
 
-The [setExifPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/JpegRootPackage#setExifPackage(com.groupdocs.metadata.core.ExifPackage)) method
+The [setExifPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/JpegRootPackage#setExifPackage(com.groupdocs.metadata.core.ExifPackage)) method
 has been added to
-the [Jpeg2000RootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage) class
+the [Jpeg2000RootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/Jpeg2000RootPackage) class
 
 ##### Use cases
 
@@ -93,14 +93,14 @@ This new feature allows the user to work with HEIF/HEIC images.
 
 ##### Public API changes 
 
-The [HeifRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/HeifRootPackage) class
+The [HeifRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/HeifRootPackage) class
 has been added to
-the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
+the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
 
 The
-[Heif](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileFormat#Heif) public
+[Heif](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileFormat#Heif) public
 static field has been added to
-the [FileFormat](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileFormat) class
+the [FileFormat](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileFormat) class
 
 ##### Use cases
 
@@ -210,64 +210,64 @@ available for reading/updating in MS Project documents.
 ##### Public API changes
 
 The
-[getManager](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#getManager()) method
+[getManager](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#getManager()) method
 has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[setManager](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#setManager(java.lang.String)) method
+[setManager](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#setManager(java.lang.String)) method
 has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[getLastSaved](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#getLastSaved())
+[getLastSaved](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#getLastSaved())
 method has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[setLastSaved](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#setLastSaved(java.util.Date)) method has
+[setLastSaved](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#setLastSaved(java.util.Date)) method has
 been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[getSaveVersion](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#getSaveVersion())
+[getSaveVersion](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#getSaveVersion())
 method has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[getLastPrinted](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#getLastPrinted())
+[getLastPrinted](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#getLastPrinted())
 method has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[setLastPrinted](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#setLastPrinted(java.util.Date)) method has
+[setLastPrinted](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#setLastPrinted(java.util.Date)) method has
 been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[set(String,String)](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20java.lang.String)) method
+[set(String,String)](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20java.lang.String)) method
 has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[set(String,double)](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20double)) method
+[set(String,double)](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20double)) method
 has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[set(String,boolean)](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20boolean)) method
+[set(String,boolean)](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20boolean)) method
 has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[set(String,Date)](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20java.util.Date)) method
+[set(String,Date)](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20java.util.Date)) method
 has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 The
-[set(String,int)](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20int)) method
+[set(String,int)](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage#set(java.lang.String,%20int)) method
 has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ProjectManagementPackage) class
 
 ##### Use cases
 

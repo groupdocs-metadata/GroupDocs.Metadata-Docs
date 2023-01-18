@@ -40,14 +40,14 @@ packages in JPEG2000 images.
 ##### Public API changes 
 
 The
-[Jpeg2000RootPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/jpeg2000rootpackage)
+[Jpeg2000RootPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/jpeg2000rootpackage)
 class now implements the
-[IExif](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.standards.exif/iexif)
+[IExif](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.standards.exif/iexif)
 interface
 
-The [ExifPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/jpeg2000rootpackage/properties/exifpackage)
+The [ExifPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/jpeg2000rootpackage/properties/exifpackage)
 property has been added to
-the [Jpeg2000RootPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/jpeg2000rootpackage) class
+the [Jpeg2000RootPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/jpeg2000rootpackage) class
 
 ##### Use cases 
 
@@ -92,13 +92,13 @@ This new feature allows the user to work with HEIF/HEIC images.
 
 ##### Public API changes 
 
-The [HeifRootPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/heifrootpackage)
+The [HeifRootPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image/heifrootpackage)
 class has been added to
-the [GroupDocs.Metadata.Formats.Image](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image)
+the [GroupDocs.Metadata.Formats.Image](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.image)
 namespace
 
 The Heif item has been added to the
-[FileFormat](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.common/fileformat)
+[FileFormat](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.common/fileformat)
 enum
 
 ##### Use cases 
@@ -211,59 +211,59 @@ available for reading/updating in MS Project documents.
 ##### Public API changes 
 
 The
-[Manager](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/manager)
+[Manager](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/manager)
 property has been added to the
-[ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
+[ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
 class
 
 The
-[LastSaved](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/lastsaved)
+[LastSaved](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/lastsaved)
 property has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
 class
 
 The
-[SaveVersion](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/saveversion)
+[SaveVersion](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/saveversion)
 property has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
 class
 
 The
-[LastPrinted](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/lastprinted)
+[LastPrinted](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/lastprinted)
 property has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
 class
 
 The
-[Guid](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/guid)
+[Guid](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/properties/guid)
 property has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage)
 class
 
 The
-[Set(string,string)](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document.projectmanagementpackage/set/methods/4)
+[Set(string,string)](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document.projectmanagementpackage/set/methods/4)
 method has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
 
 The
-[Set(string,double)](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document.projectmanagementpackage/set/methods/2)
+[Set(string,double)](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document.projectmanagementpackage/set/methods/2)
 method has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
 
 The
-[Set(string,bool)](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/methods/set)
+[Set(string,bool)](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage/methods/set)
 method has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
 
 The
-[Set(string,DateTime)](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document.projectmanagementpackage/set/methods/1)
+[Set(string,DateTime)](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document.projectmanagementpackage/set/methods/1)
 method has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
 
 The
-[Set(string,int)](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document.projectmanagementpackage/set/methods/3)
+[Set(string,int)](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document.projectmanagementpackage/set/methods/3)
 method has been added to
-the [ProjectManagementPackage](https://apireference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
+the [ProjectManagementPackage](https://reference.groupdocs.com/metadata/net/groupdocs.metadata.formats.document/projectmanagementpackage) class
 
 ##### Use cases
 

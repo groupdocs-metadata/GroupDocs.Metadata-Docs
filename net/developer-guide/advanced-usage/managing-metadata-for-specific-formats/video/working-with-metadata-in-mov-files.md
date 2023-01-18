@@ -16,7 +16,7 @@ The following are the steps to extract QuickTime atoms from a MOV video.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a MOV video
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [MovRootPackage.MovPackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/movrootpackage/properties/movpackage)
+3.  Extract  the native metadata package using [MovRootPackage.MovPackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.video/movrootpackage/properties/movpackage)
 4.  Read the QuickTime atoms
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Video.Mov.MovReadQuickTimeAtoms**

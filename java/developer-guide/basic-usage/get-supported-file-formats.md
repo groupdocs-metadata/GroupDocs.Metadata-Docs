@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Metadata for Java
 hideChildren: False
 ---
-The [getSupportedFileTypes](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileType#getSupportedFileTypes()) method of the [FileType](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileType) class is used to obtain a list of supported file types.
+The [getSupportedFileTypes](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileType#getSupportedFileTypes()) method of the [FileType](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/FileType) class is used to obtain a list of supported file types.
 
 An example of obtaining a list of supported file types is presented below.
 

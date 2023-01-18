@@ -36,12 +36,12 @@ This new feature allows the user to read, update and remove EXIF metadata in PNG
 
 ##### Public API changes
 
-The following methods have been added to the [PngRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PngRootPackage) class
+The following methods have been added to the [PngRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PngRootPackage) class
 
-*   [getExifPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PngRootPackage#getExifPackage())
-*   [setExifPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PngRootPackage#setExifPackage(com.groupdocs.metadata.core.ExifPackage))
+*   [getExifPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PngRootPackage#getExifPackage())
+*   [setExifPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PngRootPackage#setExifPackage(com.groupdocs.metadata.core.ExifPackage))
 
-The [PngRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PngRootPackage) class now implements the [IExif](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IExif) interface
+The [PngRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PngRootPackage) class now implements the [IExif](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IExif) interface
 
 ##### Use cases
 
@@ -85,12 +85,12 @@ This new feature allows the user to read, update and remove XMP metadata in MP3 
 
 ##### Public API changes
 
-The following methods have been added to the [MP3RootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MP3RootPackage) class
+The following methods have been added to the [MP3RootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MP3RootPackage) class
 
-*   [getXmpPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MP3RootPackage#getXmpPackage())
-*   [setXmpPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MP3RootPackage#setXmpPackage(com.groupdocs.metadata.core.XmpPacketWrapper))
+*   [getXmpPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MP3RootPackage#getXmpPackage())
+*   [setXmpPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MP3RootPackage#setXmpPackage(com.groupdocs.metadata.core.XmpPacketWrapper))
 
-The [MP3RootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MP3RootPackage) class now implements the [IXmp](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IXmp) interface
+The [MP3RootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MP3RootPackage) class now implements the [IXmp](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/IXmp) interface
 
 ##### Use cases
 
@@ -140,16 +140,16 @@ This enhancement allows the user to read MakerNote metadata packages stored by v
 
 ##### Public API changes
 
-The [getMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/JpegRootPackage#getMakerNotePackage()) method has been added to the [JpegRootPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/JpegRootPackage) class
+The [getMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/JpegRootPackage#getMakerNotePackage()) method has been added to the [JpegRootPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/JpegRootPackage) class
 
-The following classes have been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/package-frame) package
+The following classes have been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/package-frame) package
 
-*   [CanonCameraSettingsPackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/CanonCameraSettingsPackage)
-*   [CanonMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/CanonMakerNotePackage)
-*   [MakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MakerNotePackage)
-*   [NikonMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/NikonMakerNotePackage)
-*   [PanasonicMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PanasonicMakerNotePackage)
-*   [SonyMakerNotePackage](https://apireference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/SonyMakerNotePackage)
+*   [CanonCameraSettingsPackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/CanonCameraSettingsPackage)
+*   [CanonMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/CanonMakerNotePackage)
+*   [MakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/MakerNotePackage)
+*   [NikonMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/NikonMakerNotePackage)
+*   [PanasonicMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/PanasonicMakerNotePackage)
+*   [SonyMakerNotePackage](https://reference.groupdocs.com/java/metadata/com.groupdocs.metadata.core/SonyMakerNotePackage)
 
 ##### Use cases
 

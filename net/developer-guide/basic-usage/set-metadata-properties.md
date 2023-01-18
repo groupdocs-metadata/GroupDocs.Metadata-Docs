@@ -10,9 +10,9 @@ hideChildren: False
 ---
 ## Update or add metadata properties satisfying a predicate
 
-The [SetProperties](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/setproperties) is used to update or add metadata. You can easily add metadata to photos, pdfs or you can update or add data to mp3 files. This code sample actually combines two operations: add and update. If an existing property satisfies the specified predicate its value is updated. If there is a known property missing in a metadata package that satisfies the predicate it is added to the appropriate package.
+The [SetProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/setproperties) is used to update or add metadata. You can easily add metadata to photos, pdfs or you can update or add data to mp3 files. This code sample actually combines two operations: add and update. If an existing property satisfies the specified predicate its value is updated. If there is a known property missing in a metadata package that satisfies the predicate it is added to the appropriate package.
 
-The code snippet below demonstrates a basic usage scenario of the [SetProperties](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/setproperties) method.
+The code snippet below demonstrates a basic usage scenario of the [SetProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/setproperties) method.
 
 1.  [Open]({{< ref "metadata/net/developer-guide/basic-usage/set-metadata-properties.md" >}}) a file to update
 2.  Specify a predicate that will be used to add/update metadata properties

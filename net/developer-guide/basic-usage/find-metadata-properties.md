@@ -22,7 +22,7 @@ The following steps and C# code sample below show **how to search for specific m
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file to examine.
 2.  Make up a predicate checking that a specific tag is assigned to a property (alternatively you can use a combination of tags)
-3.  Pass the predicate to the [FindProperties](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/findproperties) method
+3.  Pass the predicate to the [FindProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/findproperties) method
 4.  Iterate through the found properties
 
 **BasicUsage.FindMetadataProperties**

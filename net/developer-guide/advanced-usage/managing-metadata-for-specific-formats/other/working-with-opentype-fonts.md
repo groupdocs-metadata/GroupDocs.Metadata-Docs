@@ -20,7 +20,7 @@ The following are the steps to read the header of an OpenType file.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) an OpenType font file
 2.  Get the root metadata package
-3.  Extract  the native metadata package using [OpenTypeRootPackage.OpenTypePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.font/opentyperootpackage/properties/opentypepackage)
+3.  Extract  the native metadata package using [OpenTypeRootPackage.OpenTypePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.font/opentyperootpackage/properties/opentypepackage)
 4.  Read the OpenType font properties
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Font.OpenTypeReadNativeMetadataProperties**
@@ -92,7 +92,7 @@ The code snippet bellow demonstrates how to extract information about digital si
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) an OpenType font file
 2.  Get the root metadata package
-3.  Use the [DigitalSignaturePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.font/opentyperootpackage/properties/digitalsignaturepackage) property to get access to all digital signatures associated with the file
+3.  Use the [DigitalSignaturePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.font/opentyperootpackage/properties/digitalsignaturepackage) property to get access to all digital signatures associated with the file
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Font.OpenTypeReadDigitalSignatureProperties**
 

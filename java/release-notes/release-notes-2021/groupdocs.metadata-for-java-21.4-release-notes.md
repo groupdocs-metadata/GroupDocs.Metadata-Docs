@@ -37,15 +37,15 @@ This new feature allows the user to get a user-friendly interpretation of a meta
 
 ##### Public API changes
 
-The [ValueInterpreter](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ValueInterpreter) class has been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-summary) package
+The [ValueInterpreter](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ValueInterpreter) class has been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-summary) package
 
-The [IEnumValueInterpreter](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IEnumValueInterpreter) interface has been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-summary) package
+The [IEnumValueInterpreter](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/IEnumValueInterpreter) interface has been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-summary) package
 
-The [getInterpretedValue](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataProperty#getInterpretedValue()) method has been added to the [MetadataProperty](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataProperty) class
+The [getInterpretedValue](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataProperty#getInterpretedValue()) method has been added to the [MetadataProperty](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataProperty) class
 
-The [getDescriptor](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataProperty#getDescriptor()) method has been added to the [MetadataProperty](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataProperty) class
+The [getDescriptor](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataProperty#getDescriptor()) method has been added to the [MetadataProperty](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataProperty) class
 
-The [getInterpreter](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PropertyDescriptor#getInterpreter()) method has been added to the [PropertyDescriptor](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PropertyDescriptor) class
+The [getInterpreter](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PropertyDescriptor#getInterpreter()) method has been added to the [PropertyDescriptor](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PropertyDescriptor) class
 
 ##### Use cases 
 
@@ -87,13 +87,13 @@ This improvement allows the user to update some common email fields.
 
 ##### Public API changes
 
-The [setSubject](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage#setSubject(java.lang.String)) method has been added to the [EmailPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage) class
+The [setSubject](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage#setSubject(java.lang.String)) method has been added to the [EmailPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage) class
 
-The [setRecipients](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage#setRecipients(java.lang.String[])) method has been added to the [EmailPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage) class
+The [setRecipients](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage#setRecipients(java.lang.String[])) method has been added to the [EmailPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage) class
 
-The [setCarbonCopyRecipients](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage#setCarbonCopyRecipients(java.lang.String[])) method has been added to the [EmailPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage) class
+The [setCarbonCopyRecipients](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage#setCarbonCopyRecipients(java.lang.String[])) method has been added to the [EmailPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage) class
 
-The [setBlindCarbonCopyRecipients](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage#setBlindCarbonCopyRecipients(java.lang.String[])) method has been added to the [EmailPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage) class
+The [setBlindCarbonCopyRecipients](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage#setBlindCarbonCopyRecipients(java.lang.String[])) method has been added to the [EmailPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/EmailPackage) class
 
 ##### Use cases 
 
@@ -111,4 +111,4 @@ try (Metadata metadata = new Metadata(Constants.InputEml)) {
 
 ### Other API changes
 
-The [getKnowPropertyDescriptors](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#getKnowPropertyDescriptors()) method has been marked as deprecated. Please use the [getPropertyDescriptors](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#getPropertyDescriptors()) method instead.
+The [getKnowPropertyDescriptors](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#getKnowPropertyDescriptors()) method has been marked as deprecated. Please use the [getPropertyDescriptors](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#getPropertyDescriptors()) method instead.

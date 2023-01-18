@@ -30,6 +30,6 @@ There are the following features, enhancements and fixes in this release:
 
 ### Implement the ability to extract content statistics from OneNote documents
 
-The getTrack method has been removed from the [ExifGpsPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage) class (obsolete member)
+The getTrack method has been removed from the [ExifGpsPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage) class (obsolete member)
 
-The setTrack method has been removed from the [ExifGpsPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage) class (obsolete member)
+The setTrack method has been removed from the [ExifGpsPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/ExifGpsPackage) class (obsolete member)

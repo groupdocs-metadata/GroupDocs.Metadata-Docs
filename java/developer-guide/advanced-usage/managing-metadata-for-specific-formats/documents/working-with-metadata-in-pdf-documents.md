@@ -14,7 +14,7 @@ The following sample of code will help you to detect the PDF version a loaded d
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a PDF document
 2.  Extract the root metadata package
-3.  Use the [getPdfType](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PdfRootPackage#getPdfType()) method to obtain file format information
+3.  Use the [getPdfType](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PdfRootPackage#getPdfType()) method to obtain file format information
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>document.pdf.<WBR>PdfReadFileFormatProperties**
 
@@ -31,7 +31,7 @@ try (Metadata metadata = new Metadata(Constants.InputPdf)) {
 
 ## Reading built-in metadata properties
 
-To access built-in metadata of a PDF document, please use the [getDocumentProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
+To access built-in metadata of a PDF document, please use the [getDocumentProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.
 
 The following code snippet extracts built-in metadata properties and displays them on the screen.
 
@@ -69,7 +69,7 @@ try (Metadata metadata = new Metadata(Constants.InputPdf)) {
 }
 ```
 
-As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [findProperties](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#findProperties(com.groupdocs.metadata.search.Specification)) method for a certain metadata package (instance of the [PdfPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PdfPackage) class), the search result will contain only metadata properties that are specific for PDF documents. 
+As you can see the code sample uses the GroupDocs.Metadata search engine to retrieve all properties that are not marked with the BuiltIn tag. Since we call the [findProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MetadataPackage#findProperties(com.groupdocs.metadata.search.Specification)) method for a certain metadata package (instance of the [PdfPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PdfPackage) class), the search result will contain only metadata properties that are specific for PDF documents. 
 
 ## Inspecting PDF documents
 
@@ -77,7 +77,7 @@ The inspection feature that is introduced in this section doesn't work with meta
 
 1.  [Load]({{< ref "metadata/java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a PDF document
 2.  Extract the root metadata package
-3.  Use the [getInspectionPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PdfRootPackage#getInspectionPackage()) method to inspect the document
+3.  Use the [getInspectionPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/PdfRootPackage#getInspectionPackage()) method to inspect the document
 
 **advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>document.pdf.<WBR>PdfReadInspectionProperties**
 

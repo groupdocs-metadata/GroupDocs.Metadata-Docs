@@ -22,7 +22,7 @@ MakerNote metadata refers to image information that is written by digital camera
 Utilizing the GroupDocs.Metadata API the user is able to read all metadata properties regardless of the exact MakerNote format.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a raw image file that contains MakerNote metadata
-2.  Extract the MakerNote package using the [MakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpegrootpackage/properties/makernotepackage) property
+2.  Extract the MakerNote package using the [MakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpegrootpackage/properties/makernotepackage) property
 3.  Iterate through the EXIF tags 
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>Image.Jpeg.MakerNote.MakerNoteReadAllTags**
@@ -42,12 +42,12 @@ using (Metadata metadata = new Metadata(Constants.CanonJpeg))
 }
 ```
 
-To help you with interpreting extracted tags we implemented classes representing specific MakerNote metadata packages. Please cast the return value of the [MakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpegrootpackage/properties/makernotepackage) property to one of the classes listed below to get more format-specific capabilities:
+To help you with interpreting extracted tags we implemented classes representing specific MakerNote metadata packages. Please cast the return value of the [MakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.image/jpegrootpackage/properties/makernotepackage) property to one of the classes listed below to get more format-specific capabilities:
 
-*   [CanonMakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/canonmakernotepackage)
-*   [NikonMakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/nikonmakernotepackage)
-*   [PanasonicMakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/panasonicmakernotepackage)
-*   [SonyMakerNotePackage](https://apireference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/sonymakernotepackage)
+*   [CanonMakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/canonmakernotepackage)
+*   [NikonMakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/nikonmakernotepackage)
+*   [PanasonicMakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/panasonicmakernotepackage)
+*   [SonyMakerNotePackage](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.standards.exif.makernote/sonymakernotepackage)
 
 ### Read Canon MakerNote Properties
 

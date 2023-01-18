@@ -39,7 +39,7 @@ This new feature allows the user to extract content statistics from OneNote docu
 
 ##### Public API changes 
 
-The [getDocumentStatistics](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/NoteRootPackage#getDocumentStatistics()) method has been added to the [NoteRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/NoteRootPackage) class
+The [getDocumentStatistics](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/NoteRootPackage#getDocumentStatistics()) method has been added to the [NoteRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/NoteRootPackage) class
 
 
 ##### Use cases 
@@ -61,11 +61,11 @@ This new feature allows the user to extract INFO chunk metadata properties from 
 
 ##### Public API changes 
 
-The [RiffInfoPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/RiffInfoPackage) class has been added to the [com.groupdocs.metadata.core](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
+The [RiffInfoPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/RiffInfoPackage) class has been added to the [com.groupdocs.metadata.core](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/package-frame) package
 
-The [getRiffInfoPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WavRootPackage#getRiffInfoPackage()) method has been added to the [WavRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WavRootPackage) class
+The [getRiffInfoPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WavRootPackage#getRiffInfoPackage()) method has been added to the [WavRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/WavRootPackage) class
 
-The [getRiffInfoPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/AviRootPackage#getRiffInfoPackage()) method has been added to the [AviRootPackage](https://apireference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/AviRootPackage) class
+The [getRiffInfoPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/AviRootPackage#getRiffInfoPackage()) method has been added to the [AviRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/AviRootPackage) class
 
 
 ##### Use cases 
