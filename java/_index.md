@@ -20,7 +20,7 @@ Following are the links to some useful resources you may need to accomplish your
 *   [GroupDocs.Metadata for Java Limitations]({{< ref "metadata/java/getting-started/evaluation-limitations-and-licensing.md" >}})
 *   [GroupDocs.Metadata for Java Release Notes](https://releases.groupdocs.com/metadata/java/release-notes/)
 *   [GroupDocs.Metadata for Java Product Page](https://products.groupdocs.com/metadata/java)
-*   [[GroupDocs.Metadata for Java Releases](https://releases.groupdocs.com/metadata/java/)
+*   [GroupDocs.Metadata for Java Releases](https://releases.groupdocs.com/metadata/java/)
 *   [GroupDocs.Metadata for Java Maven Repository](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-metadata/)
 *   [GroupDocs.Metadata for Java API Reference Guide](https://reference.groupdocs.com/java/metadata)
 *   [GroupDocs.Metadata for Java Free Support Forum](https://forum.groupdocs.com/c/metadata)
