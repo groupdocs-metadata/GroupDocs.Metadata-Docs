@@ -8,7 +8,7 @@ keywords: Adding metadata, Adding metadata properties
 productName: GroupDocs.Metadata for Node.js via Java
 hideChildren: False
 ---
-Adding metadata properties is the most sophisticated feature of the GroupDocs.Metadata search engine. When you call the [addProperties](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata/Metadata#addProperties(com.groupdocs.metadata.search.Specification,%20com.groupdocs.metadata.core.PropertyValue)) method it examines all available metadata packages and tries to pick up a known property that would satisfy the specified predicate. Note that the property will be added to metadata packages that fit the following criteria: 
+Adding metadata properties is the most sophisticated feature of the GroupDocs.Metadata search engine. When you call the **addProperties** method it examines all available metadata packages and tries to pick up a known property that would satisfy the specified predicate. Note that the property will be added to metadata packages that fit the following criteria: 
 
 1.  Only existing metadata packages will be affected. No new packages are added during this operation
 2.  There should be a known metadata property in the package structure that fits the search condition but is actually missing in the package. All properties supported by a certain package are usually defined in the specification of a particular metadata standard

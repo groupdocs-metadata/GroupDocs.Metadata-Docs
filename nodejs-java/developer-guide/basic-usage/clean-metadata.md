@@ -10,12 +10,12 @@ hideChildren: False
 ---
 ## Remove all recognized metadata properties from a file
 
-Sometimes you may need to just remove all or clean metadata properties without applying any filters. The best way to do this is to use the [sanitize](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata/Metadata#sanitize()) method.
+Sometimes you may need to just remove all or clean metadata properties without applying any filters. The best way to do this is to use the **sanitize** method.
 
 This example demonstrates how to remove all detected metadata packages/properties.
 
 1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/basic-usage/clean-metadata.md" >}}) a file to clean
-2.  Call the [sanitize](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata/Metadata#sanitize()) method
+2.  Call the **sanitize** method
 3.  Check the actual number of removed packages/properties
 4.  [Save]({{< ref "metadata/nodejs-java/developer-guide/basic-usage/clean-metadata.md" >}}) the changes
 

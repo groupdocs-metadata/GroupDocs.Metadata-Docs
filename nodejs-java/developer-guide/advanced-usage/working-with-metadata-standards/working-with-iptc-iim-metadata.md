@@ -15,11 +15,11 @@ The IPTC Information Interchange Model (IIM) is a set of metadata properties tha
 
 ## Reading basic IPTC IIM properties
 
-To access IPTC metadata in a file of any supported format, GroupDocs.Metadata provides the [IIptc.getIptcPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IIptc#getIptcPackage()) method. The following are the steps to read IPTC metadata:
+To access IPTC metadata in a file of any supported format, GroupDocs.Metadata provides the **IIptc.getIptcPackage** method. The following are the steps to read IPTC metadata:
 
 1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains IPTC metadata
-2.  Extract the IPTC metadata package using the [IIptc.getIptcPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IIptc#getIptcPackage()) method
-3.  Read properties of the [IptcApplicationRecord](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IptcApplicationRecord) and [IptcEnvelopeRecord](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IptcEnvelopeRecord) class instances
+2.  Extract the IPTC metadata package using the **IIptc.getIptcPackage** method
+3.  Read properties of the **IptcApplicationRecord** class instances
 
 The following code snippet gets IPTC properties of a JPEG image and displays them on the screen. 
 
@@ -52,7 +52,7 @@ const metadata = new groupdocs.metadata.Metadata(Constants.JpegWithIptc);
 
 ## Removing IPTC IIM metadata
 
-To remove the IPTC package from a file just pass null to the [IIptc.setIptcPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IIptc#setIptcPackage(com.groupdocs.metadata.core.IptcRecordSet)) method as a parameter. The code sample below shows how to remove IPTC metadata from a file.
+To remove the IPTC package from a file just pass null to the **IIptc.setIptcPackage** method as a parameter. The code sample below shows how to remove IPTC metadata from a file.
 
 **advanced\_usage.working\_with\_metadata\_standards.iptc.RemoveIptcMetadata**
 

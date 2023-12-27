@@ -16,10 +16,10 @@ The Extensible Metadata Platform (XMP) is an XML-based ISO metadata standard, or
 
 ## Reading XMP properties
 
-To access XMP metadata in a file of any supported format, GroupDocs.Metadata provides the [IXmp.getXmpPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IXmp#getXmpPackage()) method. The following are the steps to read XMP metadata:
+To access XMP metadata in a file of any supported format, GroupDocs.Metadata provides the **IXmp.getXmpPackage** method. The following are the steps to read XMP metadata:
 
 1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains XMP metadata
-2.  Extract the XMP metadata package using the [IXmp.getXmpPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IXmp#getXmpPackage()) method
+2.  Extract the XMP metadata package using the **IXmp.getXmpPackage** method
 
 The following code snippet gets XMP properties of a PNG image and displays them on the screen. 
 
@@ -52,25 +52,25 @@ const metadata = new groupdocs.metadata.Metadata(Constants.PngWithXmp);
 
 Here is a full list of supported XMP schemes:
 
-*   [XmpBasicJobTicketPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpBasicJobTicketPackage)
-*   [XmpBasicPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpBasicPackage)
-*   [XmpCameraRawPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpCameraRawPackage)
-*   [XmpDublinCorePackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpDublinCorePackage)
-*   [XmpDynamicMediaPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpDynamicMediaPackage)
-*   [XmpIptcCorePackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpIptcCorePackage)
-*   [XmpIptcExtensionPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpIptcExtensionPackage)
-*   [XmpIptcIimPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpIptcIimPackage)
-*   [XmpMediaManagementPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpMediaManagementPackage)
-*   [XmpPagedTextPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpPagedTextPackage)
-*   [XmpPdfPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpPdfPackage)
-*   [XmpPhotoshopPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpPhotoshopPackage)
-*   [XmpRightsManagementPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/XmpRightsManagementPackage)
+*   __mpBasicJobTicketPackage__
+*   __mpBasicPackage__
+*   __mpCameraRawPackage__
+*   __mpDublinCorePackage__
+*   __mpDynamicMediaPackage__
+*   __mpIptcCorePackage__
+*   __mpIptcExtensionPackage__
+*   __mpIptcIimPackage__
+*   __mpMediaManagementPackage__
+*   __mpPagedTextPackage__
+*   __mpPdfPackage__
+*   __mpPhotoshopPackage__
+*   __mpRightsManagementPackage__
 
 {{< alert style="info" >}}GroupDocs.Metadata also provides an API allowing users to work with fully custom XMP schemes/packages. Please refer to this code snippet to learn more.{{< /alert >}}
 
 ## Removing XMP metadata
 
-To remove the XMP package from a file just pass null to the [IXmp.setXmpPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IXmp#setXmpPackage(com.groupdocs.metadata.core.XmpPacketWrapper)) method as a parameter. The code sample below shows how to remove XMP metadata from a file.
+To remove the XMP package from a file just pass null to the **IXmp.setXmpPackage** method as a parameter. The code sample below shows how to remove XMP metadata from a file.
 
 **advanced\_usage.working\_with\_metadata\_standards.xmp.AddCustomXmpPackage**
 

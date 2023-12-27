@@ -11,7 +11,7 @@ hideChildren: False
 This code snippet demonstrates how to extract information about known properties that can be encountered in a particular package.
 
 1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file to examine
-2.  Get a collection of [PropertyDescriptor](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/PropertyDescriptor) instances for any desired metadata package
+2.  Get a collection of **PropertyDescriptor** instances for any desired metadata package
 3.  Iterate through the extracted descriptors
 
 **advanced\_usage.GettingKnownPropertyDescriptors**
@@ -40,7 +40,7 @@ const metadata = new groupdocs.metadata.Metadata("input.doc");
 {{< /tabs >}}
 
 {{< alert style="info" >}}
-Not all possible properties are presented in the [getKnowPropertyDescriptors](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/MetadataPackage#getKnowPropertyDescriptors()) collection. The library provides information on the most frequently used properties only. If there is no descriptor for some property it is still accessible through the GroupDocs.Metadata search engine in read-only mode.
+Not all possible properties are presented in the **getKnowPropertyDescriptors** collection. The library provides information on the most frequently used properties only. If there is no descriptor for some property it is still accessible through the GroupDocs.Metadata search engine in read-only mode.
 {{< /alert >}}
 
 ## More resources

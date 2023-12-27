@@ -18,10 +18,10 @@ Please refer to the [following article](https://en.wikipedia.org/wiki/Exif) to
 
 ## Reading basic EXIF properties
 
-To access EXIF metadata in a file of any supported format, GroupDocs.Metadata provides the [IExif.getExifPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IExif#getExifPackage()) method. The following are the steps to read EXIF metadata:
+To access EXIF metadata in a file of any supported format, GroupDocs.Metadata provides the **IExif.getExifPackage** method. The following are the steps to read EXIF metadata:
 
 1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the [IExif.getExifPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IExif#getExifPackage()) method
+2.  Extract the EXIF metadata package using the **IExif.getExifPackage** method
 
 The following code snippet gets EXIF properties of a TIFF image and displays them on the screen. 
 
@@ -53,22 +53,22 @@ const metadata = new groupdocs.metadata.Metadata(Constants.TiffWithExif);
 
 Here is a full list of tags that can be added to an EXIF package:
 
-*   [TiffAsciiTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffAsciiTag)
-*   [TiffByteTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffByteTag)
-*   [TiffDoubleTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffDoubleTag)
-*   [TiffFloatTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffFloatTag)
-*   [TiffLongTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffLongTag)
-*   [TiffRationalTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffRationalTag)
-*   [TiffSByteTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffSByteTag)
-*   [TiffShortTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffShortTag)
-*   [TiffSLongTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffSLongTag)
-*   [TiffSRationalTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffSRationalTag)
-*   [TiffSShortTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffSShortTag)
-*   [TiffUndefinedTag](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/TiffUndefinedTag)
+*   __TiffAsciiTag__
+*   __TiffByteTag__
+*   __TiffDoubleTag__
+*   __TiffFloatTag__
+*   __TiffLongTag__
+*   __TiffRationalTag__
+*   __TiffSByteTag__
+*   __TiffShortTag__
+*   __TiffSLongTag__
+*   __TiffSRationalTag__
+*   __TiffSShortTag__
+*   __TiffUndefinedTag__
 
 ## Removing EXIF metadata
 
-To remove the EXIF package from a file just pass null to the [IExif.setExifPackage](https://reference.groupdocs.com/metadata/nodejs-java/com.groupdocs.metadata.core/IExif#setExifPackage(com.groupdocs.metadata.core.ExifPackage)) method. The code sample below shows how to remove EXIF metadata from a file.
+To remove the EXIF package from a file just pass null to the **IExif.setExifPackage** method. The code sample below shows how to remove EXIF metadata from a file.
 
 **advanced\_usage.working\_with\_metadata\_standards.exif.RemoveExifMetadata**
 
