@@ -14,10 +14,10 @@ The easiest way to remove metadata properties from a file is to use correspondin
 
 The following example demonstrates how to remove specific metadata properties using a combination of criteria.
 
-1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/basic-usage/remove-metadata-properties.md" >}}) a file to update
+1.  **Load** a file to update
 2.  Use a specification to find and remove any desired metadata properties
 3.  Check the number of properties that were actually removed (please see the return value of the **removeProperties** method)
-4.  [Save]({{< ref "metadata/nodejs-java/developer-guide/basic-usage/remove-metadata-properties.md" >}}) the changes
+4.  **Save** the changes
 
 **basic\_usage.RemoveMetadataProperties**
 

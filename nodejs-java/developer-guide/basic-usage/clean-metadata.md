@@ -14,10 +14,10 @@ Sometimes you may need to just remove all or clean metadata properties without a
 
 This example demonstrates how to remove all detected metadata packages/properties.
 
-1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/basic-usage/clean-metadata.md" >}}) a file to clean
+1.  **Load** a file to clean
 2.  Call the **sanitize** method
 3.  Check the actual number of removed packages/properties
-4.  [Save]({{< ref "metadata/nodejs-java/developer-guide/basic-usage/clean-metadata.md" >}}) the changes
+4.  **Save** the changes
 
 **basic\_usage.CleanMetadata**
 

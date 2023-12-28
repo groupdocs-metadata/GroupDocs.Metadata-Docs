@@ -20,7 +20,7 @@ Please refer to the [following article](https://en.wikipedia.org/wiki/Exif) to
 
 To access EXIF metadata in a file of any supported format, GroupDocs.Metadata provides the **IExif.getExifPackage** method. The following are the steps to read EXIF metadata:
 
-1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
+1.   **Load** a file that contains EXIF metadata
 2.  Extract the EXIF metadata package using the **IExif.getExifPackage** method
 
 The following code snippet gets EXIF properties of a TIFF image and displays them on the screen. 

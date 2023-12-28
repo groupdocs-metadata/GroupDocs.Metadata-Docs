@@ -14,11 +14,11 @@ The **setProperties** method used in this code sample actually combines two op
 
 The code snippet below demonstrates a basic usage scenario of the **setProperties** method.
 
-1.  [Open]({{< ref "metadata/nodejs-java/developer-guide/basic-usage/set-metadata-properties.md" >}}) a file to update
+1.  **Open** a file to update
 2.  Specify a predicate that will be used to add/update metadata properties
 3.  Specify a value you would like to add to existing metadata packages in the file
 4.  Check the actual number of added/updated properties
-5.  [Save]({{< ref "metadata/nodejs-java/developer-guide/basic-usage/set-metadata-properties.md" >}}) the changes
+5.  **Save** the changes
 
 **basic\_usage.SetMetadataProperties**
 

@@ -17,7 +17,7 @@ The IPTC Information Interchange Model (IIM) is a set of metadata properties tha
 
 To access IPTC metadata in a file of any supported format, GroupDocs.Metadata provides the **IIptc.getIptcPackage** method. The following are the steps to read IPTC metadata:
 
-1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains IPTC metadata
+1.  **Load** a file that contains IPTC metadata
 2.  Extract the IPTC metadata package using the **IIptc.getIptcPackage** method
 3.  Read properties of the **IptcApplicationRecord** class instances
 

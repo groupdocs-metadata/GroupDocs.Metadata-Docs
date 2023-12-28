@@ -18,7 +18,7 @@ The Extensible Metadata Platform (XMP) is an XML-based ISO metadata standard, or
 
 To access XMP metadata in a file of any supported format, GroupDocs.Metadata provides the **IXmp.getXmpPackage** method. The following are the steps to read XMP metadata:
 
-1.  [Load]({{< ref "metadata/nodejs-java/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains XMP metadata
+1.  **Load** a file that contains XMP metadata
 2.  Extract the XMP metadata package using the **IXmp.getXmpPackage** method
 
 The following code snippet gets XMP properties of a PNG image and displays them on the screen. 
