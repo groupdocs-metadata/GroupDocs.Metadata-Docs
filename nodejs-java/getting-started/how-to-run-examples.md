@@ -1,6 +1,6 @@
 ---
-id: how-to-run
-url: metadata/nodejs-java/how-to-run
+id: how-to-run-examples
+url: metadata/nodejs-java/how-to-run-examples
 title: How to Run
 weight: 6
 description: "How to run examples."
