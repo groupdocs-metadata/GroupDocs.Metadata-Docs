@@ -25,7 +25,7 @@ The following steps and C# code sample below show **how to extract metadata prop
 3.  Pass the predicate to the [FindProperties](https://reference.groupdocs.com/net/metadata/groupdocs.metadata/metadata/methods/findproperties) method
 4.  Iterate through the found properties
 
-**AdvancedUsage.ExtractingMetadata**
+### Extracting Metadata Properties By Tag
 
 ```csharp
 foreach (string file in Directory.GetFiles(Constants.InputPath))
@@ -34,9 +34,6 @@ foreach (string file in Directory.GetFiles(Constants.InputPath))
 	{
 		if (metadata.FileFormat != FileFormat.Unknown && !metadata.GetDocumentInfo().IsEncrypted)
 		{
-			Console.WriteLine();
-			Console.WriteLine(file);
-
 			// Fetch all metadata properties that fall into a particular category
 			var properties = metadata.FindProperties(p => p.Tags.Any(t => t.Category == Tags.Content));
 			Console.WriteLine("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
@@ -44,7 +41,20 @@ foreach (string file in Directory.GetFiles(Constants.InputPath))
 			{
 				Console.WriteLine("{0} = {1}", property.Name, property.Value);
 			}
+		}
+	}
+}
+```
 
+### Extracting Metadata Properties By Type And Value
+
+```csharp
+foreach (string file in Directory.GetFiles(Constants.InputPath))
+{
+	using (Metadata metadata = new Metadata(file))
+	{
+		if (metadata.FileFormat != FileFormat.Unknown && !metadata.GetDocumentInfo().IsEncrypted)
+		{
 			// Fetch all properties having a specific type and value
 			var year = DateTime.Today.Year;
 			properties = metadata.FindProperties(p => p.Value.Type == MetadataPropertyType.DateTime &&
@@ -54,7 +64,20 @@ foreach (string file in Directory.GetFiles(Constants.InputPath))
 			{
 				Console.WriteLine("{0} = {1}", property.Name, property.Value);
 			}
+		}
+	}
+}
+```
 
+### Extracting Metadata Properties By Specified Regex Expression
+
+```csharp
+foreach (string file in Directory.GetFiles(Constants.InputPath))
+{
+	using (Metadata metadata = new Metadata(file))
+	{
+		if (metadata.FileFormat != FileFormat.Unknown && !metadata.GetDocumentInfo().IsEncrypted)
+		{
 			// Fetch all properties whose names match the specified regex
 			const string pattern = "^author|company|(.+date.*)$";
 			Regex regex = new Regex(pattern, RegexOptions.IgnoreCase);

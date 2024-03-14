@@ -12,7 +12,7 @@ hideChildren: False
 
 Lyrics3 Tag is a chunk of data which begins with "LYRICSBEGIN", ends with "LYRICSEND" and has the lyrics between these keywords. This data block is then saved in the audio file between the audio and the ID3 tag. If no ID3 tag is present one must be attached.
 
-{{< alert style="info" >}}For more information, please visit: http://id3.org/Lyrics3{{< /alert >}}
+{{< alert style="info" >}}For more information, please visit: http://id3.org/Lyrics3 {{< /alert >}}
 
 ## Reading a Lyrics tag
 
@@ -20,7 +20,7 @@ The GroupDocs.Metadata API allows reading the Lyrics3 tag in an MP3 file.
 
 1.  [Load]({{< ref "metadata/net/developer-guide/advanced-usage/loading-files/_index.md" >}}) an MP3 file
 2.  Extract the root metadata package
-3.  Get the Lyrics tag by using the [MP3RootPackage.Lyrics3V2](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.audio/mp3rootpackage/properties/lyrics3v2)property
+3.  Get the Lyrics tag by using the [MP3RootPackage.Lyrics3V2](https://reference.groupdocs.com/net/metadata/groupdocs.metadata.formats.audio/mp3rootpackage/properties/lyrics3v2) property
 4.  If the Lyrics tag is not null then check for all of its properties
 
 The following code snippet reads the Lyrics tag from an MP3 file.

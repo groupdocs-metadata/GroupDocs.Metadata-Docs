@@ -16,13 +16,9 @@ In case you download the ZIP file, extract the folders on your local disk. The e
 
 ![](/metadata/net/images/how-to-run-examples.png)
 
-In extracted files and folders, you can find solution file:
-
-*   CSharp solution file
-
 This project is created in **Microsoft Visual Studio 2017**. The **SampleFiles** folder contains all the sample document and image files used in the examples.
 
-To run the examples, open solution file in Visual Studio and build the project. All the functions are called from **RunExamples.cs** . Uncomment the function you want to run and comment out the rest.
+To run the examples, open solution file in Visual Studio and build the project. All the functions are called from **RunExamples.cs** . Uncomment the function you want to run.
 
 ![](/metadata/net/images/how-to-run-examples_1.png)
 

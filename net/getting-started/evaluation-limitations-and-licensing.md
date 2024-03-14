@@ -18,8 +18,8 @@ You can easily download GroupDocs.Metadata for evaluation. The evaluation downlo
 | --- | --- |
 | Document properties (Pdf, Word, Excel, PowerPoint, Visio, etc) | Only first 5 properties can be read |
 | XMP API | Only first 2 XMP schemes can be read |
-| EXIF API | GPS IFD and image thumbnail are unavailable  
-Only first 5 properties can be read |
+| EXIF API | GPS IFD and image thumbnail are unavailable |
+| EXIF API | Only first 5 properties can be read |
 | IPTC API | Only first 5 properties can be read |
 | Id3v2, Lyrics3, APEv2 tags | Only first 5 properties can be read |
 | QuickTime atoms | Only first 5 atoms can be read |

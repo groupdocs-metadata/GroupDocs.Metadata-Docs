@@ -11,6 +11,8 @@ hideChildren: False
 ## Installing GroupDocs.Metadata for .NET through NuGet
 
 NuGet is the easiest way to download and install GroupDocs.Metadata for .NET. Following are the couple of ways to install GroupDocs.Metadata for .NET in your project using NuGet.
+To install, you can use any of the commands suitable for your environment [NugetInstall](https://www.nuget.org/packages/GroupDocs.Metadata).
+Below are examples of how to install when using Visual Studio.
 
 ### Using Package Manager GUI
 
