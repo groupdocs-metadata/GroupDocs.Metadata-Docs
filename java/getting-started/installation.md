@@ -34,30 +34,99 @@ GroupDocs hosts all Java APIs on [GroupDocs Artifactory](https://releases.group
 
 ### Specify GroupDocs repository configuration
 
-First, you need to specify GroupDocs repository configuration/location in your Maven `pom.xml` as follows:
+First, you need to specify repository configuration/location in your project as follows:
 
-```csharp
+{{< tabs "example1">}}
+{{< tab "Maven" >}}
+```xml
 <repositories>
 	<repository>
-		<id>GroupDocsJavaAPI</id>
-		<name>GroupDocs Java API</name>
-		<url>https://releases.groupdocs.com/java/repo/</url>
+		<id>GroupDocs Artifact Repository</id>
+        	<name>GroupDocs Artifact Repository</name>
+        	<url>https://releases.groupdocs.com/java/repo/</url>
 	</repository>
 </repositories>
 ```
+{{< /tab >}}
+{{< tab "Gradle" >}}
+```xml
+repositories {
+    maven {
+        url "https://repository.groupdocs.com/repo/"
+    }
+}
+```
+{{< /tab >}}
+{{< tab "Kotlin" >}}
+```xml
+repositories {
+    maven(url = "https://repository.groupdocs.com/repo/")
+}
+```
+{{< /tab >}}
+{{< tab "Ivy" >}}
+```xml
+<ivysettings>
+    <settings defaultResolver="chain"/>
+    <resolvers>
+        <chain name="chain">
+            <ibiblio name="GroupDocs Repository" m2compatible="true" root="https://releases.groupdocs.com/java/repo/"/>
+        </chain>
+    </resolvers>
+</ivysettings>
+```
+{{< /tab >}}
+{{< tab "Sbt" >}}
+```xml
+resolvers += Resolver.url("GroupDocs Repository", url("https://releases.groupdocs.com/java/repo/"))
+```
+{{< /tab >}}
+{{< /tabs >}}
 
-### Define GroupDocs.Metadata for Java API dependency
+### Add GroupDocs.Metadata for Java as a dependency
 
 Then define GroupDocs.Metadata for Java API dependency in your pom.xml as follows:
 
-```csharp
+{{< tabs "example2">}}
+{{< tab "Maven" >}}
+```xml
 <dependencies>
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-metadata</artifactId>
-        <version>20.2</version>
+        <version>24.5</version>
     </dependency>
 </dependencies>
 ```
+{{< /tab >}}
+{{< tab "Gradle" >}}
+```xml
+dependencies {
+    implementation 'com.groupdocs:groupdocs-metadata:24.5'
+}
+```
+{{< /tab >}}
+{{< tab "Kotlin" >}}
+```xml
+dependencies {
+    implementation("com.groupdocs:groupdocs-metadata:24.5")
+}
+```
+{{< /tab >}}
+{{< tab "Ivy" >}}
+```xml
+<dependency org="com.groupdocs" name="groupdocs-metadata" rev="24.5">
+   <artifact name="groupdocs-metadata" ext="jar"/>
+</dependency>
+```
+{{< /tab >}}
+{{< tab "Sbt" >}}
+```xml
+libraryDependencies += "com.groupdocs" % "groupdocs-metadata" % "24.5"
+```
+{{< /tab >}}
+{{< /tabs >}}
 
 After performing above-mentioned steps, the GroupDocs.Metadata for Java dependency will finally be added to your Maven project.
+
+_The latest version of Metadata API can be [found here](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-metadata/) _

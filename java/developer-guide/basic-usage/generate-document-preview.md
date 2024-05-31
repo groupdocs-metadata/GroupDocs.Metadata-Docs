@@ -19,12 +19,12 @@ Here are the steps to generate a document preview for a particular page:
 
 **basic\_usage.GenerateFilePreview**
 
-```csharp
+```java
 public class GenerateFilePreview {
     public static void run() {
         try (Metadata metadata = new Metadata(Constants.InputDocx)) {
             PreviewOptions previewOptions = new PreviewOptions(new GenerateFilePreview().new CreatePageStream());
-            previewOptions.setPreviewFormat(PreviewOptions.PreviewFormats.PNG);
+            previewOptions.setPreviewFormat(PreviewFormats.PNG);
             previewOptions.setPageNumbers(new int[]{1});
             metadata.generatePreview(previewOptions);
         }
