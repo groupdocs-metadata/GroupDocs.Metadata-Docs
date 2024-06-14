@@ -185,8 +185,8 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                     <div>Document rendering</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
-                    <li> <a href='{{< ref "/metadata/python-net/developer-guide/basic-usage" >}}'>Basic Usage</a></li>
-                    <li> <a href='{{< ref "/metadata/python-net/developer-guide/advanced-usage" >}}'>Advanced Usage</a></li>
+                    <li> <a href='{{< ref '/metadata/python-net/developer-guide/basic-usage" >}}'>Basic Usage</a></li>
+                    <li> <a href='{{< ref '/metadata/python-net/developer-guide/advanced-usage" >}}'>Advanced Usage</a></li>
                     </ul>
                     </div>
             <div class="gdoc-platform__col">
