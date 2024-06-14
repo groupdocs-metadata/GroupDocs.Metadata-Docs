@@ -51,8 +51,8 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                     <div>Developer guide</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/net/developer-guide/basic-usage'>Basic Usage</a></li>
-                    <li> <a href='/metadata/net/developer-guide/advanced-usage'>Advanced Usage</a></li>
+                    <li> <a href='/metadata/net/basic-usage'>Basic Usage</a></li>
+                    <li> <a href='/metadata/net/advanced-usage'>Advanced Usage</a></li>
                     </ul>
                     </div>
             <div class="gdoc-platform__col">
@@ -86,9 +86,9 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                 <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
                 <ul class="gdoc-platform__col-links">
                 <li> <a href='/metadata/java/features-overview/'>Features overview</a></li>
-                            <li> <a href='/metadata/java/supported-document-formats/'>Supported document formats</a></li>
-                            <li> <a href='/metadata/java/system-requirements/'>System requirements</a></li>
-                            <li> <a href='/metadata/java/installation/'>Installation</a></li>
+                <li> <a href='/metadata/java/supported-document-formats/'>Supported document formats</a></li>
+                <li> <a href='/metadata/java/system-requirements/'>System requirements</a></li>
+                <li> <a href='/metadata/java/installation/'>Installation</a></li>
                 </ul>
             </div>
             <div class="gdoc-platform__col">
@@ -97,8 +97,8 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                     <div>Developer guide</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/java/developer-guide/basic-usage'>Basic Usage</a></li>
-                    <li> <a href='/metadata/java/developer-guide/advanced-usage'>Advanced Usage</a></li>
+                    <li> <a href='/metadata/java/basic-usage'>Basic Usage</a></li>
+                    <li> <a href='/metadata/java/advanced-usage'>Advanced Usage</a></li>
                     </ul>
                     </div>
             <div class="gdoc-platform__col">
@@ -130,9 +130,9 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                 <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
                 <ul class="gdoc-platform__col-links">
                 <li> <a href='/metadata/nodejs-java/features-overview/'>Features overview</a></li>
-                            <li> <a href='/metadata/nodejs-java/supported-document-formats/'>Supported document formats</a></li>
-                            <li> <a href='/metadata/nodejs-java/system-requirements/'>System requirements</a></li>
-                            <li> <a href='/metadata/nodejs-java/installation/'>Installation</a></li>
+                <li> <a href='/metadata/nodejs-java/supported-document-formats/'>Supported document formats</a></li>
+                <li> <a href='/metadata/nodejs-java/system-requirements/'>System requirements</a></li>
+                <li> <a href='/metadata/nodejs-java/installation/'>Installation</a></li>
                 </ul>
             </div>
             <div class="gdoc-platform__col">
@@ -141,8 +141,8 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                     <div>Developer guide</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/nodejs-java/developer-guide/basic-usage'>Basic Usage</a></li>
-                    <li> <a href='/metadata/nodejs-java/developer-guide/advanced-usage'>Advanced Usage</a></li>
+                    <li> <a href='/metadata/nodejs-java/basic-usage'>Basic Usage</a></li>
+                    <li> <a href='/metadata/nodejs-java/advanced-usage'>Advanced Usage</a></li>
                     </ul>
                     </div>
             <div class="gdoc-platform__col">
@@ -173,10 +173,10 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                 <div>Getting Started</div></div>
                 <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
                 <ul class="gdoc-platform__col-links">
-                <li> <a href='/metadata/python-net/features-overview/'>Features  Overview</a></li>
-                            <li> <a href='/metadata/python-net/supported-document-formats/'>Supported Document Formats</a></li>
-                            <li> <a href='/metadata/python-net/system-requirements/'>System Requirements</a></li>
-                            <li> <a href='/metadata/python-net/installation/'>Installation</a></li>
+                <li> <a href='/metadata/python-net/features-overview/'>Features Overview</a></li>
+                <li> <a href='/metadata/python-net/supported-document-formats/'>Supported Document Formats</a></li>
+                <li> <a href='/metadata/python-net/system-requirements/'>System Requirements</a></li>
+                <li> <a href='/metadata/python-net/installation/'>Installation</a></li>
                 </ul>
             </div>
             <div class="gdoc-platform__col">
@@ -185,8 +185,8 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                     <div>Developer guide</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/python-net/developer-guide/basic-usage'>Basic Usage</a></li>
-                    <li> <a href='/metadata/python-net/developer-guide/advanced-usage'>Advanced Usage</a></li>
+                    <li> <a href='/metadata/python-net/basic-usage'>Basic Usage</a></li>
+                    <li> <a href='/metadata/python-net/advanced-usage'>Advanced Usage</a></li>
                     </ul>
                     </div>
             <div class="gdoc-platform__col">
