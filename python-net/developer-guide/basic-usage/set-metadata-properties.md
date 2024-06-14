@@ -42,7 +42,6 @@ For more information on supported features of the GroupDocs.Metadata search engi
 
 *   [Extracting metadata]({{< ref "metadata/python-net/developer-guide/advanced-usage/extracting-metadata.md" >}})
 *   [Removing metadata]({{< ref "metadata/python-net/developer-guide/advanced-usage/removing-metadata.md" >}})
-*   [Updating metadata]({{< ref "metadata/python-net/developer-guide/advanced-usage/updating-metadata.md" >}})
 *   [Adding metadata]({{< ref "metadata/python-net/developer-guide/advanced-usage/adding-metadata.md" >}})
 
 ## More resources
