@@ -48,6 +48,7 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
             <div class="gdoc-platform__col">
                     <div class="gdoc-platform__col-title">
                     <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
+                    <div>Developer guide</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
                     <li> <a href='/metadata/net/developer-guide/basic-usage'>Basic Usage</a></li>
@@ -93,6 +94,7 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
             <div class="gdoc-platform__col">
                     <div class="gdoc-platform__col-title">
                     <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
+                    <div>Developer guide</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
                     <li> <a href='/metadata/java/developer-guide/basic-usage'>Basic Usage</a></li>
@@ -136,6 +138,7 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
             <div class="gdoc-platform__col">
                     <div class="gdoc-platform__col-title">
                     <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
+                    <div>Developer guide</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
                     <li> <a href='/metadata/nodejs-java/developer-guide/basic-usage'>Basic Usage</a></li>
@@ -179,6 +182,7 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
             <div class="gdoc-platform__col">
                     <div class="gdoc-platform__col-title">
                     <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
+                    <div>Developer guide</div></div>
                     <div class="gdoc-platform__col-descr">Developer guide</div>
                     <ul class="gdoc-platform__col-links">
                     <li> <a href='/metadata/python-net/developer-guide/basic-usage'>Basic Usage</a></li>
