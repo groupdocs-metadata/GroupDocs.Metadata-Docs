@@ -1,6 +1,6 @@
 ---
 id: basic-usage
-url: metadata/python-net/developer-guide/basic-usage
+url: metadata/python-net/basic-usage
 title: Basic Usage
 weight: 1
 description: ""
