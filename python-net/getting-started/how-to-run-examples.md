@@ -16,11 +16,16 @@ The complete project [GroupDocs.Metadata Examples](https://github.com/groupdocs-
 
 To get started make sure that [Python](https://www.python.org/) is installed.
 
-1. Clone repository with examples `git clone https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET.git`
-2. Navigate to the examples folder `cd ./GroupDocs.Metadata-for-Python-via-.NET/`
-3. Install the necessary packages with the `pip install groupdocs-metadata-net` command.
-4. Navigate to the examples folder `cd ./Examples`
-5. Run the examples with the `python run_examples.py` command.
+1. Clone repository with GroupDocs.Metadata examples\
+`git clone https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET.git`
+2. Navigate to the examples folder\
+`cd ./GroupDocs.Metadata-for-Python-via-.NET/`
+3. Install the necessary packages\
+`pip install groupdocs-metadata-net`
+4. Navigate to the examples folder\
+`cd ./Examples`
+5. Run the examples\
+`python run_examples.py`
 
 To check what examples are available open `Examples/run_examples.py` file using your favorite text editor.
 
@@ -29,7 +34,7 @@ To run the examples in full featured mode, please set a valid license file path 
 ```python
 license_path = "С:\resources\Licenses\GroupDocs.Metadata.lic"
 ```
-In case you don't have a license yet, feel free to [request a temp license](https://purchase.groupdocs.com/temporary-license) to evaluate GroupDocs.Metadata in full featured mode.
+In case you don't have a license yet, feel free to [**get a temp license**](https://purchase.groupdocs.com/temporary-license) to evaluate GroupDocs.Metadata in full featured mode.
 
 
 ## Contribute
