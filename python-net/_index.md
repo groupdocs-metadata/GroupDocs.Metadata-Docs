@@ -64,7 +64,7 @@ GroupDocs.Metadata supports over [170 popular file formats](/metadata/python-net
 <hr><p>DEMOS AND EXAMPLES</p></hr>
 <ul>
    <li><a href="https://products.groupdocs.app/metadata/total">Work with metadata online</a></li>
-    <li><a href="https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java">Download examples and demos from GitHub</a></li>
+    <li><a href="https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET">Download examples and demos from GitHub</a></li>
 	<li><a href='{{< ref "/metadata/python-net/getting-started/how-to-run-examples.md" >}}'>How to run examples</a></li>
 </ul>
 
