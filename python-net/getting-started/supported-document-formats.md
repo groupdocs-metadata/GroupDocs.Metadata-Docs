@@ -87,3 +87,11 @@ The following table contains a full list of file formats that are currently supp
 | [XLSX](https://docs.fileformat.com/spreadsheet/xlsx/) | OOXML 2007-2010 | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
 | [XLTM](https://docs.fileformat.com/spreadsheet/xltm/) | OOXML Macro Enabled Workbook Template | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) |   |
 | [ZIP](https://docs.fileformat.com/compression/zip/) | Archive File Format | ![(tick)](/metadata/net/images/check.png) | ![(tick)](/metadata/net/images/check.png) | Supported since version 6.3.4 |
+
+{{< alert style="tip" >}}
+
+**Can’t find your file format?**
+
+We’re here to help! Please post a request on our [Free Support Forum](https://forum.groupdocs.com/c/metadata/14), and our team will assist you.
+
+{{< /alert >}}
