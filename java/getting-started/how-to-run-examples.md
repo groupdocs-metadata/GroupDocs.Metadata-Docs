@@ -1,6 +1,6 @@
 ---
-id: how-to-run
-url: metadata/java/how-to-run
+id: how-to-run-examples
+url: metadata/java/how-to-run-examples
 title: How to Run
 weight: 5
 description: ""

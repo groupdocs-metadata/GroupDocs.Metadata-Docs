@@ -10,7 +10,7 @@ productName: GroupDocs.Metadata for Node.js via Java
 hideChildren: True
 fullWidth: True
 ---
-<img src="/metadata/java/images/home.png" alt="groupdocs-metaddata-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/metadata/nodejs-java/images/home.png" alt="groupdocs-metaddata-nodejs-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 <dt class="flex flex-wrap align-center gdoc-props__meta">
     <a href='https://www.npmjs.com/package/@groupdocs/groupdocs.metadata/v/23.12.0'>
