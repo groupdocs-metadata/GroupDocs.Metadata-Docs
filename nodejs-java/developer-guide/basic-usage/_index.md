@@ -1,6 +1,6 @@
 ---
 id: basic-usage
-url: metadata/node-jsjava/basic-usage
+url: metadata/nodejs-java/basic-usage
 title: Basic Usage
 weight: 1
 description: ""
