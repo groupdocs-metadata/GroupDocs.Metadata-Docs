@@ -29,7 +29,8 @@ GroupDocs.Metadata supports over [170 popular file formats](/metadata/java/suppo
 <p>GET STARTED</p>
 <ul>
     <li><a href='{{< ref "/metadata/java/getting-started/system-requirements.md" >}}'>System requirements</a></li>
-    <li><a href='{{< ref "/metadata/java/getting-started/installation.md" >}}'>Installation</a></li>
+    <li><a href='{{< ref "/metadata/java/getting-started/installation.md" >}}'>Installation (build tools)</a></li>
+    <li><a href='{{< ref "/metadata/java/getting-started/installation-manual.md" >}}'>Installation (manual)</a></li>
     <li><a href='{{< ref "/metadata/java/getting-started/evaluation-limitations-and-licensing.md" >}}'>Licensing</a></li>
 </ul>   
 
