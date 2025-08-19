@@ -1,7 +1,7 @@
 ---
 id: installation-manual
 url: metadata/java/installation-manual
-title: Installation
+title: Installation (manual)
 weight: 3
 description: ""
 keywords:
