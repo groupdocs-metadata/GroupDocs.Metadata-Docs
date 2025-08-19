@@ -33,7 +33,7 @@ If you are new to GroupDocs.Metadata, see the following topics first:
 
 * [System requirements](/metadata/java/system-requirements/)
 * [Installation (build tools)](/metadata/java/installation/)
-* [Installation (manual)](/metadata/java/installation/)
+* [Installation (manual)](/metadata/java/installation-manual/)
 * [Licensing](/metadata/java/licensing-and-subscription/)
 
 ## Technical support
