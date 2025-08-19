@@ -1,7 +1,7 @@
 ---
 id: installation
 url: metadata/java/installation
-title: Installation
+title: Installation (build tools)
 weight: 3
 description: ""
 keywords:
