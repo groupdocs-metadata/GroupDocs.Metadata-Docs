@@ -89,7 +89,8 @@ Excellent component that empowers your C#, ASP.NET, and other .NET applications.
                 <li> <a href='/metadata/java/features-overview/'>Features overview</a></li>
                 <li> <a href='/metadata/java/supported-document-formats/'>Supported document formats</a></li>
                 <li> <a href='/metadata/java/system-requirements/'>System requirements</a></li>
-                <li> <a href='/metadata/java/installation/'>Installation</a></li>
+                <li> <a href='/metadata/java/installation/'>Installation (build tools)</a></li>
+                <li> <a href='/metadata/java/installation-manual/'>Installation (manual)</a></li>
                 </ul>
             </div>
             <div class="gdoc-platform__col">
