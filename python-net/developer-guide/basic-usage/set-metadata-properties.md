@@ -22,8 +22,7 @@ The code snippet below demonstrates a basic usage scenario of the **setProperti
 
 **basic\_usage.SetMetadataProperties**
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 ```python
 with gm.Metadata(constants.input_vsdx) as metadata:
         specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.time.created).either(gm.search.ContainsTagSpecification(gm.tagging.Tags.time.modified))
@@ -33,8 +32,7 @@ with gm.Metadata(constants.input_vsdx) as metadata:
         print(f"Properties set: {affected}")
         metadata.save(constants.output_vsdx)
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 As a result, we update all existing metadata properties containing the date the document was created/updated. If a metadata package doesn't contain such properties but they are meant to be in its structure they are added.
 

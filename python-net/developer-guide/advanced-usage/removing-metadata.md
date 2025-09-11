@@ -17,8 +17,7 @@ Not all metadata properties extracted from a file are marked with tags. Some fil
 
 **advanced\_usage.RemovingMetadata**
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 ```python
 def run():
     files = os.listdir(constants.input_path)
@@ -34,8 +33,7 @@ def run():
                 metadata.save(constants.output_path + "output" + pathlib.Path(file).suffix)
 
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 ## More resources
 

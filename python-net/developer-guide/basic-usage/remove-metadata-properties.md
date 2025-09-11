@@ -21,8 +21,7 @@ The following example demonstrates how to remove specific metadata properties us
 
 **basic\_usage.RemoveMetadataProperties**
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 ```python
 const metadata = new groupdocs.metadata.Metadata("input.docx");
 
@@ -36,8 +35,7 @@ const metadata = new groupdocs.metadata.Metadata("input.docx");
         print(f"Properties removed: {affected}")
         metadata.save(constants.output_docx)
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 As a result of execution of the code snippet above, we remove all mentions of the document author/editor and all other string metadata properties containing the name John.
 

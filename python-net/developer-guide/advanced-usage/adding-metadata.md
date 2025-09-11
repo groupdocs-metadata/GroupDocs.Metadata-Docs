@@ -15,8 +15,7 @@ Adding metadata properties is the most sophisticated feature of the GroupDocs.Me
 
 **advanced\_usage.AddingMetadata**
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 ```python
 def run():
     files = os.listdir(constants.input_path)
@@ -40,8 +39,7 @@ def run():
                 filename, file_extension = os.path.splitext(file)
                 metadata.save(constants.output_path + "output" + file_extension)
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 ## More resources
 

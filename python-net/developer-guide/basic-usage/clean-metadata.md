@@ -21,8 +21,7 @@ This example demonstrates how to remove all detected metadata packages/propertie
 
 **basic\_usage.CleanMetadata**
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 ```python
 with gm.Metadata("input.pdf") as metadata:
         affected = metadata.sanitize()
@@ -30,8 +29,7 @@ with gm.Metadata("input.pdf") as metadata:
         metadata.save("output.pdf")
 }
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 As a result, we get a sanitized version of the original file.
 
