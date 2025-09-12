@@ -29,9 +29,8 @@ With its powerful and straightforward API, you can execute the following actions
 You can use GroupDocs.Metadata across multiple platforms and operation systems:
 
 * Windows, Linux, and macOS
-* Java 8 and higher
 
-## Get started with GroupDocs.Metadata for Node.js
+## Get started with GroupDocs.Metadata for Python via .NET
 
 If you are new to GroupDocs.Metadata, see the following topics first:
 

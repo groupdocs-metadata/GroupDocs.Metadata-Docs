@@ -1,6 +1,6 @@
 ---
-id: groupdocs-metadata-overview
-url: metadata/net/groupdocs-metadata-overview
+id: product-overview
+url: metadata/net/product-overview
 title: GroupDocs.Metadata Overview
 weight: 1
 description: The metadata is a data which shows information about other data. It should not be considered as the content of the data. Various types of metadata are existed such as, descriptive, structural, administrative, reference, statistical and legal metadata. 

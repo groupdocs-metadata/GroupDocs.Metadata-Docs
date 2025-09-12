@@ -9,7 +9,7 @@ productName: GroupDocs.Metadata for Python via .NET
 hideChildren: False
 toc: True
 ---
-## Install using NPM
+## Install using Python
 
 All Python packages are hosted at [PyPI](https://pypi.org/project/groupdocs-metadata-net). You can easily reference GroupDocs.Metadata for Python via .NET API directly in your Python project by installing it with the following command.
 

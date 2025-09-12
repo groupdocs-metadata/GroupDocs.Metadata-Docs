@@ -1,6 +1,6 @@
 ---
-id: groupdocs-metadata-overview
-url: metadata/java/groupdocs-metadata-overview
+id: product-overview
+url: metadata/java/product-overview
 title: GroupDocs.Metadata Overview
 weight: 1
 description: ""
@@ -26,3 +26,16 @@ GroupDocs.Metadata for Java is a full featured class library which allows users 
 *   Inspect office documents to extract user comments, form fields, hidden pages, etc
 *   Work with a variety of document, image, video and audio formats
 *   Manage metadata in e-books, torrent files, archives, electronic business cards, saved emails, etc
+
+## Get started with GroupDocs.Metadata for Java
+
+If you are new to GroupDocs.Metadata, see the following topics first:
+
+* [System requirements](/metadata/java/system-requirements/)
+* [Installation (build tools)](/metadata/java/installation/)
+* [Installation (manual)](/metadata/java/installation-manual/)
+* [Licensing](/metadata/java/licensing-and-subscription/)
+
+## Technical support
+
+If you encounter an issue while using GroupDocs.Metadata or have a technical question, feel free to create a post in our [Free Support Forum](https://forum.groupdocs.com/c/metadata/9). If free support is not sufficient, you can submit a ticket to our [Paid Support Helpdesk](https://helpdesk.groupdocs.com/).

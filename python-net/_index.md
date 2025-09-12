@@ -10,7 +10,7 @@ productName: GroupDocs.Metadata for Python via .NET
 hideChildren: True
 fullWidth: True
 ---
-<img src="/metadata/python/images/home.png" alt="groupdocs-metaddata-python-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/metadata/python-net/images/home.png" alt="groupdocs-metadata-python-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 <img src="https://img.shields.io/pypi/v/groupdocs-metadata-net?label=GroupDocs.Metadata%20for%20Python%20PyPI
 " alt="PyPI package">
@@ -30,7 +30,7 @@ GroupDocs.Metadata supports over [170 popular file formats](/metadata/python-net
 <hr><p>OVERVIEW</p></hr>
 <ul>
     <li><a href='{{< ref "/metadata/python-net/product-overview.md" >}}'>Product overview</a></li>
-    <li><a href='{{< ref "/metadata/python-net/getting-started/features-overview" >}}'>Main features</a></li>
+    <li><a href='{{< ref "/metadata/python-net/getting-started/features-overview.md" >}}'>Main features</a></li>
     <li><a href='{{< ref "/metadata/python-net/getting-started/supported-document-formats.md" >}}'>Supported file formats</a></li>
 </ul>
 
@@ -64,7 +64,7 @@ GroupDocs.Metadata supports over [170 popular file formats](/metadata/python-net
 <hr><p>DEMOS AND EXAMPLES</p></hr>
 <ul>
    <li><a href="https://products.groupdocs.app/metadata/total">Work with metadata online</a></li>
-    <li><a href="https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java">Download examples and demos from GitHub</a></li>
+    <li><a href="https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET">Download examples and demos from GitHub</a></li>
 	<li><a href='{{< ref "/metadata/python-net/getting-started/how-to-run-examples.md" >}}'>How to run examples</a></li>
 </ul>
 
