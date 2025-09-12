@@ -10,7 +10,7 @@ hideChildren: False
 ---
 This example demonstrates how to extract information about known properties that can be encountered in a particular package.
 
-1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file to examine
+<!-- 1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file to examine -->
 2.  Get a collection of property descriptors for the desired metadata package
 3.  Iterate through the extracted descriptors
 
