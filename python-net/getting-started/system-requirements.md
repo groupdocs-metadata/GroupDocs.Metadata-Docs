@@ -14,33 +14,60 @@ toc: True
 
 GroupDocs.Metadata for Python via .NET does not require any external software or third party tools to be installed.
 
-## Supported operating systems
+## General Requirements
 
-GroupDocs.Metadata for Python via .NET supports any 32-bit or 64-bit operating system that run the Python runtime including, but not limited:
+- [Python](https://www.python.org/downloads/) versions **3.9–3.11** are supported
+
+## Supported Operating Systems
 
 ### Windows
 
-*   Microsoft Windows 2003 Server ( x64, x86)
-*   Microsoft Windows 2008 Server ( x64, x86)
-*   Microsoft Windows 2012 Server ( x64, x86)
-*   Microsoft Windows 2012 R2 Server ( x64, x86)
-*   Microsoft Windows 2016 Server ( x64, x86)
-*   Microsoft Windows 2019 Server ( x64, x86)
-*   Microsoft Windows Vista ( x64, x86)
-*   Microsoft Windows XP ( x64, x86)
-*   Microsoft Windows 7 ( x64, x86)
-*   Microsoft Windows 8, 8.1 ( x64, x86)
-*   Microsoft Windows 10 ( x64, x86)
-*   Microsoft Azure
+* Microsoft Windows 11 (x64)
+* Microsoft Windows 10 (x64, x86)
+* Microsoft Windows 7, 8, 8.1, Vista, XP (x64, x86)
+* Microsoft Windows Server 2003 and later
 
-### Linux
+### Linux and macOS (partial support)
 
-*   Linux (Ubuntu, OpenSUSE, CentOS, and others)
+GroupDocs.Metadata include macOS support for Intel and/or Apple Silicon (M-series) processors. Linux packages will be added in future releases.
 
-### Mac
+## Additional System Libraries
 
-*   Mac OS X
+### Linux and macOS System Requirements
 
-## Development Environments
+* macOS-x86_64: 10.14 or later
+* macOS-arm64: 11.0 or later
 
-GroupDocs.Metadata for Python requirements Python. You can use any text editor like Atom, Sublime, Visual Studio Code, etc.
+GroupDocs.Metadata for Python via .NET relies on `libgdiplus` for processing images or documents that contain images. 
+
+#### Linux installation
+
+When using GroupDocs.Metadata in a Linux environment, the following packages should be installed for proper library operation:
+
+1. **libgdiplus** - Mono library providing a GDI+-compatible API on non-Windows operating systems.  
+2. **libx11-dev** - Required for drawing functions (image/font rendering).  
+3. **fontconfig** - Enables font lookup for text rendering with System.Drawing.  
+4. **ttf-mscorefonts-installer** - Provides Microsoft-compatible fonts required by GroupDocs.Total.
+
+To install packages on Debian-based Linux distributions, use [apt-get](https://wiki.debian.org/apt-get):
+
+```bash
+sudo apt-get update
+sudo apt-get install -y libgdiplus libx11-dev fontconfig ttf-mscorefonts-installer
+```
+
+If some packages are not available, you can add the contrib repository:
+
+```bash
+RUN sed -i'.bak' 's/$/ contrib/' /etc/apt/sources.list
+```
+
+#### macOS installation
+
+The library is required and can be installed using the [Homebrew](https://brew.sh/) package manager:
+
+```ps
+brew install mono-libgdiplus
+```
+
+Ensure `libgdiplus` is installed if you encounter issues with processing images or documents that contain images.
