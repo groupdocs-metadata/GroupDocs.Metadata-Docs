@@ -48,8 +48,7 @@ The license can be loaded from a file or stream object.
 
 The code below will explain how to apply a  product license.
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 
 ```python
 import groupdocs.metadata as gm
@@ -66,15 +65,13 @@ def run():
        print("\n")
 ```
 
-{{< /tab >}}
-{{< /tabs >}}
+
 
 ### Applying license from stream
 
 The following code snippet shows how to set a license from a stream:
 
-{{< tabs "example2">}}
-{{< tab "Python" >}}
+
 
 ```python
 import groupdocs.metadata as gm
@@ -98,8 +95,7 @@ if __name__ == "__main__":
     run()
 ```
 
-{{< /tab >}}
-{{< /tabs >}}
+
 
 
 ### Applying Metered License
@@ -119,8 +115,7 @@ Here are the simple steps to use the `Metered` class.
 7.  It will return the credit that you have consumed so far.
 
 Following is the sample code demonstrating how to use `Metered` class.
-{{< tabs "example3">}}
-{{< tab "Python" >}}
+
 ```python
 import groupdocs.metadata as gm
 
@@ -137,8 +132,7 @@ if __name__ == "__main__":
 
 
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 {{< alert style="info" >}}
 Calling [License.setLicense](https://reference.groupdocs.com/metadata/python-net/com.groupdocs.metadata.licensing/License) multiple times is not harmful but simply wastes processor time. It is called once when the application starts.

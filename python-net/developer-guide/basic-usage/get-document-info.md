@@ -21,8 +21,7 @@ The following code sample demonstrates how to extract basic format information f
 
 **basic\_usage.GetDocumentInfo**
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 ```python
 with gm.Metadata(constants.input_xlsx) as metadata:
         info = metadata.get_document_info()
@@ -33,8 +32,7 @@ with gm.Metadata(constants.input_xlsx) as metadata:
         print(f"Document size: {info.size} bytes")
         print(f"Is document encrypted: {info.is_encrypted}")
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 ## More resources
 

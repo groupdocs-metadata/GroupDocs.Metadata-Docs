@@ -17,8 +17,7 @@ Using the GroupDocs.Metadata search engine you can extract desired metadata prop
 
 **advanced\_usage.ExtractingMetadata**
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 ```python
 def run():
     files = os.listdir(constants.input_path)
@@ -33,8 +32,7 @@ def run():
                 for property in properties:
                     print(f"Property name: {property.name}, Property value: {property.value}")
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 ## More resources
 

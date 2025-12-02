@@ -8,7 +8,7 @@ keywords: DOCX, DOCM, DOC, DOT, DOTM, XLS, XLSX, PDF, PPT, JPG, PNG, HTML, EML
 productName: GroupDocs.Metadata for Python via .NET
 hideChildren: False
 ---
-The following table contains a full list of file formats that are currently supported by GroupDocs.Metadata for .NET
+The following table contains a full list of file formats that are currently supported by GroupDocs.Metadata for Python via .NET
 
 | Format | Description | Load | Save | Remarks |
 | --- | --- | --- | --- | --- |

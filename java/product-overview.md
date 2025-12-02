@@ -32,7 +32,8 @@ GroupDocs.Metadata for Java is a full featured class library which allows users 
 If you are new to GroupDocs.Metadata, see the following topics first:
 
 * [System requirements](/metadata/java/system-requirements/)
-* [Installation](/metadata/java/installation/)
+* [Installation (build tools)](/metadata/java/installation/)
+* [Installation (manual)](/metadata/java/installation-manual/)
 * [Licensing](/metadata/java/licensing-and-subscription/)
 
 ## Technical support

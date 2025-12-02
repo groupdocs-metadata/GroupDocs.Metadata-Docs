@@ -21,8 +21,7 @@ The code sample below demonstrates how to search for specific metadata propertie
 
 **basic\_usage.FindMetadataProperties**
 
-{{< tabs "example1">}}
-{{< tab "Python" >}}
+
 ```python
 # Fetch all the properties satisfying the predicate:
     # property contains the name of the last document editor OR the date/time the document was last modified
@@ -32,8 +31,7 @@ with gm.Metadata(constants.input_pptx) as metadata:
         for property in properties:
              print(f"Property name: {property.name}, Property value: {property.value}")
 ```
-{{< /tab >}}
-{{< /tabs >}}
+
 
 As a result, we obtain all metadata properties containing the name of the person last edited the document and all properties that store the date/time the document was last edited.
 
