@@ -29,7 +29,7 @@ GroupDocs.Metadata for Python via .NET does not require any external software o
 
 ### Linux and macOS (partial support)
 
-GroupDocs.Metadata include macOS support for Intel and/or Apple Silicon (M-series) processors. Linux packages will be added in future releases.
+GroupDocs.Metadata include macOS support for Intel and/or Apple Silicon (M-series) processors and Linux support.
 
 ## Additional System Libraries
 
