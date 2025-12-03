@@ -16,7 +16,7 @@ GroupDocs.Metadata for Python via .NET does not require any external software o
 
 ## General Requirements
 
-- [Python](https://www.python.org/downloads/) versions **3.9–3.11** are supported
+- [Python](https://www.python.org/downloads/) versions **3.5–3.13** are supported
 
 ## Supported Operating Systems
 
