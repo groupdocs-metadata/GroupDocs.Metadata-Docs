@@ -6,7 +6,7 @@ weight: 8
 description: "This article shows how to detect whether a PDF file is PDF/A compliant and determine its conformance level in C# .NET solution programmatically with GroupDocs.Metadata for .NET"
 keywords: C# .NET PDF PDF/A detect conformance archiving ISO compliance Metadata
 productName: GroupDocs.Metadata for .NET
-draft:True
+draft: True
 hideChildren: False
 ---
 PDF/A is an ISO-standardized version of PDF specialized for digital preservation and long-term archiving of electronic documents. Unlike standard PDF, PDF/A prohibits features unsuitable for long-term archiving, such as font linking and encryption, and requires that certain features be included, such as embedded fonts and color profiles.
