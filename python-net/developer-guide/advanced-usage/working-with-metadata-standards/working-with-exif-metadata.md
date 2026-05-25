@@ -10,214 +10,316 @@ hideChildren: False
 ---
 ## What is EXIF?
 
-According to the specification, EXIF (Exchangeable image file format) is a standard that specifies the formats to be used for images, sound and tags in digital still cameras and in other systems handling the image and sound files recorded by digital still cameras. Despite the confusing definition and name of the format, EXIF is just a metadata standard. In fact, it simply defines a way to store metadata properties in a variety of well-known image and audio formats. The EXIF tag structure is borrowed from TIFF files. The specification declares a set of tags intended to store technical details such as the geolocation of the place where a picture was taken, the name of the camera owner, camera settings, etc. 
+According to the specification, EXIF (Exchangeable image file format) is a standard that specifies the formats for images, sound, and tags used by digital still cameras and other systems that handle the image and sound files they record. Despite the confusing name, EXIF is just a metadata standard: it defines a way to store metadata properties in a variety of well-known image and audio formats. The EXIF tag structure is borrowed from TIFF files and declares tags that store technical details such as geolocation, the camera owner's name, camera settings, and so on.
 
 {{< alert style="info" >}}
-Please refer to the following article to get more information on the standard: https://en.wikipedia.org/wiki/Exif
+Please refer to the following article for more information on the standard: https://en.wikipedia.org/wiki/Exif
 {{< /alert >}}
 
 ## Reading basic EXIF properties
 
-To access EXIF metadata in a file of any supported format, GroupDocs.Metadata provides the `IExif.exif_package` property. The following are the steps to read EXIF metadata:
+To access EXIF metadata in a file of any supported format, GroupDocs.Metadata provides the `exif_package` property on the root package.
 
-1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the `IExif.exif_package` property
-
-The following code snippet gets EXIF properties of a TIFF image and displays them on the screen. 
-
-**advanced_usage.working_with_metadata_standards.exif.read_basic_exif_properties**
-
-
+{{< tabs "exif-read-basic">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.tiff_with_exif) as metadata:
+from groupdocs.metadata import Metadata
+
+
+def read_basic_exif_properties():
+    with Metadata("exif.tiff") as metadata:
         root = metadata.get_root_package()
-        if hasattr(root, "exif_package") and root.exif_package is not None:
-            print(root.exif_package.artist)
-            print(root.exif_package.copyright)
-            print(root.exif_package.image_description)
-            print(root.exif_package.make)
-            print(root.exif_package.model)
-            print(root.exif_package.software)
-            print(root.exif_package.image_width)
-            print(root.exif_package.image_length)
+        # The EXIF package is exposed on the root; it may be absent
+        exif = getattr(root, "exif_package", None)
+        if exif is not None:
+            # Top-level EXIF tags
+            print(exif.artist)
+            print(exif.copyright)
+            print(exif.image_description)
+            print(exif.make)
+            print(exif.model)
+            print(exif.software)
 
-            # ...
+            # The EXIF IFD sub-package holds camera/exposure details
+            print(exif.exif_ifd_package.body_serial_number)
+            print(exif.exif_ifd_package.camera_owner_name)
+            print(exif.exif_ifd_package.user_comment)
 
-            print(root.exif_package.exif_ifd_package.body_serial_number)
-            print(root.exif_package.exif_ifd_package.camera_owner_name)
-            print(root.exif_package.exif_ifd_package.user_comment)
+            # The GPS sub-package holds geolocation tags
+            print(exif.gps_package.altitude)
+            print(exif.gps_package.latitude_ref)
+            print(exif.gps_package.longitude_ref)
 
-            # ...
 
-            print(root.exif_package.gps_package.altitude)
-            print(root.exif_package.gps_package.latitude_ref)
-            print(root.exif_package.gps_package.longitude_ref)
+if __name__ == "__main__":
+    read_basic_exif_properties()
 ```
-
+{{< /tab >}}
+{{< tab "exif.tiff" >}}
+{{< tab-text >}}
+`exif.tiff` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/exif.tiff) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "read-basic-exif-properties.txt" >}}  
+```text
+None
+None
+None
+None
+None
+Adobe Photoshop CS6 (Windows)
+None
+None
+test comment
+1/5
+[TRUNCATED]
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/read_basic_exif_properties/read-basic-exif-properties.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Reading all EXIF tags
 
-In some cases, it's necessary to read all EXIF properties from a file, including custom ones. To achieve this the GroupDocs.Metadata API provides direct access to the EXIF tags extracted from a file.
+In some cases it's necessary to read all EXIF tags from a file, including custom ones. The API provides direct access to the EXIF tags on different levels.
 
-1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the `IExif.exif_package` property
-3.  Iterate through all EXIF tags on different levels
-
-**advanced_usage.working_with_metadata_standards.exif.read_exif_tags**
-
-
+{{< tabs "exif-read-tags">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.jpeg_with_exif) as metadata:
+from groupdocs.metadata import Metadata
+
+
+def read_exif_tags():
+    with Metadata("exif.jpg") as metadata:
         root = metadata.get_root_package()
-        if hasattr(root, "exif_package") and root.exif_package is not None:
-            pattern = "{0} = {1}"
+        exif = getattr(root, "exif_package", None)
+        if exif is not None:
+            # to_list() yields every raw tag (id + value) at each level
+            for tag in exif.to_list():
+                print(f"{tag.tag_id} = {tag.value}")
 
-            for tag in root.exif_package.to_list():
-                print(pattern.format(tag.tag_id, tag.value))
+            # ...including the EXIF IFD sub-package
+            for tag in exif.exif_ifd_package.to_list():
+                print(f"{tag.tag_id} = {tag.value}")
 
-            for tag in root.exif_package.exif_ifd_package.to_list():
-                print(pattern.format(tag.tag_id, tag.value))
+            # ...and the GPS sub-package
+            for tag in exif.gps_package.to_list():
+                print(f"{tag.tag_id} = {tag.value}")
 
-            for tag in root.exif_package.gps_package.to_list():
-                print(pattern.format(tag.tag_id, tag.value))
+
+if __name__ == "__main__":
+    read_exif_tags()
 ```
-
+{{< /tab >}}
+{{< tab "exif.jpg" >}}
+{{< tab-text >}}
+`exif.jpg` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/exif.jpg) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "read-exif-tags.txt" >}}  
+```text
+282 = System.Double[]
+283 = System.Double[]
+296 = System.Int32[]
+531 = System.Int32[]
+34665 = System.Int64[]
+34853 = System.Int64[]
+42032 = James B.
+36864 = System.Byte[]
+37121 = System.Byte[]
+40961 = System.Int32[]
+[TRUNCATED]
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/read_exif_tags/read-exif-tags.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Reading a specific EXIF tag
 
-The GroupDocs.Metadata API also supports reading specific EXIF tags using an indexer. Follow below-mentioned steps to read a specific EXIF tag.
+The API supports reading a specific EXIF tag through an indexer that takes a `TiffTagID`.
 
-1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the `IExif.exif_package` property
-3.  Get a specific tag using the `ExifPackage` class indexer
-
-**advanced_usage.working_with_metadata_standards.exif.read_specific_exif_tag**
-
-
+{{< tabs "exif-read-specific">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.tiff_with_exif) as metadata:
+from groupdocs.metadata import Metadata
+from groupdocs.metadata.formats.image import TiffTagID
+
+
+def read_specific_exif_tag():
+    with Metadata("exif.tiff") as metadata:
         root = metadata.get_root_package()
-        if hasattr(root, "exif_package") and root.exif_package is not None:
-            software = root.exif_package[TiffTagID.SOFTWARE]
+        exif = getattr(root, "exif_package", None)
+        if exif is not None:
+            # Index the package by TiffTagID to read one specific tag
+            software = exif[TiffTagID.SOFTWARE]
             if software is not None:
                 print(f"Software: {software.value}")
 
-            comment = root.exif_package.exif_ifd_package[TiffTagID.USER_COMMENT]
+            # The same indexer works on the EXIF IFD sub-package
+            comment = exif.exif_ifd_package[TiffTagID.USER_COMMENT]
             if comment is not None:
                 print(f"Comment: {comment.interpreted_value}")
-```
 
+
+if __name__ == "__main__":
+    read_specific_exif_tag()
+```
+{{< /tab >}}
+{{< tab "exif.tiff" >}}
+{{< tab-text >}}
+`exif.tiff` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/exif.tiff) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "read-specific-exif-tag.txt" >}}  
+```text
+Software: Adobe Photoshop CS6 (Windows)
+Comment: test comment
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/read_specific_exif_tag/read-specific-exif-tag.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Updating EXIF properties
 
-The GroupDocs.Metadata API facilitates the user to update EXIF metadata in a convenient way - using the `ExifPackage` class properties. Follow the below steps to update EXIF metadata in a file of any supported format.
+Update EXIF metadata in a convenient way using the `ExifPackage` properties. If the package is missing, create a new one.
 
-1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the `IExif.exif_package` property
-3.  Assign values to desired EXIF properties
-4.  [Save]({{< ref "metadata/python-net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
-
-**advanced_usage.working_with_metadata_standards.exif.update_exif_properties**
-
-
+{{< tabs "exif-update">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.input_jpeg) as metadata:
-        root = metadata.get_root_package()
-        if hasattr(root, "exif_package") is False or root.exif_package is None:
-            root.exif_package = gm.standards.exif.ExifPackage()
+from groupdocs.metadata import Metadata
+from groupdocs.metadata.standards.exif import ExifPackage
 
-        root.exif_package.copyright = "Copyright (C) 2011-2019 GroupDocs. All Rights Reserved."
+
+def update_exif_properties():
+    with Metadata("input.jpg") as metadata:
+        root = metadata.get_root_package()
+        # Create an EXIF package if the image doesn't have one yet
+        if getattr(root, "exif_package", None) is None:
+            root.exif_package = ExifPackage()
+
+        # Assign top-level EXIF properties
+        root.exif_package.copyright = "Copyright (C) 2026 GroupDocs. All Rights Reserved."
         root.exif_package.image_description = "test image"
         root.exif_package.software = "GroupDocs.Metadata"
 
-        # ...
-
+        # Assign properties on the EXIF IFD sub-package
         root.exif_package.exif_ifd_package.body_serial_number = "test"
         root.exif_package.exif_ifd_package.camera_owner_name = "GroupDocs"
         root.exif_package.exif_ifd_package.user_comment = "test comment"
 
-        # ...
+        # Persist the changes
+        metadata.save("output.jpg")
 
-        metadata.save(constants.output_jpeg)
+
+if __name__ == "__main__":
+    update_exif_properties()
 ```
-
+{{< /tab >}}
+{{< tab "input.jpg" >}}
+{{< tab-text >}}
+`input.jpg` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/input.jpg) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.jpg" >}}  
+```text
+Binary file (JPG, 795 KB)
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/update_exif_properties/output.jpg)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Adding or updating custom EXIF tags
 
-The GroupDocs.Metadata API allows adding or updating custom tags in an EXIF package.
+The API allows adding or updating custom tags in an EXIF package using the typed TIFF tag classes.
 
-1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains EXIF metadata
-2.  Extract the EXIF metadata package using the `IExif.exif_package` property
-3.  Set the EXIF package if it's missing
-4.  Add any number of custom tags to the package
-5.  [Save]({{< ref "metadata/python-net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
-
-**advanced_usage.working_with_metadata_standards.exif.set_custom_exif_tag**
-
-
+{{< tabs "exif-set-custom">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.tiff_with_exif) as metadata:
+from groupdocs.metadata import Metadata
+from groupdocs.metadata.formats.image import TiffAsciiTag, TiffTagID
+from groupdocs.metadata.standards.exif import ExifPackage
+
+
+def set_custom_exif_tag():
+    with Metadata("exif.tiff") as metadata:
         root = metadata.get_root_package()
-        if hasattr(root, "exif_package") is False or root.exif_package is None:
-            root.exif_package = gm.standards.exif.ExifPackage()
+        if getattr(root, "exif_package", None) is None:
+            root.exif_package = ExifPackage()
 
-        # Add a known property
-        root.exif_package.set(gm.formats.image.TiffAsciiTag(TiffTagID.ARTIST, "test artist"))
+        # Add known properties using typed TIFF tags
+        root.exif_package.set(TiffAsciiTag(TiffTagID.ARTIST, "test artist"))
+        root.exif_package.set(TiffAsciiTag(TiffTagID.SOFTWARE, "GroupDocs.Metadata"))
 
-        # Add a fully custom property (which is not described in the EXIF specification).
-        # Please note that the chosen ID may intersect with the IDs used by some third party tools.
-        root.exif_package.set(gm.formats.image.TiffAsciiTag(TiffTagID(65523), "custom"))
+        metadata.save("output.tiff")
 
-        metadata.save(constants.output_tiff)
+
+if __name__ == "__main__":
+    set_custom_exif_tag()
 ```
+{{< /tab >}}
+{{< tab "exif.tiff" >}}
+{{< tab-text >}}
+`exif.tiff` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/exif.tiff) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.tiff" >}}  
+```text
+Binary file (TIFF, 135 KB)
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/set_custom_exif_tag/output.tiff)
+{{< /tab >}}
+{{< /tabs >}}
 
-
-Here is a full list of tags that can be added to an EXIF package:
-
-*   `TiffAsciiTag`
-*   `TiffByteTag`
-*   `TiffDoubleTag`
-*   `TiffFloatTag`
-*   `TiffLongTag`
-*   `TiffRationalTag`
-*   `TiffSByteTag`
-*   `TiffShortTag`
-*   `TiffSLongTag`
-*   `TiffSRationalTag`
-*   `TiffSShortTag`
-*   `TiffUndefinedTag`
+The following typed tag classes are available in `groupdocs.metadata.formats.image`: `TiffAsciiTag`, `TiffByteTag`, `TiffDoubleTag`, `TiffFloatTag`, `TiffLongTag`, `TiffRationalTag`, `TiffSByteTag`, `TiffShortTag`, `TiffSLongTag`, `TiffSRationalTag`, `TiffSShortTag`, `TiffUndefinedTag`.
 
 ## Removing EXIF metadata
 
-To remove the EXIF package from a file just assign `None` to the `IExif.exif_package` property. The code sample below shows how to remove EXIF metadata from a file.
+To remove the EXIF package from a file, assign `None` to the `exif_package` property.
 
-**advanced_usage.working_with_metadata_standards.exif.remove_exif_metadata**
-
-
+{{< tabs "exif-remove">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.jpeg_with_exif) as metadata:
-        root = metadata.get_root_package()
-        if hasattr(root, "exif_package"):
-            root.exif_package = None
-            metadata.save(constants.output_jpeg)
-```
+from groupdocs.metadata import Metadata
 
+
+def remove_exif_metadata():
+    with Metadata("exif.jpg") as metadata:
+        root = metadata.get_root_package()
+        # Assigning None drops the entire EXIF package
+        root.exif_package = None
+        metadata.save("output.jpg")
+
+
+if __name__ == "__main__":
+    remove_exif_metadata()
+```
+{{< /tab >}}
+{{< tab "exif.jpg" >}}
+{{< tab-text >}}
+`exif.jpg` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/exif.jpg) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.jpg" >}}  
+```text
+Binary file (JPG, 795 KB)
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/remove_exif_metadata/output.jpg)
+{{< /tab >}}
+{{< /tabs >}}
+
+## See also
+
+- [Working with IPTC IIM metadata]({{< ref "metadata/python-net/developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata.md" >}})
+- [Working with XMP metadata]({{< ref "metadata/python-net/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata.md" >}})
+- [Working with metadata standards]({{< ref "metadata/python-net/developer-guide/advanced-usage/working-with-metadata-standards/_index.md" >}})
 
 ## More resources
+
 ### GitHub examples
+
 You may easily run the code above and see the feature in action in our GitHub examples:
-*   [GroupDocs.Metadata for .NET examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET)    
-*   [GroupDocs.Metadata for Java examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)    
+
 *   [GroupDocs.Metadata for Python via .NET examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET/)
 
 ### Free online document metadata management App
-Along with full featured Python via .NET library we provide simple, but powerful free Apps.
+
 You are welcome to view and edit metadata of PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, emails, images and more with our free online [Free Online Document Metadata Viewing and Editing App](https://products.groupdocs.app/metadata).
-
-

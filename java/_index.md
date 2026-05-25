@@ -8,7 +8,7 @@ keywords:
 productName: GroupDocs.Metadata for Java
 hideChildren: True
 ---
-<img src="/metadata/java/images/home.png" alt="groupdocs-metadata-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/logo/128x128/groupdocs-metadata-java.png" alt="groupdocs-metadata-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 {{< button style="primary" link="https://releases.groupdocs.com/metadata/java/release-notes/" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg> Release notes {{< /button >}} 
 {{< button style="primary" link="https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-metadata/" >}} {{< icon "gdoc_download" >}} Package repository {{< /button >}}

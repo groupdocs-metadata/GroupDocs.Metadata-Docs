@@ -1,0 +1,5 @@
+Format: 3
+MIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Pages: 1
+Size: 17952 bytes
+Encrypted: False

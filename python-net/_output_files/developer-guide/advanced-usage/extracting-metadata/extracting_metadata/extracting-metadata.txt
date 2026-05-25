@@ -1,0 +1,15 @@
+Property name: FileFormat, Property value: 3
+Property name: MimeType, Property value: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Property name: WordProcessingFileFormat, Property value: 3
+Property name: Category, Property value: 
+Property name: Comments, Property value: 
+Property name: ContentStatus, Property value: 
+Property name: Keywords, Property value: 
+Property name: RevisionNumber, Property value: 9
+Property name: Subject, Property value: 
+Property name: Title, Property value: 
+Property name: dc:title, Property value: 
+Property name: dc:subject, Property value: 
+Property name: dc:description, Property value: 
+Property name: InspectionComments, Property value: GroupDocs.Metadata.Formats.Document.WordProcessingComment[]
+Property name: CommentText, Property value: First comment

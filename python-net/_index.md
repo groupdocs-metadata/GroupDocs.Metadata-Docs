@@ -10,7 +10,7 @@ productName: GroupDocs.Metadata for Python via .NET
 hideChildren: True
 fullWidth: True
 ---
-<img src="/metadata/python-net/images/home.png" alt="groupdocs-metadata-python-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/logo/128x128/groupdocs-metadata-python.png" alt="groupdocs-metadata-python-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 <img src="https://img.shields.io/pypi/v/groupdocs-metadata-net?label=GroupDocs.Metadata%20for%20Python%20PyPI
 " alt="PyPI package">
@@ -19,9 +19,24 @@ fullWidth: True
 {{< button style="primary" link="https://releases.groupdocs.com/metadata/python-net/release-notes/" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg> Release notes {{< /button >}} 
 {{< button style="primary" link="https://pypi.org/project/groupdocs-metadata-net" >}} {{< icon "gdoc_download" >}} Package repository {{< /button >}}
 
-GroupDocs.Metadata for Python via .NET - A metadata management API for documents to create, preview, analyze, update and remove meta information from all popular file formats. Java metadata changer API gets the file as input, access the file property information and allows users to perform metadata operations for locating this specific file easily for future reference.
+GroupDocs.Metadata for Python via .NET is a metadata management API for documents that lets you create, preview, analyze, update, and remove meta information across all popular file formats. It takes a file as input, gives you access to its property information, and lets you perform metadata operations in a unified way regardless of the file format.
 
 GroupDocs.Metadata supports over [170 popular file formats](/metadata/python-net/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, email messages, and images.
+
+## Quick example
+
+Install the package with `pip install groupdocs-metadata-net`, then read every metadata property from a document in a few lines:
+
+```python
+from groupdocs.metadata import Metadata
+
+# Open a file and read all of its detected metadata properties
+with Metadata("input.docx") as metadata:
+    for prop in metadata.find_properties(lambda p: True):
+        print(f"{prop.name} = {prop.value}")
+```
+
+See the [Quick Start Guide]({{< ref "metadata/python-net/getting-started/quick-start-guide.md" >}}) for editing, removing, and exporting metadata.
 
 ------
 

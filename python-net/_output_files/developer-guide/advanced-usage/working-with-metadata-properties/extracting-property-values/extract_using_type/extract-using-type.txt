@@ -1,0 +1,26 @@
+MimeType (string): application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Extension (string): .docx
+Author (string): Prokofjev Igor
+Category (string): 
+Comments (string): 
+Company (string): Profitgroup
+ContentStatus (string): 
+CreateTime (datetime): 2016-03-22 17:08:00+00:00
+Keywords (string): 
+LastPrinted (datetime): 0001-01-01 00:00:00
+LastSavedBy (string): New user
+LastSavedTime (datetime): 2016-03-22 18:26:00+00:00
+NameOfApplication (string): Microsoft Office Word
+Subject (string): 
+Template (string): Normal
+Title (string): 
+dc:title (string): 
+dc:subject (string): 
+dc:creator (string): Prokofjev Igor
+dc:description (string): 
+CommentAuthor (string): Prokofjev Igor
+CommentAuthorInitials (string): PI
+CommentText (string): First comment
+CommentCreatedDate (datetime): 2016-03-22 20:11:00+02:00
+FieldCode (string):  MERGEFIELD  date  \* MERGEFORMAT 
+FieldResult (string): «date»
