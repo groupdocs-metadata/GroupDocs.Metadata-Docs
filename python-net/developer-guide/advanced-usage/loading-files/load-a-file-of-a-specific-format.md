@@ -8,36 +8,55 @@ keywords: load a file, specific format
 productName: GroupDocs.Metadata for Python via .NET
 hideChildren: False
 ---
-This example demonstrates how to load a file of some particular format.
+This example demonstrates how to load a file of a particular format. Explicitly specifying the format through `LoadOptions` can spare the time spent on automatic format detection.
 
-**advanced_usage.loading_files.loading_file_of_specific_format**
-
-
+{{< tabs "load-a-file-of-a-specific-format">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    # Explicitly specifying the format of a file to load can spare time on detecting the format
-    load_options = gm.LoadOptions(gm.common.FileFormat.SPREADSHEET)
+from groupdocs.metadata import Metadata
+from groupdocs.metadata.common import FileFormat
+from groupdocs.metadata.options import LoadOptions
 
-    # constants.input_xls is an absolute or relative path to your document. Ex: r"C:\\Docs\\source.xls"
-    with gm.Metadata(constants.input_xls, load_options) as metadata:
+
+def loading_file_of_specific_format():
+    load_options = LoadOptions(FileFormat.SPREADSHEET)
+
+    with Metadata("input.xlsx", load_options) as metadata:
         root = metadata.get_root_package()
-
         # Use format-specific properties to extract or edit metadata
-        print(root.document_properties.author)
+        print(f"Author: {root.document_properties.author}")
 
-        # ...
+
+if __name__ == "__main__":
+    loading_file_of_specific_format()
 ```
+{{< /tab >}}
+{{< tab "input.xlsx" >}}
+{{< tab-text >}}
+`input.xlsx` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/loading-files/load-a-file-of-a-specific-format/input.xlsx) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "loading-file-of-specific-format.txt" >}}  
+```text
+Author: gena
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/loading-files/load-a-file-of-a-specific-format/loading_file_of_specific_format/loading-file-of-specific-format.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
+## See also
+
+- [Load a password-protected document]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/load-a-password-protected-document.md" >}})
+- [Loading files]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}})
 
 ## More resources
+
 ### GitHub examples
+
 You may easily run the code above and see the feature in action in our GitHub examples:
-*   [GroupDocs.Metadata for .NET examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET)    
-*   [GroupDocs.Metadata for Java examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)    
+
 *   [GroupDocs.Metadata for Python via .NET examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET/)
 
 ### Free online document metadata management App
-Along with full featured Python via .NET library we provide simple, but powerful free Apps.
+
 You are welcome to view and edit metadata of PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, emails, images and more with our free online [Free Online Document Metadata Viewing and Editing App](https://products.groupdocs.app/metadata).
-
-

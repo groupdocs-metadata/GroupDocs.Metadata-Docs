@@ -1,0 +1,6 @@
+File format: 2
+File extension: .xlsx
+MIME Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Number of pages: 2
+Document size: 1677676 bytes
+Is document encrypted: False

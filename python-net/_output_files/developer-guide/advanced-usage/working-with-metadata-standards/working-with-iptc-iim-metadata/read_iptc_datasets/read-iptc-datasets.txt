@@ -1,0 +1,16 @@
+1
+90
+CodedCharacterSet
+GroupDocs.Metadata.Common.PropertyValue[]
+2
+0
+RecordVersion
+32
+2
+55
+DateCreated
+2013-03-27 00:00:00
+2
+60
+TimeCreated
+b'183550+0000'

@@ -8,7 +8,7 @@ keywords: metadata is,metadata,meta information
 productName: GroupDocs.Metadata for .NET
 hideChildren: True
 ---
-<img src="/metadata/net/images/home.png" alt="groupdocs-metadata-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/logo/128x128/groupdocs-metadata-net.png" alt="groupdocs-metadata-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 <img src="https://img.shields.io/nuget/v/groupdocs.metadata?label=GroupDocs.Metadata%20NuGet" alt="Nuget package">
 <img src="https://img.shields.io/nuget/dt/GroupDocs.Metadata?label=nuget%20downloads" alt="Nuget downloads">

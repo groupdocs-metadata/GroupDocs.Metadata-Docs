@@ -10,178 +10,216 @@ hideChildren: False
 ---
 ## What is XMP?
 
-The Extensible Metadata Platform (XMP) is an XML-based ISO metadata standard, originally created by Adobe Systems Inc. It defines a data structure, serialization model and basic metadata properties intended to form a unified metadata package that can be embedded into different media formats. The defined XMP data model can be used to store any set of metadata properties. These can be simple name/value pairs, structured values or lists of values. The data can be nested as well.
+The Extensible Metadata Platform (XMP) is an XML-based ISO metadata standard, originally created by Adobe Systems. It defines a data structure, a serialization model, and basic metadata properties that form a unified metadata package which can be embedded into different media formats. The XMP data model can store any set of metadata properties — simple name/value pairs, structured values, or lists of values, nested arbitrarily.
 
-{{< alert style="info" >}}Please find more information on the XMP standard at https://en.wikipedia.org/wiki/Extensible_Metadata_Platform{{< /alert >}}
+{{< alert style="info" >}}Find more information on the XMP standard at https://en.wikipedia.org/wiki/Extensible_Metadata_Platform{{< /alert >}}
 
 ## Reading XMP properties
 
-To access XMP metadata in a file of any supported format, GroupDocs.Metadata provides the `IXmp.xmp_package` property. The following are the steps to read XMP metadata:
+To access XMP metadata in a file of any supported format, GroupDocs.Metadata provides the `xmp_package` property on the root package. Standard schemes are reachable through `xmp_package.schemes`.
 
-1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains XMP metadata
-2.  Extract the XMP metadata package using the `IXmp.xmp_package` property
-
-The following code snippet gets XMP properties of a PNG image and displays them on the screen. 
-
-**advanced_usage.working_with_metadata_standards.xmp.read_xmp_properties**
-
-
+{{< tabs "xmp-read">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.png_with_xmp) as metadata:
+from groupdocs.metadata import Metadata
+
+
+def read_xmp_properties():
+    with Metadata("xmp.png") as metadata:
         root = metadata.get_root_package()
-        if hasattr(root, "xmp_package") and root.xmp_package is not None:
-            if root.xmp_package.schemes.xmp_basic is not None:
-                print(root.xmp_package.schemes.xmp_basic.creator_tool)
-                print(root.xmp_package.schemes.xmp_basic.create_date)
-                print(root.xmp_package.schemes.xmp_basic.modify_date)
-                print(root.xmp_package.schemes.xmp_basic.label)
-                print(root.xmp_package.schemes.xmp_basic.nickname)
+        xmp = getattr(root, "xmp_package", None)
+        if xmp is not None:
+            # Standard schemes are reachable through xmp.schemes;
+            # each may be absent, so guard before reading.
+            if xmp.schemes.xmp_basic is not None:
+                print(xmp.schemes.xmp_basic.creator_tool)
+                print(xmp.schemes.xmp_basic.create_date)
+                print(xmp.schemes.xmp_basic.modify_date)
 
-                # ...
+            if xmp.schemes.dublin_core is not None:
+                print(xmp.schemes.dublin_core.format)
+                print(xmp.schemes.dublin_core.coverage)
+                print(xmp.schemes.dublin_core.identifier)
 
-            if root.xmp_package.schemes.dublin_core is not None:
-                print(root.xmp_package.schemes.dublin_core.format)
-                print(root.xmp_package.schemes.dublin_core.coverage)
-                print(root.xmp_package.schemes.dublin_core.identifier)
-                print(root.xmp_package.schemes.dublin_core.source)
+            if xmp.schemes.photoshop is not None:
+                print(xmp.schemes.photoshop.color_mode)
+                print(xmp.schemes.photoshop.city)
+                print(xmp.schemes.photoshop.date_created)
 
-                # ...
 
-            if root.xmp_package.schemes.photoshop is not None:
-                print(root.xmp_package.schemes.photoshop.color_mode)
-                print(root.xmp_package.schemes.photoshop.icc_profile)
-                print(root.xmp_package.schemes.photoshop.country)
-                print(root.xmp_package.schemes.photoshop.city)
-                print(root.xmp_package.schemes.photoshop.date_created)
-
-                # ...
+if __name__ == "__main__":
+    read_xmp_properties()
 ```
+{{< /tab >}}
+{{< tab "xmp.png" >}}
+{{< tab-text >}}
+`xmp.png` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/xmp.png) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "read-xmp-properties.txt" >}}  
+```text
+Adobe Photoshop CC 2017 (Windows)
+2018-09-05 07:28:22+03:00
+2018-09-05 07:37:28+03:00
+image/png
+None
+None
+3
+None
+None
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/read_xmp_properties/read-xmp-properties.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
-
-Here is a non-exhaustive list of supported XMP schemes:
-
-*   XmpBasicJobTicketPackage
-*   XmpBasicPackage
-*   XmpCameraRawPackage
-*   XmpDublinCorePackage
-*   XmpDynamicMediaPackage
-*   XmpIptcCorePackage
-*   XmpIptcExtensionPackage
-*   XmpIptcIimPackage
-*   XmpMediaManagementPackage
-*   XmpPagedTextPackage
-*   XmpPdfPackage
-*   XmpPhotoshopPackage
-*   XmpRightsManagementPackage
-
-{{< alert style="info" >}}GroupDocs.Metadata also provides an API allowing users to work with fully custom XMP schemes/packages.{{< /alert >}}
+Here is a non-exhaustive list of supported XMP schemes (in `groupdocs.metadata.standards.xmp.schemes`): `XmpBasicJobTicketPackage`, `XmpBasicPackage`, `XmpCameraRawPackage`, `XmpDublinCorePackage`, `XmpDynamicMediaPackage`, `XmpIptcCorePackage`, `XmpIptcExtensionPackage`, `XmpIptcIimPackage`, `XmpMediaManagementPackage`, `XmpPagedTextPackage`, `XmpPdfPackage`, `XmpPhotoshopPackage`, `XmpRightsManagementPackage`.
 
 ## Updating XMP properties
 
-The GroupDocs.Metadata API facilitates the user to update XMP metadata in a convenient way - using the `XmpPacketWrapper` class properties. Follow the below steps to update XMP metadata in a file of any supported format.
+Update XMP metadata through the scheme packages. Create a scheme if it is missing.
 
-1.  [Load]({{< ref "metadata/python-net/developer-guide/advanced-usage/loading-files/_index.md" >}}) a file that contains XMP metadata
-2.  Extract the XMP metadata package using the `IXmp.xmp_package` property
-3.  Assign values to desired XMP properties
-4.  [Save]({{< ref "metadata/python-net/developer-guide/advanced-usage/saving-files/_index.md" >}}) the changes
-
-**advanced_usage.working_with_metadata_standards.xmp.update_xmp_properties**
-
-
+{{< tabs "xmp-update">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.gif_with_xmp) as metadata:
+from datetime import date
+
+from groupdocs.metadata import Metadata
+from groupdocs.metadata.standards.xmp.schemes import XmpBasicPackage, XmpCameraRawPackage, XmpDublinCorePackage
+
+
+def update_xmp_properties():
+    with Metadata("xmp.gif") as metadata:
         root = metadata.get_root_package()
-        if hasattr(root, "xmp_package") and root.xmp_package is not None:
-            # if there is no such scheme in the XMP package we should create it
-            if root.xmp_package.schemes.dublin_core is None:
-                root.xmp_package.schemes.dublin_core = gm.standards.xmp.schemes.XmpDublinCorePackage()
-            root.xmp_package.schemes.dublin_core.format = "image/gif"
-            root.xmp_package.schemes.dublin_core.set_rights("Copyright (C) 2011-2019 GroupDocs. All Rights Reserved")
-            root.xmp_package.schemes.dublin_core.set_subject("test")
+        xmp = getattr(root, "xmp_package", None)
+        if xmp is not None:
+            if xmp.schemes.dublin_core is None:
+                xmp.schemes.dublin_core = XmpDublinCorePackage()
+            xmp.schemes.dublin_core.format = "image/gif"
 
-            if root.xmp_package.schemes.camera_raw is None:
-                root.xmp_package.schemes.camera_raw = gm.standards.xmp.schemes.XmpCameraRawPackage()
-            root.xmp_package.schemes.camera_raw.shadows = 50
-            root.xmp_package.schemes.camera_raw.auto_brightness = True
-            root.xmp_package.schemes.camera_raw.auto_exposure = True
-            root.xmp_package.schemes.camera_raw.camera_profile = "test"
-            root.xmp_package.schemes.camera_raw.exposure = 0.0001
+            if xmp.schemes.camera_raw is None:
+                xmp.schemes.camera_raw = XmpCameraRawPackage()
+            xmp.schemes.camera_raw.shadows = 50
+            xmp.schemes.camera_raw.camera_profile = "test"
 
-            # If you don't want to keep the old values just replace the whole scheme
-            root.xmp_package.schemes.xmp_basic = gm.standards.xmp.schemes.XmpBasicPackage()
-            root.xmp_package.schemes.xmp_basic.create_date = date.today()
-            root.xmp_package.schemes.xmp_basic.base_url = "https://groupdocs.com"
-            root.xmp_package.schemes.xmp_basic.rating = 5
-            root.xmp_package.schemes.basic_job_ticket = gm.standards.xmp.schemes.XmpBasicJobTicketPackage()
+            # Replace the whole scheme to drop old values
+            xmp.schemes.xmp_basic = XmpBasicPackage()
+            xmp.schemes.xmp_basic.create_date = date.today()
+            xmp.schemes.xmp_basic.rating = 5
 
-            # Set a complex type property
-            root.xmp_package.schemes.basic_job_ticket.jobs = [
-                gm.standards.xmp.XmpJob(
-                    id="1",
-                    name="test job",
-                    url="https://groupdocs.com"
-                )
-            ]
+            metadata.save("output.gif")
 
-            # ...
 
-            metadata.save(constants.output_gif)
+if __name__ == "__main__":
+    update_xmp_properties()
 ```
-
+{{< /tab >}}
+{{< tab "xmp.gif" >}}
+{{< tab-text >}}
+`xmp.gif` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/xmp.gif) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.gif" >}}  
+```text
+Binary file (GIF, 150 KB)
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/update_xmp_properties/output.gif)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Adding a custom XMP package
 
-The GroupDocs.Metadata API provides access to a number of commonly used XMP schemes. But it also allows you to create fully custom XMP packages containing user-defined properties. The example below demonstrates how to create and add a custom XMP package to a file.
+Besides the predefined schemes, you can create fully custom XMP packages with user-defined properties.
 
-**advanced_usage.working_with_metadata_standards.xmp.add_custom_xmp_package**
-
-
+{{< tabs "xmp-add-custom">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.input_jpeg) as metadata:
-        root = metadata.get_root_package()
-        packet = gm.standards.xmp.XmpPacketWrapper()
+from datetime import date
 
-        custom = gm.standards.xmp.XmpPackage("gd", "https://groupdocs.com")
-        custom.set("gd:Copyright", "Copyright (C) 2011-2019 GroupDocs. All Rights Reserved.")
+from groupdocs.metadata import Metadata
+from groupdocs.metadata.standards.xmp import XmpArray, XmpArrayType, XmpPackage, XmpPacketWrapper
+
+
+def add_custom_xmp_package():
+    with Metadata("input.jpg") as metadata:
+        root = metadata.get_root_package()
+        packet = XmpPacketWrapper()
+
+        custom = XmpPackage("gd", "https://groupdocs.com")
+        custom.set("gd:Copyright", "Copyright (C) 2026 GroupDocs. All Rights Reserved.")
         custom.set("gd:CreationDate", date.today())
-        custom.set("gd:Company", gm.standards.xmp.XmpArray.from_array(["Aspose", "GroupDocs"], gm.standards.xmp.XmpArrayType.ORDERED))
+        custom.set("gd:Company", XmpArray.from_(["Aspose", "GroupDocs"], XmpArrayType.ORDERED))
         packet.add_package(custom)
 
         root.xmp_package = packet
+        metadata.save("output.jpg")
 
-        metadata.save(constants.output_jpeg)
+
+if __name__ == "__main__":
+    add_custom_xmp_package()
 ```
-
+{{< /tab >}}
+{{< tab "input.jpg" >}}
+{{< tab-text >}}
+`input.jpg` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/input.jpg) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.jpg" >}}  
+```text
+Binary file (JPG, 885 KB)
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/add_custom_xmp_package/output.jpg)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Removing XMP metadata
 
-To remove the XMP package from a file just assign `None` to the `IXmp.xmp_package` property. The code sample below shows how to remove XMP metadata from a file.
+To remove the XMP package from a file, assign `None` to the `xmp_package` property.
 
-**advanced_usage.working_with_metadata_standards.xmp.remove_xmp_metadata**
-
-
+{{< tabs "xmp-remove">}}
+{{< tab "Python" >}}
 ```python
-def run():
-    with gm.Metadata(constants.jpeg_with_xmp) as metadata:
-        root = metadata.get_root_package()
-        if hasattr(root, "xmp_package"):
-            root.xmp_package = None
-            metadata.save(constants.output_jpeg)
-```
+from groupdocs.metadata import Metadata
 
+
+def remove_xmp_metadata():
+    with Metadata("xmp.jpg") as metadata:
+        root = metadata.get_root_package()
+        # Assigning None drops the entire XMP packet
+        root.xmp_package = None
+        metadata.save("output.jpg")
+
+
+if __name__ == "__main__":
+    remove_xmp_metadata()
+```
+{{< /tab >}}
+{{< tab "xmp.jpg" >}}
+{{< tab-text >}}
+`xmp.jpg` is the sample file used in this example. Click [here](/metadata/python-net/_sample_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/xmp.jpg) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.jpg" >}}  
+```text
+Binary file (JPG, 174 KB)
+```
+[Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/remove_xmp_metadata/output.jpg)
+{{< /tab >}}
+{{< /tabs >}}
+
+## See also
+
+- [Working with EXIF metadata]({{< ref "metadata/python-net/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata.md" >}})
+- [Working with IPTC IIM metadata]({{< ref "metadata/python-net/developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata.md" >}})
+- [Working with metadata standards]({{< ref "metadata/python-net/developer-guide/advanced-usage/working-with-metadata-standards/_index.md" >}})
 
 ## More resources
+
 ### GitHub examples
+
 You may easily run the code above and see the feature in action in our GitHub examples:
-*   [GroupDocs.Metadata for .NET examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET)    
-*   [GroupDocs.Metadata for Java examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)    
+
 *   [GroupDocs.Metadata for Python via .NET examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET/)
 
 ### Free online document metadata management App
-Along with full featured Python via .NET library we provide simple, but powerful free Apps.
+
 You are welcome to view and edit metadata of PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, emails, images and more with our free online [Free Online Document Metadata Viewing and Editing App](https://products.groupdocs.app/metadata).
-
-

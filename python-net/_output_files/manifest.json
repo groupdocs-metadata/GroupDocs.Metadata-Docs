@@ -1,0 +1,261 @@
+{
+  "developer-guide/advanced-usage/adding-metadata#adding-metadata": {
+    "type": "file",
+    "file": "output.docx",
+    "path": "developer-guide/advanced-usage/adding-metadata/adding_metadata/output.docx",
+    "preview": "Binary file (DOCX, 14 KB)",
+    "function": "adding_metadata"
+  },
+  "developer-guide/advanced-usage/extracting-metadata#extracting-metadata": {
+    "type": "text",
+    "file": "extracting-metadata.txt",
+    "path": "developer-guide/advanced-usage/extracting-metadata/extracting_metadata/extracting-metadata.txt",
+    "preview": "Property name: FileFormat, Property value: 3\nProperty name: MimeType, Property value: application/vnd.openxmlformats-officedocument.wordprocessingml.document\nProperty name: WordProcessingFileFormat, Property value: 3\nProperty name: Category, Property value: \nProperty name: Comments, Property value: \nProperty name: ContentStatus, Property value: \nProperty name: Keywords, Property value: \nProperty name: RevisionNumber, Property value: 9\nProperty name: Subject, Property value: \nProperty name: Title\n[TRUNCATED]",
+    "function": "extracting_metadata"
+  },
+  "developer-guide/advanced-usage/getting-known-property-descriptors#getting-known-property-descriptors": {
+    "type": "text",
+    "file": "getting-known-property-descriptors.txt",
+    "path": "developer-guide/advanced-usage/getting-known-property-descriptors/getting_known_property_descriptors/getting-known-property-descriptors.txt",
+    "preview": "Author\n1\n7\nPersonCreator\nDocumentPropertyTypeBuiltIn\n\nBytes\n5\n7\nDesignationMeasure\n[TRUNCATED]",
+    "function": "getting_known_property_descriptors"
+  },
+  "developer-guide/advanced-usage/loading-files/load-a-file-of-a-specific-format#load-a-file-of-a-specific-format": {
+    "type": "text",
+    "file": "loading-file-of-specific-format.txt",
+    "path": "developer-guide/advanced-usage/loading-files/load-a-file-of-a-specific-format/loading_file_of_specific_format/loading-file-of-specific-format.txt",
+    "preview": "Author: gena",
+    "function": "loading_file_of_specific_format"
+  },
+  "developer-guide/advanced-usage/loading-files/load-a-password-protected-document#load-a-password-protected-document": {
+    "type": "text",
+    "file": "load-password-protected-document.txt",
+    "path": "developer-guide/advanced-usage/loading-files/load-a-password-protected-document/load_password_protected_document/load-password-protected-document.txt",
+    "preview": "Opened protected 3 document",
+    "function": "load_password_protected_document"
+  },
+  "developer-guide/advanced-usage/loading-files/load-from-a-local-disk#load-from-a-local-disk": {
+    "type": "text",
+    "file": "load-from-local-disk.txt",
+    "path": "developer-guide/advanced-usage/loading-files/load-from-a-local-disk/load_from_local_disk/load-from-local-disk.txt",
+    "preview": "Loaded 3 (17952 bytes)",
+    "function": "load_from_local_disk"
+  },
+  "developer-guide/advanced-usage/loading-files/load-from-a-stream#load-from-a-stream": {
+    "type": "text",
+    "file": "load-from-stream.txt",
+    "path": "developer-guide/advanced-usage/loading-files/load-from-a-stream/load_from_stream/load-from-stream.txt",
+    "preview": "Loaded 3 from a stream",
+    "function": "load_from_stream"
+  },
+  "developer-guide/advanced-usage/removing-metadata#removing-metadata": {
+    "type": "file",
+    "file": "output.docx",
+    "path": "developer-guide/advanced-usage/removing-metadata/removing_metadata/output.docx",
+    "preview": "Binary file (DOCX, 13 KB)",
+    "function": "removing_metadata"
+  },
+  "developer-guide/advanced-usage/saving-files/save-a-modified-file-to-a-specified-location#save-a-modified-file-to-a-specified-location": {
+    "type": "file",
+    "file": "output.jpg",
+    "path": "developer-guide/advanced-usage/saving-files/save-a-modified-file-to-a-specified-location/save_file_to_specified_location/output.jpg",
+    "preview": "Binary file (JPG, 795 KB)",
+    "function": "save_file_to_specified_location"
+  },
+  "developer-guide/advanced-usage/saving-files/save-a-modified-file-to-a-stream#save-a-modified-file-to-a-stream": {
+    "type": "text",
+    "file": "save-file-to-specified-stream.txt",
+    "path": "developer-guide/advanced-usage/saving-files/save-a-modified-file-to-a-stream/save_file_to_specified_stream/save-file-to-specified-stream.txt",
+    "preview": "Saved 51759 bytes to the stream",
+    "function": "save_file_to_specified_stream"
+  },
+  "developer-guide/advanced-usage/saving-files/save-a-modified-file-to-the-original-source#save-a-modified-file-to-the-original-source": {
+    "type": "file",
+    "file": "input.ppt",
+    "path": "developer-guide/advanced-usage/saving-files/save-a-modified-file-to-the-original-source/save_file_to_original_source/input.ppt",
+    "preview": "Binary file (PPT, 172 KB)",
+    "function": "save_file_to_original_source"
+  },
+  "developer-guide/advanced-usage/working-with-interpreted-values#working-with-interpreted-values": {
+    "type": "text",
+    "file": "working-with-interpreted-values.txt",
+    "path": "developer-guide/advanced-usage/working-with-interpreted-values/working_with_interpreted_values/working-with-interpreted-values.txt",
+    "preview": "FileFormat\n9\nJpeg\n\nByteOrder\n1\nBigEndian\n\nXResolution\nSystem.Double[]\n[TRUNCATED]",
+    "function": "working_with_interpreted_values"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-properties/exporting-metadata-properties#exporting-metadata-properties": {
+    "type": "file",
+    "file": "export.xlsx",
+    "path": "developer-guide/advanced-usage/working-with-metadata-properties/exporting-metadata-properties/exporting_metadata_properties/export.xlsx",
+    "preview": "Binary file (XLSX, 9 KB)",
+    "function": "exporting_metadata_properties"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-properties/extracting-property-values#extracting-property-values": {
+    "type": "text",
+    "file": "extract-using-type.txt",
+    "path": "developer-guide/advanced-usage/working-with-metadata-properties/extracting-property-values/extract_using_type/extract-using-type.txt",
+    "preview": "MimeType (string): application/vnd.openxmlformats-officedocument.wordprocessingml.document\nExtension (string): .docx\nAuthor (string): Prokofjev Igor\nCategory (string): \nComments (string): \nCompany (string): Profitgroup\nContentStatus (string): \nCreateTime (datetime): 2016-03-22 17:08:00+00:00\nKeywords (string): \nLastPrinted (datetime): 0001-01-01 00:00:00\n[TRUNCATED]",
+    "function": "extract_using_type"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata#exif-read-basic": {
+    "type": "text",
+    "file": "read-basic-exif-properties.txt",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/read_basic_exif_properties/read-basic-exif-properties.txt",
+    "preview": "None\nNone\nNone\nNone\nNone\nAdobe Photoshop CS6 (Windows)\nNone\nNone\ntest comment\n1/5\n[TRUNCATED]",
+    "function": "read_basic_exif_properties"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata#exif-read-tags": {
+    "type": "text",
+    "file": "read-exif-tags.txt",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/read_exif_tags/read-exif-tags.txt",
+    "preview": "282 = System.Double[]\n283 = System.Double[]\n296 = System.Int32[]\n531 = System.Int32[]\n34665 = System.Int64[]\n34853 = System.Int64[]\n42032 = James B.\n36864 = System.Byte[]\n37121 = System.Byte[]\n40961 = System.Int32[]\n[TRUNCATED]",
+    "function": "read_exif_tags"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata#exif-read-specific": {
+    "type": "text",
+    "file": "read-specific-exif-tag.txt",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/read_specific_exif_tag/read-specific-exif-tag.txt",
+    "preview": "Software: Adobe Photoshop CS6 (Windows)\nComment: test comment",
+    "function": "read_specific_exif_tag"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata#exif-update": {
+    "type": "file",
+    "file": "output.jpg",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/update_exif_properties/output.jpg",
+    "preview": "Binary file (JPG, 795 KB)",
+    "function": "update_exif_properties"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata#exif-set-custom": {
+    "type": "file",
+    "file": "output.tiff",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/set_custom_exif_tag/output.tiff",
+    "preview": "Binary file (TIFF, 135 KB)",
+    "function": "set_custom_exif_tag"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata#exif-remove": {
+    "type": "file",
+    "file": "output.jpg",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata/remove_exif_metadata/output.jpg",
+    "preview": "Binary file (JPG, 795 KB)",
+    "function": "remove_exif_metadata"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata#iptc-read-basic": {
+    "type": "text",
+    "file": "read-basic-iptc-properties.txt",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata/read_basic_iptc_properties/read-basic-iptc-properties.txt",
+    "preview": "2019-09-21 00:00:00\nNone\n8\ntest\nNone\nNone\nNone\n2019-09-18 00:00:00",
+    "function": "read_basic_iptc_properties"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata#iptc-read-datasets": {
+    "type": "text",
+    "file": "read-iptc-datasets.txt",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata/read_iptc_datasets/read-iptc-datasets.txt",
+    "preview": "1\n90\nCodedCharacterSet\nGroupDocs.Metadata.Common.PropertyValue[]\n2\n0\nRecordVersion\n32\n2\n55\n[TRUNCATED]",
+    "function": "read_iptc_datasets"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata#iptc-update": {
+    "type": "file",
+    "file": "output.jpg",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata/update_iptc_properties/output.jpg",
+    "preview": "Binary file (JPG, 885 KB)",
+    "function": "update_iptc_properties"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata#iptc-set-custom": {
+    "type": "file",
+    "file": "output.psd",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata/set_custom_iptc_dataset/output.psd",
+    "preview": "Binary file (PSD, 19.5 MB)",
+    "function": "set_custom_iptc_dataset"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata#iptc-remove": {
+    "type": "file",
+    "file": "output.jpg",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-iptc-iim-metadata/remove_iptc_metadata/output.jpg",
+    "preview": "Binary file (JPG, 948 KB)",
+    "function": "remove_iptc_metadata"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata#xmp-read": {
+    "type": "text",
+    "file": "read-xmp-properties.txt",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/read_xmp_properties/read-xmp-properties.txt",
+    "preview": "Adobe Photoshop CC 2017 (Windows)\n2018-09-05 07:28:22+03:00\n2018-09-05 07:37:28+03:00\nimage/png\nNone\nNone\n3\nNone\nNone",
+    "function": "read_xmp_properties"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata#xmp-update": {
+    "type": "file",
+    "file": "output.gif",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/update_xmp_properties/output.gif",
+    "preview": "Binary file (GIF, 150 KB)",
+    "function": "update_xmp_properties"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata#xmp-add-custom": {
+    "type": "file",
+    "file": "output.jpg",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/add_custom_xmp_package/output.jpg",
+    "preview": "Binary file (JPG, 885 KB)",
+    "function": "add_custom_xmp_package"
+  },
+  "developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata#xmp-remove": {
+    "type": "file",
+    "file": "output.jpg",
+    "path": "developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata/remove_xmp_metadata/output.jpg",
+    "preview": "Binary file (JPG, 174 KB)",
+    "function": "remove_xmp_metadata"
+  },
+  "developer-guide/basic-usage/clean-metadata#clean-metadata": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/basic-usage/clean-metadata/clean_metadata/output.pdf",
+    "preview": "Binary file (PDF, 382 KB)",
+    "function": "clean_metadata"
+  },
+  "developer-guide/basic-usage/find-metadata-properties#find-metadata-properties": {
+    "type": "text",
+    "file": "find-metadata-properties.txt",
+    "path": "developer-guide/basic-usage/find-metadata-properties/find_metadata_properties/find-metadata-properties.txt",
+    "preview": "Property name: lastsavedby, Property value: tttlll@sibmail.com\nProperty name: lastsavedtime, Property value: 10/28/2019 09:59:47",
+    "function": "find_metadata_properties"
+  },
+  "developer-guide/basic-usage/get-document-info#get-document-info": {
+    "type": "text",
+    "file": "get-document-info.txt",
+    "path": "developer-guide/basic-usage/get-document-info/get_document_info/get-document-info.txt",
+    "preview": "File format: 2\nFile extension: .xlsx\nMIME Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\nNumber of pages: 2\nDocument size: 1677676 bytes\nIs document encrypted: False",
+    "function": "get_document_info"
+  },
+  "developer-guide/basic-usage/remove-metadata-properties#remove-metadata-properties": {
+    "type": "file",
+    "file": "output.docx",
+    "path": "developer-guide/basic-usage/remove-metadata-properties/remove_metadata_properties/output.docx",
+    "preview": "Binary file (DOCX, 14 KB)",
+    "function": "remove_metadata_properties"
+  },
+  "developer-guide/basic-usage/set-metadata-properties#set-metadata-properties": {
+    "type": "file",
+    "file": "output.vsdx",
+    "path": "developer-guide/basic-usage/set-metadata-properties/set_metadata_properties/output.vsdx",
+    "preview": "Binary file (VSDX, 35 KB)",
+    "function": "set_metadata_properties"
+  },
+  "getting-started/quick-start-guide#qs-read-metadata": {
+    "type": "text",
+    "file": "read-metadata.txt",
+    "path": "getting-started/quick-start-guide/read_metadata/read-metadata.txt",
+    "preview": "FileType = GroupDocs.Metadata.Formats.Document.WordProcessingTypePackage\nDocumentProperties = GroupDocs.Metadata.Formats.Document.WordProcessingPackage\nDublinCore = GroupDocs.Metadata.Standards.DublinCore.DublinCorePackage\nInspectionPackage = GroupDocs.Metadata.Formats.Document.WordProcessingInspectionPackage\nDocumentStatistics = GroupDocs.Metadata.Formats.Document.DocumentStatistics\nFileFormat = 3\nMimeType = application/vnd.openxmlformats-officedocument.wordprocessingml.document\nExtension = .do\n[TRUNCATED]",
+    "function": "read_metadata"
+  },
+  "getting-started/quick-start-guide#qs-remove-metadata": {
+    "type": "file",
+    "file": "clean.docx",
+    "path": "getting-started/quick-start-guide/remove_metadata/clean.docx",
+    "preview": "Binary file (DOCX, 14 KB)",
+    "function": "remove_metadata"
+  },
+  "getting-started/quick-start-guide#qs-document-info": {
+    "type": "text",
+    "file": "document-info.txt",
+    "path": "getting-started/quick-start-guide/document_info/document-info.txt",
+    "preview": "Format: 3\nMIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\nPages: 1\nSize: 17952 bytes\nEncrypted: False",
+    "function": "document_info"
+  }
+}
