@@ -30,6 +30,15 @@ hideChildren: False
 
 ## Installation from GroupDocs artifactory using Maven
 
+{{< alert style="warning" >}}
+
+**Do not install from Maven Central.** Maven Central may list an outdated `com.groupdocs:groupdocs-metadata` release (for example **18.5**). Install the on-prem Java SDK from `https://releases.groupdocs.com/java/repo/` with coordinates `com.groupdocs:groupdocs-metadata`. Use version **26.1**.
+
+This is the **SDK** artifact. For GroupDocs.Metadata Cloud on Java, use `com.groupdocs:groupdocs-metadata-cloud` from `https://repository.groupdocs.cloud/maven/` instead (`groupdocs-metadata-cloud`).
+
+{{< /alert >}}
+
+
 GroupDocs hosts all Java APIs on [GroupDocs Artifactory](https://releases.groupdocs.com/java/repo/). You can easily use [GroupDocs.Metadata for Java](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-metadata/) API directly in your Maven projects with simple configurations.
 
 ### Specify GroupDocs repository configuration
@@ -52,7 +61,7 @@ First, you need to specify repository configuration/location in your project as
 ```xml
 repositories {
     maven {
-        url "https://repository.groupdocs.com/repo/"
+        url "https://releases.groupdocs.com/java/repo/"
     }
 }
 ```
@@ -60,7 +69,7 @@ repositories {
 {{< tab "Kotlin" >}}
 ```xml
 repositories {
-    maven(url = "https://repository.groupdocs.com/repo/")
+    maven(url = "https://releases.groupdocs.com/java/repo/")
 }
 ```
 {{< /tab >}}
@@ -94,7 +103,7 @@ Then define GroupDocs.Metadata for Java API dependency in your pom.xml as follow
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-metadata</artifactId>
-        <version>24.5</version>
+        <version>26.1</version>
     </dependency>
 </dependencies>
 ```
@@ -102,27 +111,27 @@ Then define GroupDocs.Metadata for Java API dependency in your pom.xml as follow
 {{< tab "Gradle" >}}
 ```xml
 dependencies {
-    implementation 'com.groupdocs:groupdocs-metadata:24.5'
+    implementation 'com.groupdocs:groupdocs-metadata:26.1'
 }
 ```
 {{< /tab >}}
 {{< tab "Kotlin" >}}
 ```xml
 dependencies {
-    implementation("com.groupdocs:groupdocs-metadata:24.5")
+    implementation("com.groupdocs:groupdocs-metadata:26.1")
 }
 ```
 {{< /tab >}}
 {{< tab "Ivy" >}}
 ```xml
-<dependency org="com.groupdocs" name="groupdocs-metadata" rev="24.5">
+<dependency org="com.groupdocs" name="groupdocs-metadata" rev="26.1">
    <artifact name="groupdocs-metadata" ext="jar"/>
 </dependency>
 ```
 {{< /tab >}}
 {{< tab "Sbt" >}}
 ```xml
-libraryDependencies += "com.groupdocs" % "groupdocs-metadata" % "24.5"
+libraryDependencies += "com.groupdocs" % "groupdocs-metadata" % "26.1"
 ```
 {{< /tab >}}
 {{< /tabs >}}

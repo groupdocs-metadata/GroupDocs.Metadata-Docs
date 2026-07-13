@@ -41,33 +41,11 @@ GroupDocs.Metadata for .NET supports any 32-bit or 64-bit operating system whe
 
 ## Supported Frameworks
 
-GroupDocs.Metadata for .NET  supports .NET and Mono frameworks as follows:
+GroupDocs.Metadata for .NET supports the following frameworks:
 
-### .NET Frameworks
-
-*   .NET Framework 2.0
-*   .NET Framework 3.5
-*   .NET Framework 4.0
-*   .NET Framework 4.0\_ClientProfile
-*   .NET Framework 4.5.0
-*   .NET Framework 4.5.1
-*   .NET Framework 4.5.2
-*   .NET Framework 4.6.0
-*   .NET Framework 4.6.2
-*   .NET Framework 4.5.0
-*   .NET Framework 4.5.1
-*   .NET Framework 4.6.0
-*   .NET Framework 4.6.2
-*   .NET Framework 4.7
-*   .NET Framework 4.7.2
-*   .NET Standard 2.0 
-*   .NET Core 2.0
-*   .NET Core 2.1
-
-### Mono Framework
-
-*   Mono 2.6.7 or later
-
+* .NET Framework 4.7.2 or higher
+* .NET 6.0 or higher
+* .NET 8.0 or higher
 ## Development Environments
 
 GroupDocs.Metadata for .NET can be used to develop applications in any development environment that targets the .NET platform, but the following environments are explicitly supported:

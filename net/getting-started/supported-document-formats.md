@@ -10,7 +10,8 @@ hideChildren: True
 toc: true
 ---
 
-GroupDocs.Metadata for .NET supports 110+ file formats for metadata operations. Use the search box below to quickly find your format, or browse by category.
+## 110+ Supported File Formats
+GroupDocs.Metadata for .NET supports **110+ file formats**. Use the search box below to quickly find your format, or browse by category.
 
 <div style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #007bff;">
   <div style="margin-bottom: 15px;">

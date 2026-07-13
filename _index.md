@@ -11,7 +11,7 @@ showFeedbackForm: false
 ---
 
 <div class="gdoc-list-descr">
-Excellent component that empowers your C#, ASP.NET, and other .NET applications. It helps developers to read, write, edit and remove meta information from all popular document file formats.
+GroupDocs.Metadata helps developers read, write, edit, and remove metadata from 110+ document, image, audio, and video file formats across .NET, Java, Node.js, and Python SDKs. See the <a href="https://docs.groupdocs.com/metadata/net/supported-document-formats/">supported formats</a> table for the full list.
 </div>
 
 <h2 class="gdoc-product-title">Documentation</h2>
