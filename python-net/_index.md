@@ -21,7 +21,7 @@ fullWidth: True
 
 GroupDocs.Metadata for Python via .NET is a metadata management API for documents that lets you create, preview, analyze, update, and remove meta information across all popular file formats. It takes a file as input, gives you access to its property information, and lets you perform metadata operations in a unified way regardless of the file format.
 
-GroupDocs.Metadata supports over [170 popular file formats](/metadata/python-net/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, email messages, and images.
+GroupDocs.Metadata supports over [110+ popular file formats](/metadata/python-net/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, email messages, and images.
 
 ## Quick example
 

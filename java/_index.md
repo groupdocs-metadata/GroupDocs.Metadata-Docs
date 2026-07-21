@@ -15,7 +15,7 @@ hideChildren: True
 
 GroupDocs.Metadata for Java - A metadata management API for documents to create, preview, analyze, update and remove meta information from all popular file formats. Java metadata changer API gets the file as input, access the file property information and allows users to perform metadata operations for locating this specific file easily for future reference.
 
-GroupDocs.Metadata supports over [170 popular file formats](/metadata/java/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, web pages, email messages, and images and render/display them in HTML, PDF, PNG, and JPEG formats. You can render the entire document or specific pages.
+GroupDocs.Metadata supports over [110+ popular file formats](/metadata/java/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, web pages, email messages, and images and render/display them in HTML, PDF, PNG, and JPEG formats. You can render the entire document or specific pages.
 
 {{< columns >}}
 <p><b>About GroupDocs.Metadata</b></p>

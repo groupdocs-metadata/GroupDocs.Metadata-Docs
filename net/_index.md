@@ -3,7 +3,7 @@ id: home
 url: metadata/net
 title: GroupDocs.Metadata for .NET
 weight: 1
-description: A .NET API to manipulate metadata is being consumed as metadata viewer for CRUD operations. It helps developers to read, write, edit and remove meta information from all popular document file formats
+description: A .NET API to manipulate metadata is being consumed as metadata viewer for CRUD operations. It helps developers to read, write, edit and remove meta information from 110+ document, image, audio, and video file formats
 keywords: metadata is,metadata,meta information
 productName: GroupDocs.Metadata for .NET
 hideChildren: True
@@ -19,8 +19,8 @@ hideChildren: True
 {{< button style="primary" link="https://releases.groupdocs.com/metadata/net/release-notes/" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg> Release notes {{< /button >}} 
 {{< button style="primary" link="https://releases.groupdocs.com/metadata/net/" >}} {{< icon "gdoc_download" >}} Download ZIP or MSI {{< /button >}}
 
-GroupDocs.Metadata for .NET API can be consumed as Metadata viewer for CRUD operations. It helps developers to read, write, edit and remove meta information from all popular document file formats. It gets the file as input, access the file property information and allows the users to perform metadata operations for locating this specific document file easily for future reference.
-GroupDocs.Metadata supports over [170 popular file formats](/metadata/python-net/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, email messages, and images.
+GroupDocs.Metadata for .NET API can be consumed as Metadata viewer for CRUD operations. It helps developers to read, write, edit and remove meta information from 110+ document, image, audio, and video file formats. It gets the file as input, access the file property information and allows the users to perform metadata operations for locating this specific document file easily for future reference.
+GroupDocs.Metadata supports over [110+ popular file formats](/metadata/python-net/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, email messages, and images.
 
 
 {{< columns >}}
