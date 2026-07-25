@@ -10,7 +10,7 @@ structuredData:
     showOrganization: true
 toc: true
 hideChildren: false
-draft: true
+draft: false
 ---
 # Compare Metadata Between Document Versions
 
