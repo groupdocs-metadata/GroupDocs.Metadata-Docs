@@ -18,7 +18,6 @@ toc: true
 hideChildren: false
 draft: false
 ---
-# Compare document metadata across versions
 
 {{< alert style="info" >}}
 💡 Full working example available on GitHub:

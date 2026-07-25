@@ -15,4 +15,4 @@ Here you will find examples on extracting metadata from PDFs, Word files, images
 
 ### Pages in this section
 
-- [Compare Metadata Between Document Versions](metadata/java/compare-metadata-between-document-versions) – Learn how to extract, diff, and export document metadata across revisions using GroupDocs.Metadata for Java.
+- [Compare Metadata Between Document Versions](/metadata/java/compare-metadata-between-document-versions) – Learn how to extract, diff, and export document metadata across revisions using GroupDocs.Metadata for Java.

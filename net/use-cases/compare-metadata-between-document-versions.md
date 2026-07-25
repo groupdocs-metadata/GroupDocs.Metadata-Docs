@@ -19,8 +19,6 @@ hideChildren: false
 draft: true
 ---
 
-# Compare Metadata Between Document Versions
-
 {{< alert style="info" >}}
 💡 Full working example available on GitHub:
 [metadata-diff-between-versions-using-groupdocs-metadata-dotnet](https://github.com/groupdocs-metadata/metadata-diff-between-versions-using-groupdocs-metadata-dotnet)

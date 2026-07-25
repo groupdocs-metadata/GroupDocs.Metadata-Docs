@@ -16,4 +16,4 @@ You will find examples that demonstrate extracting metadata from PDFs, Word file
 
 ### Pages in this section
 
-- [Compare document metadata across versions](metadata/nodejs-java/compare-metadata-between-document-versions) – Detect and report metadata changes between document versions using GroupDocs.Metadata for Node.js.
+- [Compare document metadata across versions](/metadata/nodejs-java/compare-metadata-between-document-versions) – Detect and report metadata changes between document versions using GroupDocs.Metadata for Node.js.
