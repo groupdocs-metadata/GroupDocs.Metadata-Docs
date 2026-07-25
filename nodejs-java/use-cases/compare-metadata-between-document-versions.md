@@ -1,6 +1,6 @@
 ---
 id: compare-metadata-versions
-url: metadata/nodejs-java/use-cases/compare-metadata-between-document-versions
+url: metadata/nodejs-java/compare-metadata-between-document-versions
 title: "Compare document metadata across versions"
 description: "Detect and report metadata changes between document versions using GroupDocs.Metadata for Node.js."
 keywords:
