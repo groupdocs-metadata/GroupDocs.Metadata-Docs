@@ -1,6 +1,6 @@
 ---
 id: compare-metadata-between-document-versions
-url: metadata/java/use-cases/compare-metadata-between-document-versions
+url: metadata/java/compare-metadata-between-document-versions
 title: Compare Metadata Between Document Versions
 weight: 10
 description: "Learn how to extract, diff, and export document metadata across revisions using GroupDocs.Metadata for Java."
