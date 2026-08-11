@@ -15,5 +15,3 @@ This section collects practical scenarios for **GroupDocs.Metadata for Python vi
 Use these guides when you are building audit tooling, records workflows, or document forensics scripts in Python and want to see the property search engine applied to a concrete business problem.
 
 ### Pages in this section
-
-- [Comparing Metadata Between Document Versions - Technical Deep Dive](/metadata/python-net/use-cases/compare-metadata-between-document-versions/) - diff every property between two file revisions, isolate ownership and revision changes, and export JSON/CSV audit reports.
