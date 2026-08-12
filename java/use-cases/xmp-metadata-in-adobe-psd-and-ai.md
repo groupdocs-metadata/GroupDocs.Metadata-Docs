@@ -9,7 +9,7 @@ productName: GroupDocs.Metadata for Java
 structuredData:
     showOrganization: True
 toc: true
-draft: true
+draft: false
 ---
 
 {{< alert style="info" >}}
