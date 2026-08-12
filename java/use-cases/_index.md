@@ -1,4 +1,4 @@
----
+﻿---
 id: use-cases
 url: metadata/java/use-cases
 title: Use Cases
@@ -15,4 +15,5 @@ Here you will find examples on extracting metadata from PDFs, Word files, images
 
 ### Pages in this section
 
-- [Compare Metadata Between Document Versions](/metadata/java/compare-metadata-between-document-versions) – Learn how to extract, diff, and export document metadata across revisions using GroupDocs.Metadata for Java.
+- [Compare Metadata Between Document Versions](/metadata/java/compare-metadata-between-document-versions) вЂ“ Learn how to extract, diff, and export document metadata across revisions using GroupDocs.Metadata for Java.
+- [5 XMP Operations for PSD and AI Files in Java](/metadata/java/use-cases/xmp-metadata-in-adobe-psd-and-ai/) – Compare snapshot, scheme reads, and guarded writes for XMP in Photoshop PSD and Adobe Illustrator files.
