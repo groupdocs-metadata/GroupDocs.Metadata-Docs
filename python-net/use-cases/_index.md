@@ -16,3 +16,5 @@ Use these guides when you are building audit tooling, records workflows, or docu
 
 ### Pages in this section
 - [5 PII Removal Methods for Office Files - Complete Comparison Guide](/metadata/python-net/use-cases/remove-pii-from-office-files/) – Compare targeted removal passes, the full sanitize, and a leak-check verification for Word, Excel, and PowerPoint files.
+- [Managing XMP in Adobe PSD and AI Files: Integration Guide](/metadata/python-net/use-cases/xmp-metadata-in-adobe-psd-and-ai/) – Read Dublin Core and Photoshop schemes, stamp copyright, and tag keywords in PSD and AI files from Python.
+

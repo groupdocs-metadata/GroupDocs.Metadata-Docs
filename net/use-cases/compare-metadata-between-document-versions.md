@@ -21,7 +21,7 @@ draft: false
 
 {{< alert style="info" >}}
 💡 Full working example available on GitHub:
-[metadata-diff-between-versions-using-groupdocs-metadata-dotnet](https://github.com/groupdocs-metadata/metadata-diff-between-versions-using-groupdocs-metadata-dotnet)
+[metadata-diff-between-versions-using-groupdocs-metadata-dotnet](https://github.com/groupdocs-metadata/metadata-diff-between-docs-using-groupdocs-metadata-dotnet)
 {{< /alert >}}
 
 **Compare Metadata Between Document Versions** is a GroupDocs.Metadata capability for .NET that extracts, diffs, and reports property changes across two revisions of the same file. The guide below shows how to turn raw metadata into actionable audit evidence, whether you need a full property dump, an ownership‑focused check, or a revision‑history snapshot.
