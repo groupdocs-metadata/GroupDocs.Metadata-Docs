@@ -1,4 +1,4 @@
----
+﻿---
 id: use-cases
 url: metadata/python-net/use-cases
 title: Use Cases
@@ -15,3 +15,5 @@ This section collects practical scenarios for **GroupDocs.Metadata for Python vi
 Use these guides when you are building audit tooling, records workflows, or document forensics scripts in Python and want to see the property search engine applied to a concrete business problem.
 
 ### Pages in this section
+
+- [Managing XMP in Adobe PSD and AI Files: Integration Guide](/metadata/python-net/use-cases/xmp-metadata-in-adobe-psd-and-ai/) – Read Dublin Core and Photoshop schemes, stamp copyright, and tag keywords in PSD and AI files from Python.
