@@ -10,7 +10,7 @@ productName: GroupDocs.Metadata for Python via .NET
 hideChildren: True
 fullWidth: True
 ---
-<img src="/logo/128x128/groupdocs-metadata-python.png" alt="groupdocs-metadata-python-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/logo/128x128/groupdocs-metadata-python.png" alt="groupdocs-metadata-python-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 <img src="https://img.shields.io/pypi/v/groupdocs-metadata-net?label=GroupDocs.Metadata%20for%20Python%20PyPI
 " alt="PyPI package">
