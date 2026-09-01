@@ -11,7 +11,7 @@ showFeedbackForm: false
 ---
 
 <div class="gdoc-list-descr">
-GroupDocs.Metadata helps developers read, write, edit, and remove metadata from 110+ document, image, audio, and video file formats across .NET, Java, Node.js, and Python SDKs. See the <a href="https://docs.groupdocs.com/metadata/net/supported-document-formats/">supported formats</a> table for the full list.
+GroupDocs.Metadata helps developers read, write, edit, and remove metadata from 115+ document, image, audio, and video file formats across .NET, Java, Node.js, and Python SDKs. See the <a href="https://docs.groupdocs.com/metadata/net/supported-document-formats/">supported formats</a> table for the full list.
 </div>
 
 <h2 class="gdoc-product-title">Documentation</h2>

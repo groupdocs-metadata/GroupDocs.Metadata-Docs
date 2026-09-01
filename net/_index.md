@@ -20,7 +20,7 @@ hideChildren: True
 {{< button style="primary" link="https://releases.groupdocs.com/metadata/net/" >}} {{< icon "gdoc_download" >}} Download ZIP or MSI {{< /button >}}
 
 GroupDocs.Metadata for .NET API can be consumed as Metadata viewer for CRUD operations. It helps developers to read, write, edit and remove meta information from 110+ document, image, audio, and video file formats. It gets the file as input, access the file property information and allows the users to perform metadata operations for locating this specific document file easily for future reference.
-GroupDocs.Metadata supports over [110+ popular file formats](/metadata/python-net/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, email messages, and images.
+GroupDocs.Metadata supports over [115+ popular file formats](/metadata/python-net/supported-document-formats). Load text documents, spreadsheets, presentations, PDF files, email messages, and images.
 
 
 {{< columns >}}

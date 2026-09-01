@@ -1,16 +1,17 @@
 ---
 id: supported-document-formats
 url: metadata/python-net/supported-document-formats
-title: Supported File Formats
+title: Supported Document Formats
 weight: 2
-description:  It supports DOCX, DOCM, DOC, DOT, DOTM, XLS, XLSX, PDF, PPT, JPG, PNG, HTML, EML and many more.
-keywords: DOCX, DOCM, DOC, DOT, DOTM, XLS, XLSX, PDF, PPT, JPG, PNG, HTML, EML 
+description: Supported file formats matrix for GroupDocs.Metadata for Python via .NET.
+keywords: metadata, supported formats, python-net
 productName: GroupDocs.Metadata for Python via .NET
-hideChildren: False
+hideChildren: True
+toc: true
 ---
 
-## 110+ Supported File Formats
-GroupDocs.Metadata for Python via .NET supports **110+ file formats**. Use the search box below to quickly find your format, or browse by category.
+## 115+ Supported File Formats
+GroupDocs.Metadata for Python via .NET supports **115+ file formats**. Use the search box below to quickly find your format, or browse by category.
 
 <div style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #007bff;">
   <div style="margin-bottom: 15px;">
@@ -37,15 +38,20 @@ Each format may support different metadata capabilities:
 | Format | Description | AutoDetection | Read | Edit | Remove | Remarks |
 |--------|-------------|------|------|------|------|---------|
 | `.7z` | 7z Archive File Format | ✅ | ✅ | ✅ | ✅ |  |
+| `.aar` | Aar Archive File Format | ✅ | ✅ | ❌ | ❌ |  |
+| `.bz2` | Bz2 Archive File Format | ✅ | ✅ | ❌ | ❌ |  |
 | `.cb7` | A CB7 file refers to Comic Book 7-Zip Archive | ✅ | ✅ | ✅ | ✅ |  |
 | `.cbr` | A Comic Book Archive (CBA) file | ✅ | ✅ | ❌ | ❌ |  |
 | `.cbt` | A Comic Book Archive (CBA) file | ✅ | ✅ | ❌ | ❌ |  |
 | `.cbz` | A Comic Book Archive (CBA) file | ✅ | ✅ | ✅ | ✅ |  |
+| `.gz` | Gzip Archive File Format | ✅ | ✅ | ❌ | ❌ |  |
 | `.jar` | Archive File Format | ✅ | ✅ | ✅ | ✅ |  |
 | `.rar` | Rar Archive File Format | ✅ | ✅ | ❌ | ❌ |  |
 | `.tar` | Tar Archive File Format | ✅ | ✅ | ❌ | ❌ |  |
+| `.xz` | Xz Archive File Format | ✅ | ✅ | ❌ | ❌ |  |
 | `.zip` | Archive File Format | ✅ | ✅ | ✅ | ✅ |  |
 | `.zipx` | Archive File Format | ✅ | ✅ | ✅ | ✅ |  |
+| `.zst` | Zstd Archive File Format | ✅ | ✅ | ❌ | ❌ |  |
 
 ---
 
@@ -280,6 +286,30 @@ document.addEventListener('DOMContentLoaded', function() {
     "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
   },
   {
+    "ext": ".aar",
+    "name": "Aar Archive File Format",
+    "category": "Archive",
+    "support": {
+      "AutoDetection": "✅",
+      "Read": "✅",
+      "Edit": "❌",
+      "Remove": "❌"
+    },
+    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
+  },
+  {
+    "ext": ".bz2",
+    "name": "Bz2 Archive File Format",
+    "category": "Archive",
+    "support": {
+      "AutoDetection": "✅",
+      "Read": "✅",
+      "Edit": "❌",
+      "Remove": "❌"
+    },
+    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
+  },
+  {
     "ext": ".cb7",
     "name": "A CB7 file refers to Comic Book 7-Zip Archive",
     "category": "Archive",
@@ -328,6 +358,18 @@ document.addEventListener('DOMContentLoaded', function() {
     "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
   },
   {
+    "ext": ".gz",
+    "name": "Gzip Archive File Format",
+    "category": "Archive",
+    "support": {
+      "AutoDetection": "✅",
+      "Read": "✅",
+      "Edit": "❌",
+      "Remove": "❌"
+    },
+    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
+  },
+  {
     "ext": ".jar",
     "name": "Archive File Format",
     "category": "Archive",
@@ -364,6 +406,18 @@ document.addEventListener('DOMContentLoaded', function() {
     "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
   },
   {
+    "ext": ".xz",
+    "name": "Xz Archive File Format",
+    "category": "Archive",
+    "support": {
+      "AutoDetection": "✅",
+      "Read": "✅",
+      "Edit": "❌",
+      "Remove": "❌"
+    },
+    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
+  },
+  {
     "ext": ".zip",
     "name": "Archive File Format",
     "category": "Archive",
@@ -386,6 +440,18 @@ document.addEventListener('DOMContentLoaded', function() {
       "Remove": "✅"
     },
     "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
+  },
+  {
+    "ext": ".zst",
+    "name": "Zstd Archive File Format",
+    "category": "Archive",
+    "support": {
+      "AutoDetection": "✅",
+      "Read": "✅",
+      "Edit": "❌",
+      "Remove": "❌"
+    },
+    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
   },
   {
     "ext": ".mp3",
@@ -1620,11 +1686,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
-{{< alert style="tip" >}}
-
-**Can’t find your file format?**
-
-We’re here to help! Please post a request on our [Free Support Forum](https://forum.groupdocs.com/c/metadata/14), and our team will assist you.
-
-{{< /alert >}}
