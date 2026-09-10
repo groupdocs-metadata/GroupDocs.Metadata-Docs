@@ -2,7 +2,7 @@
 id: compare-metadata-between-versions
 url: metadata/net/compare-metadata-between-document-versions
 title: "Compare Metadata Between Document Versions"
-description: "Step‑by‑step guide to diff document metadata in .NET using GroupDocs.Metadata, with export options and best‑practice tips."
+description: "Step by step guide to diff document metadata in .NET using GroupDocs.Metadata, with export options and best practice tips."
 keywords:
   - GroupDocs.Metadata
   - metadata diff

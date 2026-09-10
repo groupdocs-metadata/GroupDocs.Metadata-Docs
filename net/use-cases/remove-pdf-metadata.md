@@ -9,11 +9,11 @@ productName: GroupDocs.Metadata for .NET
 structuredData:
     showOrganization: True
 toc: true
-draft: true
+draft: false
 ---
 
 {{< alert style="info" >}}
-рџ’Ў Full working example available on GitHub:
+Full working example available on GitHub:
 [https://github.com/groupdocs-metadata/strip-pdf-metadata-dotnet](https://github.com/groupdocs-metadata/strip-pdf-metadata-dotnet)
 {{< /alert >}}
 
