@@ -54,7 +54,7 @@ GroupDocs.Metadata for Node.js via Java - A metadata management API for document
 
 <p>API REFERENCE</p>
 <ul>
-    <li><a href="https://reference.groupdocs.com/metadata/nodejs-java/">GroupDocs.Viewer for Node.js via Java API Reference</a></li>
+    <li><a href="https://reference.groupdocs.com/metadata/nodejs-java/">GroupDocs.Metadata for Node.js via Java API Reference</a></li>
 </ul>
 
 <--->

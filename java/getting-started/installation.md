@@ -103,7 +103,7 @@ Then define GroupDocs.Metadata for Java API dependency in your pom.xml as follow
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-metadata</artifactId>
-        <version>26.1</version>
+        <version>26.7</version>
     </dependency>
 </dependencies>
 ```
@@ -111,27 +111,27 @@ Then define GroupDocs.Metadata for Java API dependency in your pom.xml as follow
 {{< tab "Gradle" >}}
 ```xml
 dependencies {
-    implementation 'com.groupdocs:groupdocs-metadata:26.1'
+    implementation 'com.groupdocs:groupdocs-metadata:26.7'
 }
 ```
 {{< /tab >}}
 {{< tab "Kotlin" >}}
 ```xml
 dependencies {
-    implementation("com.groupdocs:groupdocs-metadata:26.1")
+    implementation("com.groupdocs:groupdocs-metadata:26.7")
 }
 ```
 {{< /tab >}}
 {{< tab "Ivy" >}}
 ```xml
-<dependency org="com.groupdocs" name="groupdocs-metadata" rev="26.1">
+<dependency org="com.groupdocs" name="groupdocs-metadata" rev="26.7">
    <artifact name="groupdocs-metadata" ext="jar"/>
 </dependency>
 ```
 {{< /tab >}}
 {{< tab "Sbt" >}}
 ```xml
-libraryDependencies += "com.groupdocs" % "groupdocs-metadata" % "26.1"
+libraryDependencies += "com.groupdocs" % "groupdocs-metadata" % "26.7"
 ```
 {{< /tab >}}
 {{< /tabs >}}
