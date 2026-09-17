@@ -16,7 +16,3 @@ Whether you are building a compliance auditing tool, integrating metadata handli
 
 ### Pages in this section
 
-- [How to Detect PDF/A Conformance in .NET - 1 Practical Tutorial](/metadata/net/detect-pdfa-conformance) Learn how to detect PDF/A conformance and retrieve the exact PDF/A version using GroupDocs.Metadata for .NET.
-- [Compare Metadata Between Document Versions](/metadata/net/compare-metadata-between-document-versions) Step by step guide to diff document metadata in .NET using GroupDocs.Metadata, with export options and bestвЂ‘practice tips.
-- [XMP Metadata Operations for PSD and AI Files - Technical Deep Dive](/metadata/net/use-cases/xmp-metadata-in-adobe-psd-and-ai/) – Read and write XMP in Photoshop PSD and Illustrator AI files with full-packet snapshots, scheme reads, and guarded writes.
-- [2 PDF Metadata Cleanup Methods for .NET - Sanitize vs Author Removal](/metadata/net/use-cases/remove-pdf-metadata/) – Compare Sanitize() and RemoveProperties to strip PDF Author, Creator, and XMP using GroupDocs.Metadata for .NET.
