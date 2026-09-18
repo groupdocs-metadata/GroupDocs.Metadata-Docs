@@ -1,0 +1,312 @@
+{
+  "serverVersion": "26.9.0",
+  "capturedFrom": "GroupDocs.Metadata.Mcp@26.9.0",
+  "tools": [
+    {
+      "name": "read_metadata",
+      "description": "Reads all metadata properties from a document (author, title, creation date, custom properties) and returns them as JSON. Call this tool immediately whenever the user asks to read metadata, show document properties, or get author/title/date info. Do NOT pre-check whether files exist — just pass the filename the user provided. The tool resolves files from storage and returns an error with available files if a name is not found.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "object",
+            "properties": {
+              "filePath": {
+                "description": "Name or path of a file in the configured storage, e.g. 'report.pdf' or 'output/report.pdf'. Use this for files the server can already see.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileContent": {
+                "description": "Base64-encoded file content, for passing a file that is not in storage. Must be accompanied by fileName so the format can be determined.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileName": {
+                "description": "Filename with extension, e.g. 'report.pdf'. Required alongside fileContent. May also be used on its own as an alias for filePath.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "password": {
+            "description": "Password for protected documents",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "file"
+        ]
+      },
+      "execution": {
+        "taskSupport": "optional"
+      }
+    },
+    {
+      "name": "search_metadata",
+      "description": "Searches the metadata inside a single document and returns only the matching properties as JSON — use this instead of ReadMetadata when the user asks about a SPECIFIC property rather than the whole set. Call it for 'show me the author of report.pdf', 'what is the creation date?', 'does photo.jpg have GPS?', or to check a value like 'does contract.docx have Author = ABC?'. Filters (combine any): category (person, content, time, tool, legal, corporate, document, gps, comments, keywords), nameContains, valueContains — all case-insensitive. Supports PDF, DOCX, XLSX, PPTX, JPEG, PNG, TIFF, MP3, MP4 and 100+ more formats. Returns a JSON object with fields `count` and `properties` (array of { name, value, category }); `count` 0 means no match. On failure the response text starts with 'Metadata search failed for'.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "object",
+            "properties": {
+              "filePath": {
+                "description": "Name or path of a file in the configured storage, e.g. 'report.pdf' or 'output/report.pdf'. Use this for files the server can already see.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileContent": {
+                "description": "Base64-encoded file content, for passing a file that is not in storage. Must be accompanied by fileName so the format can be determined.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileName": {
+                "description": "Filename with extension, e.g. 'report.pdf'. Required alongside fileContent. May also be used on its own as an alias for filePath.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "category": {
+            "description": "Optional category filter: person, content, time, tool, legal, corporate, document, gps, comments, keywords",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "nameContains": {
+            "description": "Optional: only properties whose name contains this text (case-insensitive)",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "valueContains": {
+            "description": "Optional: only properties whose value contains this text (case-insensitive)",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "password": {
+            "description": "Password for protected documents",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "file"
+        ]
+      },
+      "execution": {
+        "taskSupport": "optional"
+      }
+    },
+    {
+      "name": "write_metadata",
+      "description": "Sets, changes, or adds a single metadata property on a document and saves the updated file to storage. Call this whenever the user wants to write a property value — 'set the author of report.pdf to ABC', 'add title \"Q3 Report\" to file.docx', 'change the subject', 'put my company name in the metadata'. `property` is one of Author, Title, Subject, Keywords, Comments, Copyright, Company, Manager; `value` is the text to write; `mode` is 'set' (replace, default) or 'add' (append, for list fields like Keywords). The tool maps the friendly name to the correct field per format automatically (PDF Info/XMP, Office document properties, EXIF/IPTC for images) and creates the field if it is absent. Supports PDF, DOCX, XLSX, PPTX, JPEG, PNG, TIFF and 100+ more formats. Returns a saved-path message plus how many fields changed; if the property does not apply to the file's format it reports 0 changed. On failure the response text starts with 'Metadata write failed for'.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "object",
+            "properties": {
+              "filePath": {
+                "description": "Name or path of a file in the configured storage, e.g. 'report.pdf' or 'output/report.pdf'. Use this for files the server can already see.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileContent": {
+                "description": "Base64-encoded file content, for passing a file that is not in storage. Must be accompanied by fileName so the format can be determined.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileName": {
+                "description": "Filename with extension, e.g. 'report.pdf'. Required alongside fileContent. May also be used on its own as an alias for filePath.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "property": {
+            "description": "Property to write: Author, Title, Subject, Keywords, Comments, Copyright, Company, or Manager",
+            "type": "string"
+          },
+          "value": {
+            "description": "The text value to write",
+            "type": "string"
+          },
+          "mode": {
+            "description": "'set' to replace the value (default), or 'add' to append (for list fields like Keywords)",
+            "type": "string",
+            "default": "set"
+          },
+          "password": {
+            "description": "Password for protected documents",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "file",
+          "property",
+          "value"
+        ]
+      },
+      "execution": {
+        "taskSupport": "optional"
+      }
+    },
+    {
+      "name": "remove_metadata",
+      "description": "Removes metadata from a document and saves a cleaned copy to storage. By default (no categories) it strips ALL removable metadata — use this for 'remove all metadata before sharing'. To remove only SPECIFIC kinds, pass `categories` (one or more of): gps (location/geotags), author (creator/editor), comments, company, dates, software (the 'created with' tool fingerprint), copyright, keywords, personal (best-effort PII bundle: people + company + location). Call this whenever the user asks to remove, strip, clean, or redact metadata — e.g. 'remove GPS from photo.jpg' or 'strip the author from report.pdf'. Supports PDF, DOCX, XLSX, PPTX, JPEG, PNG, TIFF and 100+ more formats. Returns a saved-path message with the number of properties removed. On failure the response text starts with 'Metadata removal failed for'.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "object",
+            "properties": {
+              "filePath": {
+                "description": "Name or path of a file in the configured storage, e.g. 'report.pdf' or 'output/report.pdf'. Use this for files the server can already see.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileContent": {
+                "description": "Base64-encoded file content, for passing a file that is not in storage. Must be accompanied by fileName so the format can be determined.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileName": {
+                "description": "Filename with extension, e.g. 'report.pdf'. Required alongside fileContent. May also be used on its own as an alias for filePath.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "categories": {
+            "description": "Optional: remove only specific kinds — any of gps, author, comments, company, dates, software, copyright, keywords, personal. Omit (or 'all') to remove every removable property.",
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "default": null
+          },
+          "password": {
+            "description": "Password for protected documents",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "file"
+        ]
+      },
+      "execution": {
+        "taskSupport": "optional"
+      }
+    },
+    {
+      "name": "get_document_info",
+      "description": "Returns the file type, size, page count, and encryption status of a document as JSON — a lightweight structural check that does NOT enumerate metadata properties (use ReadMetadata for that). Supports PDF, DOCX, XLSX, PPTX, JPEG, PNG, TIFF, MP3, MP4, WAV, AVI, and 50+ more document, image, and media formats. Call this tool whenever the user asks about a document's format, page count, byte size, or whether it is encrypted, without needing the full metadata dump. Do NOT pre-check whether the file exists — just pass the filename the user provided. Returns a JSON object with fields `fileName`, `fileFormat` (engine-reported format name), `mimeType`, `pageCount`, `sizeBytes`, and `isEncrypted`. On failure, the response text starts with 'Document-info lookup failed for' followed by the underlying exception type, message, and inner-exception chain.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "object",
+            "properties": {
+              "filePath": {
+                "description": "Name or path of a file in the configured storage, e.g. 'report.pdf' or 'output/report.pdf'. Use this for files the server can already see.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileContent": {
+                "description": "Base64-encoded file content, for passing a file that is not in storage. Must be accompanied by fileName so the format can be determined.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "fileName": {
+                "description": "Filename with extension, e.g. 'report.pdf'. Required alongside fileContent. May also be used on its own as an alias for filePath.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "password": {
+            "description": "Password for protected documents",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "file"
+        ]
+      },
+      "execution": {
+        "taskSupport": "optional"
+      }
+    },
+    {
+      "name": "get_license_status",
+      "description": "Returns how this MCP server is licensed, and — under metered licensing — how much has been consumed. Call this when the user asks about licensing, evaluation limitations, metered usage, remaining credit, or which product engine version is running. Returns a JSON object with `mode` (\"evaluation\", \"licensed\" or \"metered\"), `licensed` (true for both licensed and metered), `consumption` (null unless metered; otherwise `quantity` and `credit`, or `error` if the reading failed), and `server` / `engine` name and version. Takes no arguments and never modifies anything.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  ]
+}
