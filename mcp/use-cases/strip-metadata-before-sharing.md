@@ -56,7 +56,7 @@ Step 3 is the one people skip, and it is the one that turns "I think it is clean
 ## Three honest limits
 
 * **The original still exists**, with everything in it. The tool writes a new file; sharing the wrong one defeats the exercise. Make the agent name the file it produced.
-* **Not everything is metadata.** Tracked changes, comments, embedded objects, and earlier revisions live in the document body. For comments and annotations use the [GroupDocs.Annotation MCP server]({{< ref "annotation/mcp/_index.md" >}}); for content-level redaction, [GroupDocs.Redaction]({{< ref "redaction/mcp/_index.md" >}}).
+* **Not everything is metadata.** Tracked changes, comments, embedded objects, and earlier revisions live in the document body. For comments and annotations use the [GroupDocs.Annotation MCP server](/annotation/mcp/); for content-level redaction, [GroupDocs.Redaction](/redaction/mcp/).
 * **Evaluation mode cannot be trusted for this.** With only the first five properties readable and writable, "everything removed" is not a claim the unlicensed engine can honestly make. [`get_license_status`]({{< ref "metadata/mcp/tools-reference/get-license-status.md" >}}) first.
 
 ## A repeatable habit
