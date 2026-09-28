@@ -1,6 +1,6 @@
 MimeType (string): application/vnd.openxmlformats-officedocument.wordprocessingml.document
 Extension (string): .docx
-Author (string): Prokofjev Igor
+Author (string): Emily Carter
 Category (string): 
 Comments (string): 
 Company (string): Profitgroup
@@ -16,10 +16,10 @@ Template (string): Normal
 Title (string): 
 dc:title (string): 
 dc:subject (string): 
-dc:creator (string): Prokofjev Igor
+dc:creator (string): Emily Carter
 dc:description (string): 
-CommentAuthor (string): Prokofjev Igor
-CommentAuthorInitials (string): PI
+CommentAuthor (string): Emily Carter
+CommentAuthorInitials (string): EC
 CommentText (string): First comment
 CommentCreatedDate (datetime): 2016-03-22 20:11:00+02:00
 FieldCode (string):  MERGEFIELD  date  \* MERGEFORMAT 

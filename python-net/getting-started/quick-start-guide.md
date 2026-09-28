@@ -212,7 +212,7 @@ if __name__ == "__main__":
 Format: 3
 MIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
 Pages: 1
-Size: 17952 bytes
+Size: 14296 bytes
 Encrypted: False
 ```
 [Download full output](/metadata/python-net/_output_files/getting-started/quick-start-guide/document_info/document-info.txt)

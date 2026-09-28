@@ -42,7 +42,7 @@ if __name__ == "__main__":
 ```text
 MimeType (string): application/vnd.openxmlformats-officedocument.wordprocessingml.document
 Extension (string): .docx
-Author (string): Prokofjev Igor
+Author (string): Emily Carter
 Category (string): 
 Comments (string): 
 Company (string): Profitgroup

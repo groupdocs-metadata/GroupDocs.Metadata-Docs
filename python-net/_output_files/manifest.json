@@ -38,7 +38,7 @@
     "type": "text",
     "file": "load-from-local-disk.txt",
     "path": "developer-guide/advanced-usage/loading-files/load-from-a-local-disk/load_from_local_disk/load-from-local-disk.txt",
-    "preview": "Loaded 3 (17952 bytes)",
+    "preview": "Loaded 3 (14296 bytes)",
     "function": "load_from_local_disk"
   },
   "developer-guide/advanced-usage/loading-files/load-from-a-stream#load-from-a-stream": {
@@ -94,7 +94,7 @@
     "type": "text",
     "file": "extract-using-type.txt",
     "path": "developer-guide/advanced-usage/working-with-metadata-properties/extracting-property-values/extract_using_type/extract-using-type.txt",
-    "preview": "MimeType (string): application/vnd.openxmlformats-officedocument.wordprocessingml.document\nExtension (string): .docx\nAuthor (string): Prokofjev Igor\nCategory (string): \nComments (string): \nCompany (string): Profitgroup\nContentStatus (string): \nCreateTime (datetime): 2016-03-22 17:08:00+00:00\nKeywords (string): \nLastPrinted (datetime): 0001-01-01 00:00:00\n[TRUNCATED]",
+    "preview": "MimeType (string): application/vnd.openxmlformats-officedocument.wordprocessingml.document\nExtension (string): .docx\nAuthor (string): Emily Carter\nCategory (string): \nComments (string): \nCompany (string): Profitgroup\nContentStatus (string): \nCreateTime (datetime): 2016-03-22 17:08:00+00:00\nKeywords (string): \nLastPrinted (datetime): 0001-01-01 00:00:00\n[TRUNCATED]",
     "function": "extract_using_type"
   },
   "developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata#exif-read-basic": {
@@ -255,7 +255,7 @@
     "type": "text",
     "file": "document-info.txt",
     "path": "getting-started/quick-start-guide/document_info/document-info.txt",
-    "preview": "Format: 3\nMIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\nPages: 1\nSize: 17952 bytes\nEncrypted: False",
+    "preview": "Format: 3\nMIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\nPages: 1\nSize: 14296 bytes\nEncrypted: False",
     "function": "document_info"
   }
 }

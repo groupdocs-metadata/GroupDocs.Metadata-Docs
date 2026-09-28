@@ -35,7 +35,7 @@ if __name__ == "__main__":
 {{< /tab >}}
 {{< tab "load-from-local-disk.txt" >}}  
 ```text
-Loaded 3 (17952 bytes)
+Loaded 3 (14296 bytes)
 ```
 [Download full output](/metadata/python-net/_output_files/developer-guide/advanced-usage/loading-files/load-from-a-local-disk/load_from_local_disk/load-from-local-disk.txt)
 {{< /tab >}}
