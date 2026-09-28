@@ -18,13 +18,18 @@ Installing the `groupdocs-metadata-net` package also puts a `groupdocs-metadata`
 
 The CLI ships inside the package, so no extra installation is needed. Make sure `groupdocs-metadata-net` 26.9 or later is installed (see [Installation]({{< ref "/metadata/python-net/getting-started/installation.md" >}})), then check the console script:
 
+{{< tabs "cli-version">}}
+{{< tab "Command" >}}
 ```bash
 groupdocs-metadata --version
 ```
-
+{{< /tab >}}
+{{< tab "Output" >}}
 ```text
 groupdocs-metadata 26.9.0
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
 {{< alert style="info" >}}
 If the `groupdocs-metadata` command is not found, the package's script directory is not on your `PATH`. The module form works everywhere and is equivalent: `python -m groupdocs.metadata`.
@@ -38,10 +43,13 @@ Run `groupdocs-metadata --help` for the full flag listing, or `groupdocs-metadat
 
 Print basic information about a file.
 
+{{< tabs "cli-info">}}
+{{< tab "Command" >}}
 ```bash
 groupdocs-metadata info photo.jpg
 ```
-
+{{< /tab >}}
+{{< tab "Output" >}}
 ```text
 format:     JPEG
 extension:  .jpg
@@ -50,6 +58,8 @@ size:       906062
 pages:      1
 encrypted:  False
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
 Add `--json` for machine-readable output.
 
@@ -57,10 +67,13 @@ Add `--json` for machine-readable output.
 
 List the metadata properties, one per line as `name = value  [tags]`. Where the engine can interpret a raw value, it is shown first with the raw value in parentheses.
 
+{{< tabs "cli-show">}}
+{{< tab "Command" >}}
 ```bash
 groupdocs-metadata show report.docx --tag person
 ```
-
+{{< /tab >}}
+{{< tab "Output" >}}
 ```text
 Author = Prokofjev Igor  [person.creator, document.built_in]
 LastSavedBy = New user  [person.editor, document.built_in]
@@ -68,6 +81,8 @@ dc:creator = Prokofjev Igor  [person.creator]
 CommentAuthor = Prokofjev Igor  [person.creator]
 CommentAuthorInitials = PI  [person.creator]
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
 Without `--tag` every property is listed. `--json` prints a list of `{"name", "type", "value", "tags"}` objects (plus `"interpreted"` where there is one).
 
@@ -75,15 +90,20 @@ Without `--tag` every property is listed. `--json` prints a list of `{"name", "t
 
 Remove every metadata property the engine detects.
 
+{{< tabs "cli-clean">}}
+{{< tab "Command" >}}
 ```bash
 groupdocs-metadata clean report.docx                   # writes report.clean.docx
 groupdocs-metadata clean report.docx -o shared.docx    # choose the output
 groupdocs-metadata clean report.docx -o report.docx    # clean in place
 ```
-
+{{< /tab >}}
+{{< tab "Output" >}}
 ```text
 removed 24 properties -> report.clean.docx
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
 The input is never overwritten unless `-o` names it.
 

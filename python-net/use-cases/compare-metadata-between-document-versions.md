@@ -196,6 +196,8 @@ Two serializers, one `MetadataDiff`. JSON keeps the three buckets as top-level m
 
 ### Implementation
 
+{{< tabs "export-diff">}}
+{{< tab "JSON" >}}
 ```python
 payload = {
     "added": diff.added,
@@ -205,7 +207,8 @@ payload = {
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(payload, f, indent=2, ensure_ascii=False)
 ```
-
+{{< /tab >}}
+{{< tab "CSV" >}}
 ```python
 with open(output_path, "w", encoding="utf-8", newline="") as f:
     writer = csv.writer(f)
@@ -217,6 +220,8 @@ with open(output_path, "w", encoding="utf-8", newline="") as f:
     for k, (old_v, new_v) in diff.changed.items():
         writer.writerow(["changed", k, old_v, new_v])
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
 ### Operational Considerations
 
