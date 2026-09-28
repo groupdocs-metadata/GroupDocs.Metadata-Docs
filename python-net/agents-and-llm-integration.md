@@ -107,7 +107,7 @@ as a reference for GroupDocs.Metadata for Python via .NET API.
 
 ## Why GroupDocs.Metadata is a good building block for AI pipelines
 
-Metadata is structured, high-signal context that LLMs and RAG systems can use directly — author, dates, comments, geolocation, camera settings, document statistics, and format details — without parsing the document body. GroupDocs.Metadata exposes this uniformly across 70+ formats:
+Metadata is structured, high-signal context that LLMs and RAG systems can use directly — author, dates, comments, geolocation, camera settings, document statistics, and format details — without parsing the document body. GroupDocs.Metadata exposes this uniformly across 115+ formats:
 
 - **Extract metadata for indexing / RAG** — pull author, title, keywords, and EXIF/XMP/IPTC fields into your search index or vector store.
 - **Sanitize before sharing** — strip author, comments, and revision history from documents an agent is about to send out.

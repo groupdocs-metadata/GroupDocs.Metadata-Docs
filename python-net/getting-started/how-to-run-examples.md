@@ -137,7 +137,7 @@ The repository mirrors this documentation tree. Every documentation page maps to
    {{< /tab >}}
    {{< /tabs >}}
 
-3. **Configure a license** (optional). The suite honours the `GROUPDOCS_LIC_PATH` environment variable and also picks up any `*.lic` file dropped into the project root. Set the variable in your shell before running `run_all_examples.py`:
+3. **Configure a license** (optional). The suite honours the `GROUPDOCS_LIC_PATH` environment variable. Set the variable in your shell before running `run_all_examples.py`:
 
    {{< tabs "license-env">}}
    {{< tab "Windows (PowerShell)" >}}
@@ -198,7 +198,7 @@ Examples that modify a file write their output artefacts into the same folder as
 
 ## Run with Docker
 
-The repository includes a `Dockerfile` (based on `python:3.13-slim`) that installs the required native libraries (`libgdiplus`, `libfontconfig1`, ICU) and every Python dependency, then runs the full suite. Use it when you want a clean, reproducible Linux environment without touching your host machine:
+The repository includes a `Dockerfile` (based on `python:3.13-slim`) that installs the required native libraries (ICU and `libfontconfig1`) and every Python dependency, then runs the full suite. Use it when you want a clean, reproducible Linux environment without touching your host machine:
 
 ```bash
 docker build -t groupdocs-metadata-examples .
@@ -212,12 +212,11 @@ Drop the `-e` / `-v` flags to run in evaluation mode.
 
 ## Continuous Integration
 
-Every push triggers `.github/workflows/run-examples.yml`, which runs the entire example suite on `ubuntu-latest` with Python 3.13 (after installing `libicu-dev`, `libgdiplus`, and `libfontconfig1`). Fork the repository and open a pull request — the workflow runs for free on GitHub-hosted runners and is a quick way to sanity-check local changes in a clean environment.
+Every push triggers `.github/workflows/run-examples.yml`, which runs the entire example suite on `ubuntu-latest` with Python 3.13 (after installing `libicu-dev` and `libfontconfig1`). Fork the repository and open a pull request — the workflow runs for free on GitHub-hosted runners and is a quick way to sanity-check local changes in a clean environment.
 
 ## Troubleshooting
 
-- **`DllNotFoundException: libgdiplus`** on Linux / macOS — install the native dependencies. See [How to install libgdiplus]({{< ref "/metadata/python-net/getting-started/troubleshooting/how-to-install-libgdiplus.md" >}}) and the full list in [System Requirements]({{< ref "/metadata/python-net/getting-started/system-requirements.md" >}}).
-- **Garbled text or missing glyphs** — install Microsoft TrueType fonts (`ttf-mscorefonts-installer` on Debian / Ubuntu; macOS already ships them). Run `fc-cache -f` after installing so fontconfig picks them up.
+- **`DllNotFoundException` naming `libSkiaSharp` or `libaspose.slides.drawing.capi…`** on Linux — install fontconfig (`libfontconfig1`); presentations and XLSX export need it. `libgdiplus` is not needed since 26.9 — see [Do I need libgdiplus?]({{< ref "/metadata/python-net/getting-started/troubleshooting/how-to-install-libgdiplus.md" >}}).
 - **"Evaluation only" exception on `save()`, or only a few properties are read** — you are running unlicensed. Set `GROUPDOCS_LIC_PATH` to a valid license file and re-run. See [Licensing]({{< ref "/metadata/python-net/getting-started/evaluation-limitations-and-licensing.md" >}}).
 - **Anything else** — post on the [free support forum](https://forum.groupdocs.com/c/metadata) or visit the [Technical Support]({{< ref "metadata/python-net/technical-support" >}}) page.
 

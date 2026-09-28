@@ -29,7 +29,7 @@ Get XMP reading working in your project in minutes:
 
 **Step 1 — Install the package**
 
-Run `pip install groupdocs-metadata-net==26.5`, the exact version the repository pins in `requirements.txt`.
+Run `pip install groupdocs-metadata-net==26.9.0`, the exact version the repository pins in `requirements.txt`.
 
 **Step 2 — Add to your project**
 
@@ -59,7 +59,7 @@ Point the function at a PSD or AI file. You get a dict of fields like Title, Cre
 ## Prerequisites
 
 - Python 3 with pip
-- `groupdocs-metadata-net==26.5` installed
+- `groupdocs-metadata-net==26.9.0` installed
 - A license file is optional; without one the code runs in evaluation mode, and `main.py` prints a warning instead of failing
 
 ## Core Concepts

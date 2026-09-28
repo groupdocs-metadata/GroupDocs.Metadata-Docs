@@ -10,10 +10,10 @@ hideChildren: False
 toc: True
 ---
 
-GroupDocs.Metadata for Python via .NET is distributed as a self-contained wheel that bundles the embedded .NET runtime, so **no additional software is required**. A single `py3-none-{platform}` wheel works across Python **3.5 – 3.14** on Windows, Linux, and macOS (Intel and Apple Silicon).
+GroupDocs.Metadata for Python via .NET is distributed as a self-contained wheel that bundles the embedded .NET runtime. Nothing else is needed on Windows and macOS; Linux needs ICU and fontconfig, which most distributions already have. A single `py3-none-{platform}` wheel works across Python **3.5 – 3.14** on Windows, Linux, and macOS (Intel and Apple Silicon).
 
 {{< alert style="info" >}}
-Before you install, review the [System Requirements]({{< ref "/metadata/python-net/getting-started/system-requirements.md" >}}). On Linux and macOS, image and document-image processing additionally needs the `libgdiplus` native library — see the system-requirements page for the exact packages.
+Before you install, review the [System Requirements]({{< ref "/metadata/python-net/getting-started/system-requirements.md" >}}). The wheels need Linux with glibc 2.27 or newer, or macOS 12 or newer, and pip 20.3 or newer to install. On Linux, install ICU and fontconfig (`libicu`, `libfontconfig1`); `libgdiplus` is not needed.
 {{< /alert >}}
 
 ## Install Package from PyPI
@@ -53,7 +53,7 @@ Using a [virtual environment](https://docs.python.org/3/library/venv.html) is re
 For reproducible builds, pin the version in your project's `requirements.txt`:
 
 ```text
-groupdocs-metadata-net==26.5
+groupdocs-metadata-net==26.9.0
 ```
 
 Then install every dependency at once:
@@ -68,32 +68,41 @@ In environments without access to PyPI (for example, an air-gapped CI runner or 
 
 Download the wheel that matches your operating system and CPU architecture from the [GroupDocs.Metadata releases](https://releases.groupdocs.com/metadata/python-net/) page:
 
-| Platform | Wheel file name ends with |
-| --- | --- |
-| Windows 64-bit | `py3-none-win_amd64.whl` |
-| Linux x64 (glibc) | `py3-none-manylinux1_x86_64.whl` |
-| macOS Apple Silicon (M-series) | `py3-none-macosx_11_0_arm64.whl` |
-| macOS Intel | `py3-none-macosx_10_14_x86_64.whl` |
+| Platform | Wheel file name ends with | Oldest system |
+| --- | --- | --- |
+| Windows 64-bit | `py3-none-win_amd64.whl` | — |
+| Linux x64 (glibc) | `py3-none-manylinux_2_27_x86_64.whl` | glibc 2.27 (Ubuntu 18.04, Debian 10, RHEL 8) |
+| macOS Apple Silicon (M-series) | `py3-none-macosx_12_0_arm64.whl` | macOS 12 |
+| macOS Intel | `py3-none-macosx_12_0_x86_64.whl` | macOS 12 |
+
+Since 26.9 the file names state the oldest system each wheel runs on, so pip 20.3 or newer refuses an older one up front instead of installing a runtime that cannot start. Wheels up to 26.7 were tagged `manylinux1_x86_64`, `macosx_10_14_x86_64` and `macosx_11_0_arm64`.
 
 Install the downloaded file with `pip` (replace the file name with the wheel you downloaded):
 
 {{< tabs "install-from-wheel">}}
-{{< tab "Windows" >}}
+{{< tab "Windows (64-bit)" >}}
 ```ps
-py -m pip install .\groupdocs_metadata_net-26.5-py3-none-win_amd64.whl
+py -m pip install .\groupdocs_metadata_net-26.9.0-py3-none-win_amd64.whl
 ```
 {{< /tab >}}
-{{< tab "Linux" >}}
+{{< tab "Linux (glibc)" >}}
 ```bash
-python3 -m pip install ./groupdocs_metadata_net-26.5-py3-none-manylinux1_x86_64.whl
+python3 -m pip install ./groupdocs_metadata_net-26.9.0-py3-none-manylinux_2_27_x86_64.whl
 ```
 {{< /tab >}}
-{{< tab "macOS" >}}
+{{< tab "macOS (Apple Silicon)" >}}
 ```bash
-python3 -m pip install ./groupdocs_metadata_net-26.5-py3-none-macosx_11_0_arm64.whl
+python3 -m pip install ./groupdocs_metadata_net-26.9.0-py3-none-macosx_12_0_arm64.whl
+```
+{{< /tab >}}
+{{< tab "macOS (Intel)" >}}
+```bash
+python3 -m pip install ./groupdocs_metadata_net-26.9.0-py3-none-macosx_12_0_x86_64.whl
 ```
 {{< /tab >}}
 {{< /tabs >}}
+
+Name the wheel file explicitly: PowerShell does not expand a `*` wildcard for a native command, so `pip install groupdocs_metadata_net-*.whl` fails there.
 
 ## Verify the Installation
 
@@ -109,8 +118,15 @@ You can also check the installed version with `pip`:
 python3 -m pip show groupdocs-metadata-net
 ```
 
+The package also installs the `groupdocs-metadata` command line, which prints the same version:
+
+```bash
+groupdocs-metadata --version
+```
+
 ## Next Steps
 
 - Follow the [Quick Start Guide]({{< ref "/metadata/python-net/getting-started/quick-start-guide.md" >}}) to read and remove metadata in a few minutes.
+- Inspect, clean and export metadata from the terminal with the [Command Line Interface]({{< ref "/metadata/python-net/getting-started/command-line-interface.md" >}}).
 - Clone the [examples repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET) and read [How to Run Examples]({{< ref "/metadata/python-net/getting-started/how-to-run-examples.md" >}}).
 - If you work with AI agents or LLMs, see [Agents and LLM Integration]({{< ref "/metadata/python-net/agents-and-llm-integration.md" >}}) for MCP and `AGENTS.md` details.

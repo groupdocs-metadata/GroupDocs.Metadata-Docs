@@ -96,4 +96,4 @@ GroupDocs.Metadata is a useful building block for AI document pipelines: extract
 
 ## On-Premise Deployment
 
-No cloud calls, no outbound network traffic, no third-party software dependencies beyond what the OS already provides. The wheel is self-contained on Windows and ships its own native runtime libraries on Linux and macOS. See [System Requirements]({{< ref "/metadata/python-net/getting-started/system-requirements.md" >}}) for the short list of optional native packages (`libgdiplus`, fontconfig).
+No cloud calls, no outbound network traffic, no third-party software dependencies beyond what the OS already provides. The wheel is self-contained on Windows and ships its own native runtime libraries on Linux and macOS. See [System Requirements]({{< ref "/metadata/python-net/getting-started/system-requirements.md" >}}) for the two Linux packages it needs (ICU and fontconfig); `libgdiplus` is not needed.

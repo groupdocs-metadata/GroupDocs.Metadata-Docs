@@ -30,13 +30,13 @@ Metadata version comparison is a GroupDocs.Metadata capability for Python via .N
 One question: given two versions of the same file, what changed about it, and can you prove it? For audit-trail, retention, and tampering work — not body-text comparison, which is a different problem.
 
 **Prerequisites:**
-- Python 3 with `pip`; the demo pins `groupdocs-metadata-net==26.5` in `requirements.txt`
+- Python 3 with `pip`; the demo pins `groupdocs-metadata-net==26.9.0` in `requirements.txt`
 - A GroupDocs license file (optional — without one the demo runs in evaluation mode and says so)
 
 ### Installation
 
 ```bash
-pip install groupdocs-metadata-net==26.5
+pip install groupdocs-metadata-net==26.9.0
 ```
 
 Point `LICENSE_PATH` in `main.py` at your `.lic` file, then run `python main.py`. It diffs the two bundled DOCX revisions, writes `output/diff.json` and `output/diff.csv`, and prints `ALL PASS` when all six stages hold.
@@ -247,7 +247,7 @@ The pipeline only reads its inputs — originals stay untouched and defensible. 
 ## FAQ
 
 **Does this work for formats other than DOCX?**
-Yes — nothing in the pipeline names a format. The `Metadata` constructor detects the type, and the [product documentation](https://docs.groupdocs.com/metadata/python-net/) lists 170+ formats including PDF, XLSX, PPTX, images, and audio. The samples are DOCX because Office files carry the richest built-in property sets.
+Yes — nothing in the pipeline names a format. The `Metadata` constructor detects the type, and the [product documentation](https://docs.groupdocs.com/metadata/python-net/) lists 115+ formats including PDF, XLSX, PPTX, images, and audio. The samples are DOCX because Office files carry the richest built-in property sets.
 
 **Why do the detectors re-open files instead of reusing the extraction?**
 Each function stands alone so it can be lifted into another codebase, at the cost of two extra file opens. At scale, extract once per revision and filter the in-memory dicts. The classification logic stays identical.

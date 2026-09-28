@@ -3,71 +3,77 @@ id: system-requirements
 url: metadata/python-net/system-requirements
 title: System Requirements
 weight: 3
-description: GroupDocs.Metadata for Python supports any 32-bit or 64-bit operating system that run the Python runtime including
-keywords: GroupDocs.Metadata for Python via .NET, metadata
+description: "System requirements for GroupDocs.Metadata for Python via .NET — supported operating systems, Python versions, pip, and the Linux packages it needs."
+keywords: GroupDocs.Metadata for Python via .NET, system requirements, Windows, Linux, macOS, Python 3.5, Python 3.14, glibc, ICU, fontconfig, libgdiplus
 productName: GroupDocs.Metadata for Python via .NET
 hideChildren: False
 toc: True
 ---
 
-## Overview
-
-GroupDocs.Metadata for Python via .NET does not require any external software or third party tools to be installed.
-
-## General Requirements
-
-- [Python](https://www.python.org/downloads/) versions **3.5–3.14** are supported
+{{< alert style="info" >}}
+GroupDocs.Metadata for Python via .NET ships as a self-contained wheel that bundles the .NET runtime it needs. No Microsoft Office, Adobe software or Mono install is required.
+{{< /alert >}}
 
 ## Supported Operating Systems
 
 ### Windows
 
-* Microsoft Windows 11 (x64)
-* Microsoft Windows 10 (x64, x86)
-* Microsoft Windows 7, 8, 8.1, Vista, XP (x64, x86)
-* Microsoft Windows Server 2003 and later
+- Windows 10 and Windows 11 (x64)
+- Windows Server 2012 and later (x64)
 
-### Linux and macOS (partial support)
+The Windows wheel is 64-bit only: use a 64-bit Python. There is no 32-bit (x86) wheel.
 
-GroupDocs.Metadata include macOS support for Intel and/or Apple Silicon (M-series) processors and Linux support.
+### Linux
 
-## Additional System Libraries
+- Any **x86-64** distribution with **glibc 2.27 or newer** — for example Ubuntu 18.04+, Debian 10+, RHEL 8+. The embedded .NET runtime needs glibc 2.27, and the wheel's `manylinux_2_27_x86_64` tag says so, so pip refuses an older system.
 
-### Linux and macOS System Requirements
+### macOS
 
-* macOS-x86_64: 10.14 or later
-* macOS-arm64: 11.0 or later
+- macOS 12 (Monterey) and later, **Intel** (x86_64) and **Apple Silicon** (arm64 / M-series). Every binary of the embedded .NET runtime requires macOS 12, and the wheels are tagged `macosx_12_0_*` accordingly. Microsoft supports .NET 10 on macOS 14 and later.
 
-GroupDocs.Metadata for Python via .NET relies on `libgdiplus` for processing images or documents that contain images. 
+## Python Version
 
-#### Linux installation
+GroupDocs.Metadata for Python via .NET supports every Python release from **3.5** through **3.14** (`python_requires = ">=3.5,<3.15"`). Download Python from the [official website](https://www.python.org/downloads/).
 
-When using GroupDocs.Metadata in a Linux environment, the following packages should be installed for proper library operation:
+## Package Manager
 
-1. **libgdiplus** - Mono library providing a GDI+-compatible API on non-Windows operating systems.  
-2. **libx11-dev** - Required for drawing functions (image/font rendering).  
-3. **fontconfig** - Enables font lookup for text rendering with System.Drawing.  
-4. **ttf-mscorefonts-installer** - Provides Microsoft-compatible fonts required by GroupDocs.Total.
+The library is distributed on [PyPI](https://pypi.org/project/groupdocs-metadata-net/) as **`groupdocs-metadata-net`**, in four platform-specific wheels per release:
 
-To install packages on Debian-based Linux distributions, use [apt-get](https://wiki.debian.org/apt-get):
+| Platform | Wheel suffix |
+|---|---|
+| Windows x86-64 | `win_amd64` |
+| Linux x86-64 | `manylinux_2_27_x86_64` |
+| macOS Apple Silicon (ARM64) | `macosx_12_0_arm64` |
+| macOS Intel (x86-64) | `macosx_12_0_x86_64` |
+
+`pip` 20.3 or newer picks the right wheel for your platform; older versions do not recognise these tags, so upgrade with `python -m pip install --upgrade pip`. On an Intel Mac, a Python built against a pre-11 macOS SDK reports its system as macOS 10.16 — there use pip 24.1 or newer, or run `SYSTEM_VERSION_COMPAT=0 pip install groupdocs-metadata-net`.
+
+## Platform Dependencies
+
+{{< alert style="info" >}}
+**`libgdiplus` is not required.** Since version 26.9 every example and test passes in a Linux container that has no `libgdiplus`. If an existing image or script installs `libgdiplus` or `mono-libgdiplus` for GroupDocs.Metadata, you can remove it. See [Do I need libgdiplus?]({{< ref "/metadata/python-net/getting-started/troubleshooting/how-to-install-libgdiplus.md" >}}).
+{{< /alert >}}
+
+### Linux
+
+The engine needs **ICU** and **fontconfig**:
 
 ```bash
-sudo apt-get update
-sudo apt-get install -y libgdiplus libx11-dev fontconfig ttf-mscorefonts-installer
+# Debian / Ubuntu
+sudo apt-get install -y libicu-dev libfontconfig1
+
+# Fedora / RHEL / Rocky
+sudo dnf install -y libicu fontconfig
 ```
 
-If some packages are not available, you can add the contrib repository:
+- Without ICU the runtime cannot start: the first call aborts the Python process with "Couldn't find a valid ICU package". Do not set `DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1` to work around it.
+- Without fontconfig, opening presentations (PPTX, PPT) and exporting metadata to XLSX fail, because the bundled SkiaSharp and Aspose.Slides libraries load `libfontconfig.so.1`.
+- No other fonts are needed: GroupDocs.Metadata reads and writes metadata; it does not render pages.
 
-```bash
-RUN sed -i'.bak' 's/$/ contrib/' /etc/apt/sources.list
-```
+### macOS
 
-#### macOS installation
+No additional packages are required.
 
-The library is required and can be installed using the [Homebrew](https://brew.sh/) package manager:
+### Windows
 
-```ps
-brew install mono-libgdiplus
-```
-
-Ensure `libgdiplus` is installed if you encounter issues with processing images or documents that contain images.
+No additional system libraries are required.

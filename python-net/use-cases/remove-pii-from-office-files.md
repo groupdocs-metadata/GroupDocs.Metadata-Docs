@@ -29,7 +29,7 @@ You will see the exact predicate each pass uses, when a substring rule beats a t
 
 **Prerequisites:**
 - Python 3 with pip available
-- `pip install groupdocs-metadata-net==26.5` (the version the repository pins)
+- `pip install groupdocs-metadata-net==26.9.0` (the version the repository pins)
 
 ## Quick Decision Matrix
 
