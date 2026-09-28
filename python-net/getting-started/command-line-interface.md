@@ -75,11 +75,11 @@ groupdocs-metadata show report.docx --tag person
 {{< /tab >}}
 {{< tab "Output" >}}
 ```text
-Author = Prokofjev Igor  [person.creator, document.built_in]
+Author = Emily Carter  [person.creator, document.built_in]
 LastSavedBy = New user  [person.editor, document.built_in]
-dc:creator = Prokofjev Igor  [person.creator]
-CommentAuthor = Prokofjev Igor  [person.creator]
-CommentAuthorInitials = PI  [person.creator]
+dc:creator = Emily Carter  [person.creator]
+CommentAuthor = Emily Carter  [person.creator]
+CommentAuthorInitials = EC  [person.creator]
 ```
 {{< /tab >}}
 {{< /tabs >}}
