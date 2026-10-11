@@ -60,3 +60,8 @@ The second one is quietly useful: file timestamps get rewritten by copying and s
 ## Why local matters for photographs
 
 Sending a photo to a cloud service to ask what it contains sends the photo — including the location you were trying to check for. Here the image is read in place by a local process, and only the answer travels; with a locally-hosted model, not even that. See [On-premise architecture]({{< ref "metadata/mcp/use-cases/on-premise-metadata-processing.md" >}}).
+
+## Read more
+
+* [Photo provenance questions, answered by an AI agent without uploading the image](https://blog.groupdocs.com/metadata/read-exif-xmp-iptc-images-ai-agent-locally/) — the same scenario on the GroupDocs blog, with worked examples and the trade-offs.
+

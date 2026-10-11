@@ -58,7 +58,7 @@ Ask for those three by name and you have covered the common cases in one pass.
 
 ## The licence caveat that matters here more than anywhere
 
-Unlicensed, the engine returns **only the first five document properties**, and neither the response nor the agent mentions it. An audit that reports "nothing sensitive" may simply have stopped reading. Before you trust a result:
+Unlicensed, the engine returns **only the first five document properties**, EXIF GPS data is not returned at all, and neither the response nor the agent mentions it. An audit that reports "nothing sensitive" may simply have stopped reading. Before you trust a result:
 
 > What is the license status of the metadata server?
 
@@ -78,3 +78,8 @@ with `GROUPDOCS_MCP_STORAGE_PATH` pointing at the folder — [per-client config]
 * [Correct document properties in bulk]({{< ref "metadata/mcp/use-cases/bulk-edit-document-properties.md" >}}) — one prompt, many files.
 * [Read EXIF from images]({{< ref "metadata/mcp/use-cases/read-exif-from-images.md" >}}) — cameras, timestamps, and GPS.
 * [On-premise architecture]({{< ref "metadata/mcp/use-cases/on-premise-metadata-processing.md" >}}) — why this one stays local.
+
+## Read more
+
+* [3 metadata questions to ask an AI agent before you share a document](https://blog.groupdocs.com/metadata/document-metadata-audit-ai-agent-mcp/) — the same scenario on the GroupDocs blog, with worked examples and the trade-offs.
+

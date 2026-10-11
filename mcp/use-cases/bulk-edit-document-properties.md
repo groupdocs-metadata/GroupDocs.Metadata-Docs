@@ -52,10 +52,15 @@ That is [`search_metadata`]({{< ref "metadata/mcp/tools-reference/search-metadat
 
 ## Format differences are real
 
-Not every format has a place for every property. A write that a format cannot support **fails with a message** rather than pretending — good behaviour, but it means a mixed folder can produce a partial result. Ask for the failures as a list rather than a silent count.
+Not every format has a place for every property. A write that a format cannot support reports **0 fields changed** or **fails with a message** rather than pretending — good behaviour, but it means a mixed folder can produce a partial result. Ask for the failures and the zero-change files as a list rather than a silent count.
 
 ## Keep it cheap
 
 Under [metered licensing]({{< ref "metadata/mcp/getting-started/licensing.md" >}}#metered-pay-per-use-licensing) every call is billed usage, and a two-property sweep over 200 files is 400 calls plus the reads. Filter first, write second.
 
 And the recurring caveat: in evaluation mode only the first five properties are visible, so a "check then write" workflow is checking a truncated list. [`get_license_status`]({{< ref "metadata/mcp/tools-reference/get-license-status.md" >}}) before a bulk run.
+
+## Read more
+
+* [Enforce metadata standards with automated AI workflows using MCP](https://blog.groupdocs.com/metadata/enforce-metadata-standards-bulk-edit-mcp/) — the same scenario on the GroupDocs blog, with worked examples and the trade-offs.
+

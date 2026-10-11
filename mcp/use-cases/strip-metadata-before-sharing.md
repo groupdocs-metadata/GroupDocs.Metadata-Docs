@@ -63,4 +63,9 @@ Step 3 is the one people skip, and it is the one that turns "I think it is clean
 
 > Before I send anything from this folder: read the metadata, strip it, verify the copy is clean, and give me a one-line report per file.
 
-That is four tool calls per file and a table at the end — the kind of routine an agent is genuinely good at, and a person reliably forgets.
+That is three tool calls per file and a table at the end — the kind of routine an agent is genuinely good at, and a person reliably forgets.
+
+## Read more
+
+* [Why stripping metadata does not make a document safe to share](https://blog.groupdocs.com/metadata/strip-metadata-before-sharing-ai-agent-mcp/) — the same scenario on the GroupDocs blog, with worked examples and the trade-offs.
+
