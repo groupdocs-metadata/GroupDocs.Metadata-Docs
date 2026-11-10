@@ -95,6 +95,5 @@ You may easily run the code above and see the feature in action in our GitHub e
 *   [GroupDocs.Metadata for .NET examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET)    
 *   [GroupDocs.Metadata for Java examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)    
 
-### Free online document metadata management App
-Along with full featured .NET library we provide simple, but powerful free Apps.
-You are welcome to view and edit metadata of PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, emails, images and more with our free online [Free Online Document Metadata Viewing and Editing App](https://products.groupdocs.app/metadata).
+### PSD metadata management demo App
+The [PSD Metadata Editing](https://products.groupdocs.app/metadata/psd) app is available to view and edit metadata of Photoshop (PSD) images, including XMP, EXIF, IPTC, and other properties.

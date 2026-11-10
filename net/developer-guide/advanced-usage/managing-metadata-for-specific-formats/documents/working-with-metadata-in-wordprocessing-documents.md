@@ -269,6 +269,5 @@ You may easily run the code above and see the feature in action in our GitHub e
 *   [GroupDocs.Metadata for .NET examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET)    
 *   [GroupDocs.Metadata for Java examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java)    
 
-### Free online document metadata management App
-Along with full featured .NET library we provide simple, but powerful free Apps.
-You are welcome to view and edit metadata of PDF, DOC, DOCX, PPT, PPTX, XLS, XLSX, emails, images and more with our free online [Free Online Document Metadata Viewing and Editing App](https://products.groupdocs.app/metadata).
+### Word metadata management demo App
+The [Word Metadata Editing](https://products.groupdocs.app/metadata/docx) app is available to view and edit metadata of Word documents (DOC, DOCX, and more), including author, title, subject, keywords, and other document properties.
