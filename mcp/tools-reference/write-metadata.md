@@ -21,7 +21,7 @@ toc: True
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| `file` | object | yes |  — [FileInput shape]({{< ref "metadata/mcp/tools-reference/_index.md#the-fileinput-shape" >}}) |
+| `file` | object | yes | The document — see [FileInput shape]({{< ref "metadata/mcp/tools-reference/_index.md#the-fileinput-shape" >}}) |
 | `property` | string | yes | Property to write: Author, Title, Subject, Keywords, Comments, Copyright, Company, or Manager |
 | `value` | string | yes | The text value to write |
 | `mode` | string | no | 'set' to replace the value (default), or 'add' to append (for list fields like Keywords) |

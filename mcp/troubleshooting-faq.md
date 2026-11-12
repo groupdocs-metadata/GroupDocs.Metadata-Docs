@@ -65,4 +65,4 @@ Ask your agent *"list your GroupDocs metadata tools and the license status"* —
 
 ## Still stuck?
 
-Post your config (redact license paths) and the client name in the [Metadata forum](https://forum.groupdocs.com/c/metadata/9) — we answer MCP questions daily. Bugs: [GitHub issues](https://github.com/groupdocs-metadata/GroupDocs.Metadata.Mcp/issues).
+Post your config (redact license paths) and the client name in the [Metadata forum](https://forum.groupdocs.com/c/metadata/9). Bugs: [GitHub issues](https://github.com/groupdocs-metadata/GroupDocs.Metadata.Mcp/issues).

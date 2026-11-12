@@ -52,7 +52,7 @@ Here the file is read locally. What travels is the conversation: the properties 
 ## Docker deployment inside the perimeter
 
 ```bash
-docker run --rm -i \
+docker run --rm -i --user "$(id -u):$(id -g)" \
   -v /srv/files:/data \
   -v /srv/licenses:/license:ro \
   -e GROUPDOCS_MCP_STORAGE_PATH=/data \
@@ -61,6 +61,7 @@ docker run --rm -i \
 ```
 
 * Pin the tag (`:26.9.0`, not `:latest`).
+* `--user "$(id -u):$(id -g)"` (Linux) lets the container, which runs as a non-root user, write into a folder you own. A JSON client config runs no shell to expand it — write the numbers: `"--user", "1000:1000"`.
 * Licence read-only; mount only the folders the agent should reach.
 * Multi-arch images (linux/amd64 + linux/arm64) with all native dependencies included.
 
