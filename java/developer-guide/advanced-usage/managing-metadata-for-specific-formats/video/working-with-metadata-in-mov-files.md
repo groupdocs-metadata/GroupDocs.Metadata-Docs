@@ -39,6 +39,37 @@ try (Metadata metadata = new Metadata(Constants.InputMov)) {
 
 GroupDocs.Metadata for Java allows managing XMP metadata in MOV files. For more details please refer to the following guide: [Working with XMP Metadata]({{< ref "metadata/java/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata.md" >}}).
 
+The code sample below shows how to update XMP properties in a MOV video. If the file has no XMP package or the required schemes yet, they are created first.
+
+**advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>video.mov.MovUpdateXmpProperties**
+
+```java
+try (Metadata metadata = new Metadata(Constants.InputMov)) {
+    IXmp root = (IXmp) metadata.getRootPackage();
+
+    if (root.getXmpPackage() == null) {
+        root.setXmpPackage(new XmpPacketWrapper());
+    }
+
+    if (root.getXmpPackage().getSchemes().getDublinCore() == null) {
+        root.getXmpPackage().getSchemes().setDublinCore(new XmpDublinCorePackage());
+    }
+    root.getXmpPackage().getSchemes().getDublinCore().setFormat("video/quicktime");
+    root.getXmpPackage().getSchemes().getDublinCore().setRights("Copyright (C) 2011-2026 GroupDocs. All Rights Reserved.");
+    root.getXmpPackage().getSchemes().getDublinCore().setSubject("test");
+
+    if (root.getXmpPackage().getSchemes().getXmpBasic() == null) {
+        root.getXmpPackage().getSchemes().setXmpBasic(new XmpBasicPackage());
+    }
+    root.getXmpPackage().getSchemes().getXmpBasic().setCreateDate(new Date());
+    root.getXmpPackage().getSchemes().getXmpBasic().setLabel("GroupDocs");
+    root.getXmpPackage().getSchemes().getXmpBasic().setRating(5);
+    // ...
+
+    metadata.save(Constants.OutputMov);
+}
+```
+
 ## More resources
 
 ### GitHub examples

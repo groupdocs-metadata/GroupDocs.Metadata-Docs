@@ -29,6 +29,8 @@ try (Metadata metadata = new Metadata(Constants.InputPdf)) {
 }
 ```
 
+To find out whether the document is PDF/A or PDF/X and which conformance level it declares, see [Detecting PDF/A document]({{< ref "metadata/java/developer-guide/advanced-usage/detecting-pdf-a-document.md" >}}).
+
 ## Reading built-in metadata properties
 
 To access built-in metadata of a PDF document, please use the [getDocumentProperties](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage#getDocumentProperties()) method defined in the [DocumentRootPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/DocumentRootPackage) class.

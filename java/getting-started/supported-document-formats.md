@@ -79,7 +79,7 @@ Each format may support different metadata capabilities:
 | Format | Description | AutoDetection | Read | Edit | Remove | Remarks |
 |--------|-------------|------|------|------|------|---------|
 | `.epub` | Electronic Publication | ✅ | ✅ | ✅ | ✅ |  |
-| `.fb2` | A FictionBook 2.0 eBook file | ✅ | ✅ | ✅ | ✅ |  |
+| `.fb2` | A FictionBook 2.0 eBook file | ✅ | ✅ | ❌ | ❌ |  |
 | `.mobi` | A Mobi eBook file | ✅ | ✅ | ✅ | ✅ |  |
 
 ---
@@ -116,20 +116,6 @@ Each format may support different metadata capabilities:
 | `.otf` | OpenType Font File | ✅ | ✅ | ✅ | ✅ |  |
 | `.ttc` | TrueType Font Collection File | ✅ | ✅ | ✅ | ✅ |  |
 | `.ttf` | TrueType Font File | ✅ | ✅ | ✅ | ✅ |  |
-
----
-
-## Gis Formats
-
-| Format | Description | AutoDetection | Read | Edit | Remove | Remarks |
-|--------|-------------|------|------|------|------|---------|
-| `.geojson` | GeoJson File Format | ✅ | ✅ | ❌ | ❌ |  |
-| `.gml` | Gml File Format | ✅ | ✅ | ❌ | ❌ |  |
-| `.gpx` | Gpx File Format | ✅ | ✅ | ❌ | ❌ |  |
-| `.kml` | Kml File Format | ✅ | ✅ | ❌ | ❌ |  |
-| `.osm` | Osm File Format | ✅ | ✅ | ❌ | ❌ |  |
-| `.shp` | Shp File Format | ✅ | ✅ | ❌ | ❌ |  |
-| `.topojson` | TopoJson File Format | ✅ | ✅ | ❌ | ❌ |  |
 
 ---
 
@@ -208,18 +194,6 @@ Each format may support different metadata capabilities:
 | `.ppt` | Microsoft PowerPoint Presentation | ✅ | ✅ | ✅ | ✅ |  |
 | `.pptm` | Microsoft PowerPoint 2007—2013 Macro-Enabled Open XML Presentation | ✅ | ✅ | ✅ | ✅ |  |
 | `.pptx` | Microsoft PowerPoint Open XML Presentation | ✅ | ✅ | ✅ | ✅ |  |
-
----
-
-## ThreeD Formats
-
-| Format | Description | AutoDetection | Read | Edit | Remove | Remarks |
-|--------|-------------|------|------|------|------|---------|
-| `.3ds` | 3DS File Format | ✅ | ✅ | ❌ | ❌ |  |
-| `.dae` | Dae File Format | ✅ | ✅ | ✅ | ✅ |  |
-| `.fbx` | Fbx File Format | ✅ | ✅ | ✅ | ✅ |  |
-| `.gltf` | gLFT File Format | ✅ | ✅ | ✅ | ✅ |  |
-| `.stl` | Stl File Format | ✅ | ✅ | ❌ | ❌ |  |
 
 ---
 
@@ -532,10 +506,10 @@ document.addEventListener('DOMContentLoaded', function() {
     "support": {
       "AutoDetection": "✅",
       "Read": "✅",
-      "Edit": "✅",
-      "Remove": "✅"
+      "Edit": "❌",
+      "Remove": "❌"
     },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
+    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
   },
   {
     "ext": ".mobi",
@@ -716,90 +690,6 @@ document.addEventListener('DOMContentLoaded', function() {
       "Remove": "✅"
     },
     "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
-  },
-  {
-    "ext": ".geojson",
-    "name": "GeoJson File Format",
-    "category": "Gis",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
-  },
-  {
-    "ext": ".gml",
-    "name": "Gml File Format",
-    "category": "Gis",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
-  },
-  {
-    "ext": ".gpx",
-    "name": "Gpx File Format",
-    "category": "Gis",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
-  },
-  {
-    "ext": ".kml",
-    "name": "Kml File Format",
-    "category": "Gis",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
-  },
-  {
-    "ext": ".osm",
-    "name": "Osm File Format",
-    "category": "Gis",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
-  },
-  {
-    "ext": ".shp",
-    "name": "Shp File Format",
-    "category": "Gis",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
-  },
-  {
-    "ext": ".topojson",
-    "name": "TopoJson File Format",
-    "category": "Gis",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
   },
   {
     "ext": ".avif",
@@ -1316,66 +1206,6 @@ document.addEventListener('DOMContentLoaded', function() {
       "Remove": "✅"
     },
     "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
-  },
-  {
-    "ext": ".3ds",
-    "name": "3DS File Format",
-    "category": "ThreeD",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
-  },
-  {
-    "ext": ".dae",
-    "name": "Dae File Format",
-    "category": "ThreeD",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "✅",
-      "Remove": "✅"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
-  },
-  {
-    "ext": ".fbx",
-    "name": "Fbx File Format",
-    "category": "ThreeD",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "✅",
-      "Remove": "✅"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
-  },
-  {
-    "ext": ".gltf",
-    "name": "gLFT File Format",
-    "category": "ThreeD",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "✅",
-      "Remove": "✅"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ✅ | Remove: ✅"
-  },
-  {
-    "ext": ".stl",
-    "name": "Stl File Format",
-    "category": "ThreeD",
-    "support": {
-      "AutoDetection": "✅",
-      "Read": "✅",
-      "Edit": "❌",
-      "Remove": "❌"
-    },
-    "supportSummary": "AutoDetection: ✅ | Read: ✅ | Edit: ❌ | Remove: ❌"
   },
   {
     "ext": ".asf",

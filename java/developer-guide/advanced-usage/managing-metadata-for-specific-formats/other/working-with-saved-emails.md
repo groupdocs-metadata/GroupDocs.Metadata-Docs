@@ -19,7 +19,7 @@ The EML message format is used by many email clients including Novell GroupWise,
 ```csharp
 try (Metadata metadata = new Metadata(Constants.InputEml)) {
 	EmlRootPackage root = metadata.getRootPackageGeneric();
-	System.out.println(root.getEmailPackage().getSender());
+	System.out.println(root.getEmailPackage().getSenderEmailAddress());
 	System.out.println(root.getEmailPackage().getSubject());
 
 	for (String recipient : root.getEmailPackage().getRecipients()) {
@@ -47,7 +47,7 @@ MSG files are usually created by the Microsoft Outlook email client. The MSG fo
 ```csharp
 try (Metadata metadata = new Metadata(Constants.InputMsg)) {
 	MsgRootPackage root = metadata.getRootPackageGeneric();
-	System.out.println(root.getMsgPackage().getSender());
+	System.out.println(root.getMsgPackage().getSenderEmailAddress());
 	System.out.println(root.getMsgPackage().getSubject());
 
 	for (String recipient : root.getMsgPackage().getRecipients()) {
@@ -98,6 +98,50 @@ try (Metadata metadata = new Metadata(Constants.InputEml)) {
     metadata.save(Constants.OutputEml);
 }
 ```
+
+## Updating MSG message fields
+
+An MSG message has more editable fields than the common email package. The [MsgPackage](https://reference.groupdocs.com/metadata/java/com.groupdocs.metadata.core/MsgPackage) class allows you to change the following properties:
+
+*   the body: `setBody`, `setBodyHtml`, `setBodyRtf`;
+*   the sender: `setSenderName`, `setSenderSmtpAddress`, `setSentRepresentingEmailAddress`, `setSentRepresentingName`;
+*   the times: `setDeliveryTime`, `setClientSubmitTime`;
+*   other fields: `setCategories`, `setBilling`, `setMileage`, `setReplyTo`, `setReadReceiptRequested`;
+*   the headers, through `getHeaders().set(String, PropertyValue)`, which adds a new header or updates an existing one;
+*   the attachments, through `setAttachments`.
+
+Several other MAPI properties can be read but not changed, for example `getInternetMessageId`, `getConversationTopic`, `getDisplayTo`, `getDisplayCc`, `getNormalizedSubject`, and the `isEncrypted`, `isSigned` and `isTemplate` flags.
+
+The code sample below changes the sender, the delivery time, the body, the categories, the headers and the attachments of a message.
+
+**advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>email.MsgUpdateEmailFields**
+
+```java
+try (Metadata metadata = new Metadata(Constants.InputMsg)) {
+    MsgRootPackage root = metadata.getRootPackageGeneric();
+    MsgPackage msg = root.getMsgPackage();
+
+    msg.setSenderName("sender");
+    msg.setSenderSmtpAddress("sender1@sender.com");
+    msg.setDeliveryTime(new Date());
+    msg.setBody("text");
+    msg.setCategories(new String[]{"test1", "test2"});
+
+    // Add new headers or update the existing ones
+    msg.getHeaders().set("X-Custom-Header", new PropertyValue("Custom Value"));
+    msg.getHeaders().set("X-SID-Result", new PropertyValue("PASS"));
+
+    // Replace the attachments
+    byte[] content = Files.readAllBytes(Paths.get(Constants.AttachmentJpg));
+    msg.setAttachments(new MsgAttachmentPackage[]{new MsgAttachmentPackage("tree.jpg", content)});
+
+    metadata.save(Constants.OutputMsg);
+}
+```
+
+{{< alert style="info" >}}
+Starting from version 26.11, the sender address is returned by `getSenderEmailAddress()`, and the sender property is named `SenderEmailAddress` instead of `Sender`. The `getSender()` method is deprecated and returns the same value. If your code looks the property up by name, use the new name.
+{{< /alert >}}
 
 ## More resources
 

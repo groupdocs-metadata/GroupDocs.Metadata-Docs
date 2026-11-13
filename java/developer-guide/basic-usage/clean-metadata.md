@@ -33,6 +33,10 @@ try (Metadata metadata = new Metadata(Constants.InputPdf)) {
 
 As a result, we get a sanitized version of the original file.
 
+{{< alert style="info" >}}
+Since version 26.11, `sanitize()` also removes annotations, attachments, bookmarks, form fields and digital signatures from PDF documents. Before 26.11 it removed annotations only. If a PDF has to keep these items, do not call `sanitize()` on it; [remove only the properties you need]({{< ref "metadata/java/developer-guide/basic-usage/remove-metadata-properties.md" >}}) instead. See [2 PDF metadata cleanup methods for Java]({{< ref "metadata/java/use-cases/remove-pdf-metadata.md" >}}) for a comparison.
+{{< /alert >}}
+
 ## More resources
 
 ### Advanced usage topics

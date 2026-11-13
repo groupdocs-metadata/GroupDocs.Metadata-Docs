@@ -20,7 +20,7 @@ hideChildren: False
 
 ### Supported runtime
 
-**GroupDocs.Metadata for Java** supports Java run-time version 7 (1.7) and above.
+**GroupDocs.Metadata for Java** supports Java run-time version 8 (1.8) and above.
 
 ### Development environments
 
@@ -32,7 +32,7 @@ hideChildren: False
 
 {{< alert style="warning" >}}
 
-**Do not install from Maven Central.** Maven Central may list an outdated `com.groupdocs:groupdocs-metadata` release (for example **18.5**). Install the on-prem Java SDK from `https://releases.groupdocs.com/java/repo/` with coordinates `com.groupdocs:groupdocs-metadata`. Use version **26.1**.
+**Do not install from Maven Central.** Maven Central may list an outdated `com.groupdocs:groupdocs-metadata` release (for example **18.5**). Install the on-prem Java SDK from `https://releases.groupdocs.com/java/repo/` with coordinates `com.groupdocs:groupdocs-metadata`. Use version **26.11**.
 
 This is the **SDK** artifact. For GroupDocs.Metadata Cloud on Java, use `com.groupdocs:groupdocs-metadata-cloud` from `https://repository.groupdocs.cloud/maven/` instead (`groupdocs-metadata-cloud`).
 
@@ -103,7 +103,7 @@ Then define GroupDocs.Metadata for Java API dependency in your pom.xml as follow
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-metadata</artifactId>
-        <version>26.7</version>
+        <version>26.11</version>
     </dependency>
 </dependencies>
 ```
@@ -111,27 +111,27 @@ Then define GroupDocs.Metadata for Java API dependency in your pom.xml as follow
 {{< tab "Gradle" >}}
 ```xml
 dependencies {
-    implementation 'com.groupdocs:groupdocs-metadata:26.7'
+    implementation 'com.groupdocs:groupdocs-metadata:26.11'
 }
 ```
 {{< /tab >}}
 {{< tab "Kotlin" >}}
 ```xml
 dependencies {
-    implementation("com.groupdocs:groupdocs-metadata:26.7")
+    implementation("com.groupdocs:groupdocs-metadata:26.11")
 }
 ```
 {{< /tab >}}
 {{< tab "Ivy" >}}
 ```xml
-<dependency org="com.groupdocs" name="groupdocs-metadata" rev="26.7">
+<dependency org="com.groupdocs" name="groupdocs-metadata" rev="26.11">
    <artifact name="groupdocs-metadata" ext="jar"/>
 </dependency>
 ```
 {{< /tab >}}
 {{< tab "Sbt" >}}
 ```xml
-libraryDependencies += "com.groupdocs" % "groupdocs-metadata" % "26.7"
+libraryDependencies += "com.groupdocs" % "groupdocs-metadata" % "26.11"
 ```
 {{< /tab >}}
 {{< /tabs >}}

@@ -43,6 +43,16 @@ GroupDocs.Metadata for Java supports any 32-bit or 64-bit operating system tha
 
 GroupDocs.Metadata for Java supports the following Java versions:
 
-*   J2SE 7.0 (1.7)
-*   J2SE 8.0 (1.8)
-*   or above (*for example Java 10*)
+*   Java SE 8 (1.8)
+*   or above
+
+## Development environments
+
+GroupDocs.Metadata for Java can be used to develop applications in any development environment that supports Java, for example:
+
+*   IntelliJ IDEA
+*   Eclipse
+*   NetBeans
+*   Visual Studio Code with Java extensions
+
+The library is distributed through the GroupDocs Maven repository and can be added to projects built with Maven, Gradle, Ivy or SBT. See [Installation]({{< ref "metadata/java/getting-started/installation.md" >}}) for details.

@@ -161,6 +161,100 @@ public class UpdatePropertiesByRegex {
 }
 ```
 
+### Comparing Metadata
+
+#### Get the Difference between Two Sets of Metadata Properties
+
+The code samples below demonstrate how to get the difference of two collections of properties extracted from different files.
+
+**Old API**
+
+```java
+MetadataPropertyCollection differences = ComparisonFacade.compareDocuments("D:\\input1.docx", "D:\\input2.docx", ComparerSearchType.Difference);
+
+for (int i = 0; i < differences.getCount(); i++) {
+    MetadataProperty property = differences.readByIndex(i);
+    System.out.println(property.getName() + " : " + property.getValue());
+}
+```
+
+**New API**
+
+```java
+// The specification to extract metadata properties we want to compare
+// In this code sample we retrieve built-in document properties
+ContainsTagSpecification specification = new ContainsTagSpecification(Tags.getDocument().getBuiltIn());
+
+try (Metadata metadata1 = new Metadata(Constants.InputDoc);
+     Metadata metadata2 = new Metadata(Constants.InputDocx)) {
+    IReadOnlyList<MetadataProperty> properties1 = metadata1.findProperties(specification);
+    IReadOnlyList<MetadataProperty> properties2 = metadata2.findProperties(specification);
+
+    // You can implement your own equality comparer for metadata properties
+    // In this code sample, we just use the one that worked in previous versions of GroupDocs.Metadata
+    MetadataPropertyEqualityComparer comparer = new MetadataPropertyEqualityComparer();
+    for (MetadataProperty property : properties1) {
+        boolean found = false;
+        for (MetadataProperty other : properties2) {
+            if (comparer.equals(property, other)) {
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            System.out.println(String.format("%s = %s", property.getName(), property.getValue()));
+        }
+    }
+}
+```
+
+#### Get the Intersection of Two Sets of Metadata Properties
+
+The code samples below demonstrate how to get the intersection of two collections of properties extracted from different files.
+
+**Old API**
+
+```java
+TiffTag[] intersection = ComparisonFacade.compareExifTags("D:\\input1.jpg", "D:\\input2.jpg", ComparerSearchType.Intersection);
+
+for (TiffTag tag : intersection) {
+    System.out.println(tag.getName());
+    System.out.println(tag.getTagType());
+    System.out.println(tag.getFormattedValue());
+}
+```
+
+**New API**
+
+```java
+// The specification to extract metadata properties we want to compare
+// In this code sample we retrieve TIFF/EXIF tags
+Specification specification = new Specification() {
+    @Override
+    public boolean isSatisfiedBy(MetadataProperty property) {
+        return property instanceof TiffTag;
+    }
+};
+
+try (Metadata metadata1 = new Metadata(Constants.JpegWithExif);
+     Metadata metadata2 = new Metadata(Constants.TiffWithExif)) {
+    IReadOnlyList<MetadataProperty> properties1 = metadata1.findProperties(specification);
+    IReadOnlyList<MetadataProperty> properties2 = metadata2.findProperties(specification);
+
+    // You can implement your own equality comparer for metadata properties
+    // In this code sample, we just use the one that worked in previous versions of GroupDocs.Metadata
+    MetadataPropertyEqualityComparer comparer = new MetadataPropertyEqualityComparer();
+    for (MetadataProperty property : properties1) {
+        for (MetadataProperty other : properties2) {
+            if (comparer.equals(property, other)) {
+                System.out.println(String.format("%s = %s", property.getName(), property.getValue()));
+                break;
+            }
+        }
+    }
+}
+```
+
 ### Exporting Metadata
 
 #### Export Metadata Properties to CSV

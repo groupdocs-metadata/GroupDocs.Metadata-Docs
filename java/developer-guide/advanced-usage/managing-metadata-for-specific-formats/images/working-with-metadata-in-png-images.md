@@ -48,6 +48,38 @@ try (Metadata metadata = new Metadata(Constants.InputPng)) {
 
 GroupDocs.Metadata for Java allows managing XMP metadata in PNG images. For more details please refer to the following guide: [Working with XMP Metadata]({{< ref "metadata/java/developer-guide/advanced-usage/working-with-metadata-standards/working-with-xmp-metadata.md" >}}).
 
+The code sample below shows how to update XMP properties in a PNG image. If the image has no XMP package or the required schemes yet, they are created first.
+
+**advanced\_usage.managing\_metadata\_for\_specific\_formats.<WBR>image.png.PngUpdateXmpProperties**
+
+```java
+try (Metadata metadata = new Metadata(Constants.PngWithXmp)) {
+    IXmp root = (IXmp) metadata.getRootPackage();
+
+    if (root.getXmpPackage() == null) {
+        root.setXmpPackage(new XmpPacketWrapper());
+    }
+
+    if (root.getXmpPackage().getSchemes().getDublinCore() == null) {
+        root.getXmpPackage().getSchemes().setDublinCore(new XmpDublinCorePackage());
+    }
+    root.getXmpPackage().getSchemes().getDublinCore().setFormat("image/png");
+    root.getXmpPackage().getSchemes().getDublinCore().setRights("Copyright (C) 2011-2026 GroupDocs. All Rights Reserved.");
+    root.getXmpPackage().getSchemes().getDublinCore().setSubject("test");
+
+    if (root.getXmpPackage().getSchemes().getXmpBasic() == null) {
+        root.getXmpPackage().getSchemes().setXmpBasic(new XmpBasicPackage());
+    }
+    root.getXmpPackage().getSchemes().getXmpBasic().setCreateDate(new Date());
+    root.getXmpPackage().getSchemes().getXmpBasic().setLabel("GroupDocs");
+    root.getXmpPackage().getSchemes().getXmpBasic().setRating(5);
+    root.getXmpPackage().getSchemes().getXmpBasic().setCreatorTool("GroupDocs.Metadata");
+    // ...
+
+    metadata.save(Constants.OutputPng);
+}
+```
+
 ## Working with EXIF metadata
 
 The GroupDocs.Metadata API supports handling EXIF metadata in PNG images. Please find appropriate code samples in the [Working with EXIF Metadata]({{< ref "metadata/java/developer-guide/advanced-usage/working-with-metadata-standards/working-with-exif-metadata.md" >}}) section.
