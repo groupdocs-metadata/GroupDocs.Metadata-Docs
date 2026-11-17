@@ -2,258 +2,178 @@
 id: metadata
 url: metadata
 title: GroupDocs.Metadata Product Family
+description: Native API to dynamically read, write, edit, and remove meta information from Office, PDF, multimedia, image, and many other file formats.
 geekdocSkip: true
 geekdocNav: false
 geekdocAlign: center
 geekdocAnchor: false
 hideChildren: true
 showFeedbackForm: false
+family:
+  platforms:
+    - key: net
+      reference: https://reference.groupdocs.com/metadata/net/
+      releases: https://releases.groupdocs.com/metadata/net/release-notes/
+      samples: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET
+      sections:
+        - kind: start
+          title: Getting started
+          description: Start quickly with our getting-started documentation
+          links:
+            - title: Features overview
+              url: /metadata/net/features-overview/
+            - title: Supported document formats
+              url: /metadata/net/supported-document-formats/
+            - title: System requirements
+              url: /metadata/net/system-requirements/
+            - title: Installation
+              url: /metadata/net/installation/
+        - kind: guide
+          title: Developer guide
+          description: Developer guide
+          links:
+            - title: Basic usage
+              url: /metadata/net/basic-usage
+            - title: Advanced usage
+              url: /metadata/net/advanced-usage
+        - kind: code
+          title: .NET code examples
+          description: Open-source projects for example API usage
+          links:
+            - title: GroupDocs.Metadata for .NET
+              url: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET
+            - title: GroupDocs.Metadata for .NET Core
+              url: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/tree/master/Examples/GroupDocs.Metadata.Examples.CSharp.Core
+            - title: GroupDocs.Metadata for .NET Framework
+              url: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/tree/master/Examples/GroupDocs.Metadata.Examples.CSharp.Framework
+    - key: java
+      reference: https://reference.groupdocs.com/metadata/java/
+      releases: https://releases.groupdocs.com/metadata/java/release-notes/
+      samples: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java
+      sections:
+        - kind: start
+          title: Getting started
+          description: Start quickly with our getting-started documentation
+          links:
+            - title: Features overview
+              url: /metadata/java/features-overview/
+            - title: Supported document formats
+              url: /metadata/java/supported-document-formats/
+            - title: System requirements
+              url: /metadata/java/system-requirements/
+            - title: Installation (build tools)
+              url: /metadata/java/installation/
+            - title: Installation (manual)
+              url: /metadata/java/installation-manual/
+        - kind: guide
+          title: Developer guide
+          description: Developer guide
+          links:
+            - title: Basic usage
+              url: /metadata/java/basic-usage
+            - title: Advanced usage
+              url: /metadata/java/advanced-usage
+        - kind: code
+          title: Java code examples
+          description: Open-source projects for example API usage
+          links:
+            - title: GroupDocs.Metadata for Java
+              url: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java
+    - key: nodejs-java
+      reference: https://reference.groupdocs.com/metadata/nodejs-java/
+      releases: https://releases.groupdocs.com/metadata/nodejs-java/release-notes/
+      samples: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java
+      sections:
+        - kind: start
+          title: Getting started
+          description: Start quickly with our getting-started documentation
+          links:
+            - title: Features overview
+              url: /metadata/nodejs-java/features-overview/
+            - title: Supported document formats
+              url: /metadata/nodejs-java/supported-document-formats/
+            - title: System requirements
+              url: /metadata/nodejs-java/system-requirements/
+            - title: Installation
+              url: /metadata/nodejs-java/installation/
+        - kind: guide
+          title: Developer guide
+          description: Developer guide
+          links:
+            - title: Basic usage
+              url: /metadata/nodejs-java/basic-usage
+            - title: Advanced usage
+              url: /metadata/nodejs-java/advanced-usage
+        - kind: code
+          title: Node.js via Java code examples
+          description: Open-source projects for example API usage
+          links:
+            - title: GroupDocs.Metadata for Node.js via Java
+              url: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java
+    - key: python-net
+      reference: https://reference.groupdocs.com/metadata/python-net/
+      releases: https://releases.groupdocs.com/metadata/python-net/release-notes/
+      samples: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET
+      sections:
+        - kind: start
+          title: Getting started
+          description: Start quickly with our getting-started documentation
+          links:
+            - title: Features overview
+              url: /metadata/python-net/features-overview/
+            - title: Supported document formats
+              url: /metadata/python-net/supported-document-formats/
+            - title: System requirements
+              url: /metadata/python-net/system-requirements/
+            - title: Installation
+              url: /metadata/python-net/installation/
+        - kind: guide
+          title: Developer guide
+          description: Developer guide
+          links:
+            - title: Basic usage
+              url: /metadata/python-net/basic-usage
+            - title: Advanced usage
+              url: /metadata/python-net/advanced-usage
+        - kind: code
+          title: Python via .NET code examples
+          description: Open-source projects for example API usage
+          links:
+            - title: GroupDocs.Metadata for Python via .NET
+              url: https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET
+    - key: mcp
+      samples: https://github.com/groupdocs-metadata/GroupDocs.Metadata.Mcp
+      sections:
+        - kind: start
+          title: Getting started
+          description: Read, edit, and strip document metadata with Claude, Cursor, and Copilot — locally
+          links:
+            - title: Quick start
+              url: /metadata/mcp/getting-started/
+            - title: Install for .NET
+              url: /metadata/net/mcp/
+            - title: Licensing
+              url: /metadata/mcp/getting-started/licensing/
+            - title: Troubleshooting & FAQ
+              url: /metadata/mcp/troubleshooting-faq/
+        - kind: guide
+          title: Use cases
+          description: One prompt per scenario — files never leave your machine
+          links:
+            - title: Audit document metadata
+              url: /metadata/mcp/use-cases/audit-document-metadata/
+            - title: Strip metadata before sharing
+              url: /metadata/mcp/use-cases/strip-metadata-before-sharing/
+            - title: Correct properties in bulk
+              url: /metadata/mcp/use-cases/bulk-edit-document-properties/
+            - title: Read EXIF from images
+              url: /metadata/mcp/use-cases/read-exif-from-images/
+        - kind: code
+          title: Open source
+          description: Server source, installer, and integration tests on GitHub
+          links:
+            - title: GroupDocs.Metadata.Mcp server
+              url: https://github.com/groupdocs-metadata/GroupDocs.Metadata.Mcp
+            - title: GroupDocs MCP Installer
+              url: https://github.com/groupdocs/GroupDocs.Mcp.Installer
 ---
-
-<div class="gdoc-list-descr">
-GroupDocs.Metadata helps developers read, write, edit, and remove metadata from 115+ document, image, audio, and video file formats across .NET, Java, Node.js, and Python SDKs. See the <a href="https://docs.groupdocs.com/metadata/net/supported-document-formats/">supported formats</a> table for the full list.
-</div>
-
-<h2 class="gdoc-product-title">Documentation</h2>
-
-<div class="gdoc-platform-links">
-<ul >
-<li><a href="#metadata_net">.NET</a></li>
-<li><a href="#metadata_java">Java</a></li>
-<li><a href="#metadata_nodejs-java">Node.js</a></li>
-<li><a href="#metadata_python-net">Python</a></li>
-<li><a href="#metadata_mcp">MCP</a></li>
-</ul>
-</div>
-
-<div class="gdoc-platforms">
-<div class="gdoc-platform">
-     <a id="metadata_net"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#net"></use></svg>
-            <a class="gdoc-platform__header-title"  href='/metadata/net/'>GroupDocs.Metadata for .NET</a>
-            <a class="gdoc-platform__header-btn"  href='/metadata/net/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting started</div></div>
-                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
-                <ul class="gdoc-platform__col-links">
-                <li> <a href='/metadata/net/features-overview/'>Features overview</a></li>
-                <li> <a href='/metadata/net/supported-document-formats/'>Supported document formats</a></li>
-                <li> <a href='/metadata/net/system-requirements/'>System requirements</a></li>
-                <li> <a href='/metadata/net/installation/'>Installation</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Developer guide</div></div>
-                    <div class="gdoc-platform__col-descr">Developer guide</div>
-                    <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/net/basic-usage'>Basic Usage</a></li>
-                    <li> <a href='/metadata/net/advanced-usage'>Advanced Usage</a></li>
-                    </ul>
-                    </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                    <div>.NET code examples</div></div>
-                    <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
-                    <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                    <li> <a href='https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET'>GroupDocs.Metadata for .NET</a></li>
-                    <li> <a href='https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/tree/master/Examples/GroupDocs.Metadata.Examples.CSharp.Core'>GroupDocs.Metadata for .NET Core</a></li>
-                    <li> <a href='https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/tree/master/Examples/GroupDocs.Metadata.Examples.CSharp.Framework'>GroupDocs.Metadata for .NET Framework</a></li>
-                    </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/metadata/net/'>More</a>
-        </div>
-    </div>
-    <div class="gdoc-platform">
-    <a id="metadata_java"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#java"></use></svg>
-            <a class="gdoc-platform__header-title"  href='/metadata/java/'>GroupDocs.Metadata for Java</a>
-            <a class="gdoc-platform__header-btn"  href='/metadata/java/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting started</div></div>
-                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
-                <ul class="gdoc-platform__col-links">
-                <li> <a href='/metadata/java/features-overview/'>Features overview</a></li>
-                <li> <a href='/metadata/java/supported-document-formats/'>Supported document formats</a></li>
-                <li> <a href='/metadata/java/system-requirements/'>System requirements</a></li>
-                <li> <a href='/metadata/java/installation/'>Installation (build tools)</a></li>
-                <li> <a href='/metadata/java/installation-manual/'>Installation (manual)</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Developer guide</div></div>
-                    <div class="gdoc-platform__col-descr">Developer guide</div>
-                    <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/java/basic-usage'>Basic Usage</a></li>
-                    <li> <a href='/metadata/java/advanced-usage'>Advanced Usage</a></li>
-                    </ul>
-                    </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                    <div>Java code examples</div></div>
-                    <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
-                    <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                    <li> <a href='https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java'>GroupDocs.Metadata for Java</a></li>
-                    </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/metadata/java/'>More</a>
-        </div>
-    </div>
-    <div class="gdoc-platform">
-    <a id="metadata_nodejs-java"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#nodejs"></use></svg>
-            <a class="gdoc-platform__header-title"  href='/metadata/nodejs-java/'>GroupDocs.Metadata for Node.js via Java</a>
-            <a class="gdoc-platform__header-btn"  href='/metadata/nodejs-java/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting started</div></div>
-                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
-                <ul class="gdoc-platform__col-links">
-                <li> <a href='/metadata/nodejs-java/features-overview/'>Features overview</a></li>
-                <li> <a href='/metadata/nodejs-java/supported-document-formats/'>Supported document formats</a></li>
-                <li> <a href='/metadata/nodejs-java/system-requirements/'>System requirements</a></li>
-                <li> <a href='/metadata/nodejs-java/installation/'>Installation</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Developer guide</div></div>
-                    <div class="gdoc-platform__col-descr">Developer guide</div>
-                    <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/nodejs-java/basic-usage'>Basic Usage</a></li>
-                    <li> <a href='/metadata/nodejs-java/advanced-usage'>Advanced Usage</a></li>
-                    </ul>
-                    </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                    <div>Node.js via Java code examples</div></div>
-                    <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
-                    <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                    <li> <a href='https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java'>GroupDocs.Metadata for Node.js via Java</a></li>
-                    </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/metadata/nodejs-java/'>More</a>
-        </div>
-    </div>
-    <div class="gdoc-platform">
-    <a id="metadata_python-net"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#python"></use></svg>
-            <a class="gdoc-platform__header-title"  href='/metadata/python-net/'>GroupDocs.Metadata for Python via .NET</a>
-            <a class="gdoc-platform__header-btn"  href='/metadata/python-net/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting Started</div></div>
-                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
-                <ul class="gdoc-platform__col-links">
-                <li> <a href='/metadata/python-net/features-overview/'>Features Overview</a></li>
-                <li> <a href='/metadata/python-net/supported-document-formats/'>Supported Document Formats</a></li>
-                <li> <a href='/metadata/python-net/system-requirements/'>System Requirements</a></li>
-                <li> <a href='/metadata/python-net/installation/'>Installation</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Developer guide</div></div>
-                    <div class="gdoc-platform__col-descr">Developer guide</div>
-                    <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/python-net/basic-usage'>Basic Usage</a></li>
-                    <li> <a href='/metadata/python-net/advanced-usage'>Advanced Usage</a></li>
-                    </ul>
-                    </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                    <div>Python via .NET Code Examples</div></div>
-                    <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
-                    <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                    <li> <a href='https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET'>GroupDocs.Metadata for Python via .NET</a></li>
-                    </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/metadata/python-net/'>More</a>
-        </div>
-    </div>
-    <div class="gdoc-platform">
-        <a id="metadata_mcp"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon" viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Model Context Protocol"><path d="M13.85 0a4.16 4.16 0 0 0-2.95 1.217L1.456 10.66a.835.835 0 0 0 0 1.18.835.835 0 0 0 1.18 0l9.442-9.442a2.49 2.49 0 0 1 3.541 0 2.49 2.49 0 0 1 0 3.541L8.59 12.97l-.1.1a.835.835 0 0 0 0 1.18.835.835 0 0 0 1.18 0l.1-.098 7.03-7.034a2.49 2.49 0 0 1 3.542 0l.049.05a2.49 2.49 0 0 1 0 3.54l-8.54 8.54a1.96 1.96 0 0 0 0 2.755l1.753 1.753a.835.835 0 0 0 1.18 0 .835.835 0 0 0 0-1.18l-1.753-1.753a.266.266 0 0 1 0-.394l8.54-8.54a4.185 4.185 0 0 0 0-5.9l-.05-.05a4.16 4.16 0 0 0-2.95-1.218c-.2 0-.401.02-.6.048a4.17 4.17 0 0 0-1.17-3.552A4.16 4.16 0 0 0 13.85 0m0 3.333a.84.84 0 0 0-.59.245L6.275 10.56a4.186 4.186 0 0 0 0 5.902 4.186 4.186 0 0 0 5.902 0L19.16 9.48a.835.835 0 0 0 0-1.18.835.835 0 0 0-1.18 0l-6.985 6.984a2.49 2.49 0 0 1-3.54 0 2.49 2.49 0 0 1 0-3.54l6.983-6.985a.835.835 0 0 0 0-1.18.84.84 0 0 0-.59-.245"/></svg>
-            <a class="gdoc-platform__header-title"  href='/metadata/mcp/'>GroupDocs.Metadata MCP Server (AI Agents)</a>
-            <a class="gdoc-platform__header-btn"  href='/metadata/mcp/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting started</div></div>
-                <div class="gdoc-platform__col-descr">Read, edit, and strip document metadata with Claude, Cursor, and Copilot — locally</div>
-                <ul class="gdoc-platform__col-links">
-                    <li> <a href='/metadata/mcp/getting-started/'>Quick start</a></li>
-                    <li> <a href='/metadata/net/mcp/'>Install for .NET</a></li>
-                    <li> <a href='/metadata/mcp/getting-started/licensing/'>Licensing</a></li>
-                    <li> <a href='/metadata/mcp/troubleshooting-faq/'>Troubleshooting &amp; FAQ</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Use cases</div></div>
-                    <div class="gdoc-platform__col-descr">One prompt per scenario — files never leave your machine</div>
-                    <ul class="gdoc-platform__col-links">
-                        <li> <a href='/metadata/mcp/use-cases/audit-document-metadata/'>Audit document metadata</a></li>
-                        <li> <a href='/metadata/mcp/use-cases/strip-metadata-before-sharing/'>Strip metadata before sharing</a></li>
-                        <li> <a href='/metadata/mcp/use-cases/bulk-edit-document-properties/'>Correct properties in bulk</a></li>
-                        <li> <a href='/metadata/mcp/use-cases/read-exif-from-images/'>Read EXIF from images</a></li>
-                    </ul>
-                    </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                    <div>Open source</div></div>
-                    <div class="gdoc-platform__col-descr">Server source, installer, and integration tests on GitHub</div>
-                    <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                    <li> <a href='https://github.com/groupdocs-metadata/GroupDocs.Metadata.Mcp'>GroupDocs.Metadata.Mcp server</a></li>
-                    <li> <a href='https://github.com/groupdocs/GroupDocs.Mcp.Installer'>GroupDocs MCP Installer</a></li>
-                    </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/metadata/mcp/'>More</a>
-        </div>
-    </div>
-
-
-
-</div>
