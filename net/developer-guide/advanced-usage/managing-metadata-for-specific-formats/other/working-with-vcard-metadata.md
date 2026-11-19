@@ -107,7 +107,7 @@ using (Metadata metadata = new Metadata(Constants.InputVcf))
 
 ## Filtering vCard properties
 
-The GroupDocs.Metadata API provides the ability to filter vCard properties in order to make finding desired information easier. The code sample below demonstrates hot to use the filtering feature.
+The GroupDocs.Metadata API provides the ability to filter vCard properties in order to make finding desired information easier. The code sample below demonstrates how to use the filtering feature.
 
 **AdvancedUsage.ManagingMetadataForSpecificFormats.<WBR>BusinessCard.VCardFilterCardProperties**
 

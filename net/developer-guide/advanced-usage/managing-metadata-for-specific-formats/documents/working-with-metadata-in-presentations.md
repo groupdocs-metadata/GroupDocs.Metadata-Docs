@@ -174,7 +174,7 @@ using (Metadata metadata = new Metadata(Constants.InputPpt))
 }
 ```
 
-## Updatingj inspection properties
+## Updating inspection properties
 
 When you inspect a document GroupDocs.Metadata for .NET forms a metadata package containing the extracted information. The package class also provides some basic methods that allow updating (or removing) the extracted properties. The following code sample demonstrates how to remove the inspection properties from a presentation.
 
