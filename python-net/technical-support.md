@@ -2,7 +2,7 @@
 id: technical-support
 url: metadata/python-net/technical-support
 title: Technical Support
-description: "GroupDocs.Metadata for Pyton provides free technical support available to all users. Please report your question, issue, or feature request using GroupDocs Free Support Forum."
+description: "GroupDocs.Metadata for Python provides free technical support available to all users. Please report your question, issue, or feature request using GroupDocs Free Support Forum."
 productName: GroupDocs.Metadata for Python via .NET
 weight: 7
 toc: True
